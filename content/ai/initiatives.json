@@ -1,0 +1,2136 @@
+{
+ "updated": "2026-11-02",
+ "initiatives": [
+  {
+   "addedAt": "2026-11-02T11:42:15.358Z",
+   "blurb": "Chinese internet group behind Weixin/WeChat and the Weixin Pay/TenPay payments business; a Fortune Global 500 company.",
+   "company": "Tencent",
+   "companyId": "tencent",
+   "date": "2026-11-02",
+   "detail": "The non-binding MoU covers QR payments for international visitors at mainland Chinese merchants, combined processing, FX and fraud capabilities, expanded remittances into the Weixin ecosystem through Mastercard Move, and exploring how interoperability and trust principles extend to AI-driven commerce. Mastercard Agent Pay, Agent Connect and its Virtual C-Suite small-business tool are named as candidates. No launch dates or financial terms were disclosed.",
+   "headline": "TenPay Global and Mastercard agree to explore agentic payments with Agent Pay alongside cross-border QR and remittance links",
+   "id": "tencent-mastercard-agentic-202611",
+   "partners": [
+    "Mastercard"
+   ],
+   "protocols": [
+    "Mastercard Agent Pay",
+    "Mastercard Agent Connect"
+   ],
+   "region": "Asia",
+   "sector": "Tech",
+   "solutions": [
+    "mastercard-agent-pay"
+   ],
+   "sources": [
+    "https://www.prnewswire.com/apac/news-releases/tencent-and-mastercard-sign-mou-on-cross-border-payment-interoperability-and-agentic-payments-302926079.html"
+   ],
+   "status": "announced"
+  },
+  {
+   "addedAt": "2026-11-02T11:42:15.358Z",
+   "blurb": "Chinese internet group behind Weixin/WeChat and the Weixin Pay/TenPay payments business; a Fortune Global 500 company.",
+   "company": "Tencent",
+   "companyId": "tencent",
+   "date": "2026-10-29",
+   "detail": "The MoU links TenPay Global with Visa Pay for travellers, extends Visa Direct remittances into the Weixin Pay ecosystem, and commits both sides to explore how Visa Intelligent Commerce could support AI agents that find and buy on users' behalf. It also covers developer-agent payments and agentic payments for Tencent's overseas AI and gaming businesses (via Midas). Both firms say any work is subject to regulatory, data-governance and security requirements.",
+   "headline": "Tencent and Visa agree to explore agentic payments through Visa Intelligent Commerce, alongside cross-border payment links",
+   "id": "tencent-visa-agentic-202610",
+   "partners": [
+    "Visa"
+   ],
+   "protocols": [
+    "Visa Intelligent Commerce"
+   ],
+   "region": "Asia",
+   "sector": "Tech",
+   "solutions": [
+    "visa-intelligent-commerce"
+   ],
+   "sources": [
+    "https://www.tencent.com/tencent-and-visa-announce-strategic-partnership-to-enhance-global-payment-and-commerce-experiences/",
+    "https://www.pymnts.com/partnerships/2026/visa-launches-agentic-commerce-partnership-with-tencent/"
+   ],
+   "status": "announced"
+  },
+  {
+   "addedAt": "2026-11-02T11:42:15.358Z",
+   "blurb": "World's largest wealth manager, headquartered in Zurich.",
+   "company": "UBS",
+   "companyId": "ubs",
+   "date": "2026-10-28",
+   "detail": "UBS disclosed that employees run more than 12,700 personal AI agents for daily work, that 608 AI use cases are live (up 81% in a year) with over 1,090 in development, and that 18,000+ developers use AI coding tools. Its STAAT tool has produced over 30 million insights for financial advisor teams this year. Vendors and models were not named.",
+   "headline": "UBS reports 12,700+ employee AI agents and 608 AI use cases in production",
+   "id": "ubs-personal-agents-202610",
+   "partners": [],
+   "protocols": [],
+   "region": "Europe",
+   "sector": "Bank",
+   "solutions": [],
+   "sources": [
+    "https://www.ubs.com/global/en/media/display-page-ndp/en-20261028-3q26-quarterly-result.html",
+    "https://www.pymnts.com/news/banking/2026/ubs-employees-run-12700-ai-agents-as-bank-automation-accelerates/"
+   ],
+   "status": "live"
+  },
+  {
+   "addedAt": "2026-11-02T11:42:15.358Z",
+   "blurb": "Global asset manager with about $2.5 trillion in assets under management (June 2026).",
+   "company": "Invesco",
+   "companyId": "invesco",
+   "date": "2026-10-27",
+   "detail": "Advisors who use Invesco's model portfolios (active, passive, factor and tax-aware, plus custom models) can pull portfolio information into Claude for Financial Advisors. The connector also exposes Invesco's practice-management research and a referrals programme with personalised scripts. Invesco frames the outputs as educational, not advice, and gives no general availability date.",
+   "headline": "Invesco brings model portfolios and advisor practice tools into Claude via a connector",
+   "id": "invesco-anthropic-advisors-202610",
+   "partners": [],
+   "protocols": [
+    "Claude for Financial Advisors connector"
+   ],
+   "region": "US",
+   "sector": "Asset manager",
+   "solutions": [
+    "anthropic"
+   ],
+   "sources": [
+    "https://www.prnewswire.com/news-releases/invesco-announces-work-with-anthropic-to-bring-its-custom-portfolio-and-practice-management-capabilities-to-claude-302919894.html",
+    "https://unite.ai/invesco-and-anthropic-connect-portfolio-tools-for-advisors-in-claude"
+   ],
+   "status": "announced"
+  },
+  {
+   "addedAt": "2026-11-02T11:42:15.358Z",
+   "blurb": "Global digital-payments company with 400m+ consumer and merchant accounts.",
+   "company": "PayPal",
+   "companyId": "paypal",
+   "date": "2026-10-27",
+   "detail": "PayPal reported that real-time data and AI in a rebuilt risk platform have cut consumer credit decision times by about 50% in three markets. Its AI customer-service agents work in six languages and resolved over 24 million contacts year to date. Management described its agentic commerce push, including work with Meta, as early-stage.",
+   "headline": "PayPal's AI risk platform roughly halves credit decision times in Canada, Italy and Spain; AI agents handle 24m+ service contacts",
+   "id": "paypal-ai-credit-service-202610",
+   "partners": [
+    "Meta"
+   ],
+   "protocols": [],
+   "region": "Global",
+   "sector": "Payments",
+   "solutions": [],
+   "sources": [
+    "https://www.fool.com/earnings/call-transcripts/2026/10/27/paypal-pypl-q3-2026-earnings-call-transcript/"
+   ],
+   "status": "live"
+  },
+  {
+   "addedAt": "2026-11-02T11:42:15.358Z",
+   "blurb": "Germany's largest bank, with a global investment bank.",
+   "company": "Deutsche Bank",
+   "companyId": "deutsche-bank",
+   "date": "2026-10-26",
+   "detail": "An AI system for corporate lending went live in summer 2026; the CTO says it brings some small-corporate decisions down from weeks to minutes and some multinational decisions from months to weeks. Agents are governed through ADA, an in-house platform for building, monitoring and controlling agents and switching models. The bank is planning for its agents to interact with clients' agents, with cyber risk as its stated top priority.",
+   "headline": "Deutsche Bank uses AI to cut some corporate loan decisions from weeks to minutes",
+   "id": "deutschebank-ai-lending-202610",
+   "partners": [],
+   "protocols": [
+    "ADA (in-house agent platform)"
+   ],
+   "region": "Europe",
+   "sector": "Bank",
+   "solutions": [],
+   "sources": [
+    "https://www.lse.co.uk/news/ai-cuts-some-deutsche-bank-corporate-loan-decisions-to-minutes-37a618e157p6j6g.html",
+    "https://www.globalbankingandfinance.com/ai-cuts-deutsche-bank-corporate-loan-decisions-minutes/"
+   ],
+   "status": "live"
+  },
+  {
+   "addedAt": "2026-11-02T11:42:15.358Z",
+   "blurb": "Largest US-listed crypto exchange, now also offering equities and derivatives trading.",
+   "company": "Coinbase",
+   "companyId": "coinbase",
+   "date": "2026-10-22",
+   "detail": "Users add agents.coinbase.com/mcp to an AI client and sign in with OAuth, choosing which portfolios the agent may access; Coinbase allowlists each client app. Agents can place and manage spot crypto orders across 900+ pairs, CFM dated futures and eligible US stocks, move funds between the user's own portfolios but not withdraw externally, and pay for data with x402 at up to 5 USDC per call on Base. Coinbase advises a separate, limited portfolio and notes an agent instruction is not a server-enforced spending limit.",
+   "headline": "Coinbase opens customer trading accounts to outside AI agents through a remote MCP server",
+   "id": "coinbase-agents-trading-202610",
+   "partners": [
+    "OpenAI (ChatGPT, Codex CLI)",
+    "Anthropic (Claude, Claude Code)",
+    "xAI (Grok)",
+    "Perplexity",
+    "Meta (Muse)"
+   ],
+   "protocols": [
+    "Model Context Protocol (MCP)",
+    "OAuth",
+    "x402"
+   ],
+   "region": "US",
+   "sector": "Market infrastructure",
+   "solutions": [
+    "coinbase-x402"
+   ],
+   "sources": [
+    "https://docs.cdp.coinbase.com/coinbase-for-agents/overview",
+    "https://x.com/coinbase/status/2113359610148991037",
+    "https://247wallst.com/investing/cryptocurrency/2026/10/23/coinbase-now-lets-ai-agents-trade-in-your-crypto-account-what-could-go-wrong/"
+   ],
+   "status": "live"
+  },
+  {
+   "addedAt": "2026-11-02T11:42:15.358Z",
+   "blurb": "London Stock Exchange Group: exchange operator and one of the largest financial data providers (Workspace, World-Check, Tradeweb stake).",
+   "company": "LSEG",
+   "companyId": "lseg",
+   "date": "2026-10-22",
+   "detail": "LSEG will buy Octus, which turns loan documents, covenants and deal terms in public, private and distressed credit into structured data for about 750 customers and 40,000 users. LSEG plans to combine the content with Workspace and its fixed-income products and ties the deal to AI demand: most of its signed AI agreements involve extra dataset purchases. Octus data is already reachable through an MCP connector; the deal needs regulatory approval and is expected to close in H1 2027.",
+   "headline": "LSEG agrees $3.535bn purchase of credit-data provider Octus to expand data available to customers' AI tools",
+   "id": "lseg-octus-202610",
+   "partners": [
+    "Octus",
+    "Permira"
+   ],
+   "protocols": [
+    "MCP"
+   ],
+   "region": "UK",
+   "sector": "Market infrastructure",
+   "solutions": [
+    "lseg-ai"
+   ],
+   "sources": [
+    "https://www.lseg.com/en/media-centre/press-releases/2026/lseg-acquire-octus-public-private-credit-solutions",
+    "https://www.lseg.com/en/media-centre/press-releases/2026/london-stock-exchange-group-plc-q3-2026-trading-update"
+   ],
+   "status": "announced"
+  },
+  {
+   "addedAt": "2026-11-02T11:42:15.358Z",
+   "blurb": "Toronto-based bank and one of North America's largest, with a major US retail and commercial franchise.",
+   "company": "TD Bank Group",
+   "companyId": "td-bank",
+   "date": "2026-10-22",
+   "detail": "Built in-house by TD's AI team and its Layer 6 research centre, Credit Assist orchestrates agents that extract and organise information from deal files into a cited draft of six memo sections. It is live for more than 300 credit staff who prepare over 10,000 memos a year; underlying model vendors were not disclosed.",
+   "headline": "TD Bank U.S. deploys multi-agent Credit Assist to draft commercial credit memos",
+   "id": "td-credit-assist-202610",
+   "partners": [
+    "Layer 6 (TD in-house)"
+   ],
+   "protocols": [],
+   "region": "US",
+   "sector": "Bank",
+   "solutions": [],
+   "sources": [
+    "https://stories.td.com/us/en/article/td-launches-credit-assist-turning-days-of-commercial-credit-work-into-minutes"
+   ],
+   "status": "live"
+  },
+  {
+   "addedAt": "2026-11-02T11:42:15.358Z",
+   "blurb": "Largest bank in Denmark and one of the biggest Nordic banks, serving corporate and retail clients across the region.",
+   "company": "Danske Bank",
+   "companyId": "danske-bank",
+   "date": "2026-10-21",
+   "detail": "Business customers can ask their chosen AI assistant to check balances, analyse transactions, build cash-flow forecasts and combine several APIs, with the MCP server helping the agent find APIs, read docs and test on mock data. Access runs over the bank's existing authenticated integration channel and needs onboarding, certificates and subscriptions; payment initiation is not mentioned.",
+   "headline": "Danske Bank opens an MCP server so business customers' AI assistants can use its Premium APIs",
+   "id": "danske-mcp-business-202610",
+   "partners": [],
+   "protocols": [
+    "Model Context Protocol"
+   ],
+   "region": "Europe",
+   "sector": "Bank",
+   "solutions": [],
+   "sources": [
+    "https://danskebank.com/news-and-insights/news-archive/press-releases/2026/pr21102026",
+    "https://thepaypers.com/fintech/news/danske-bank-pilots-mcp-server-for-corporate-ai-banking-access"
+   ],
+   "status": "live"
+  },
+  {
+   "addedAt": "2026-11-02T11:42:15.358Z",
+   "blurb": "Global electronic broker listed on Nasdaq, serving retail and institutional clients across 150+ markets.",
+   "company": "Interactive Brokers",
+   "companyId": "interactive-brokers",
+   "date": "2026-10-21",
+   "detail": "Clients move money into a dedicated AI Partition inside their existing account, set strategy and limits in natural language, and the connected AI can then submit supported orders within account restrictions and risk safeguards. Availability depends on entity, country, regulatory and account eligibility, and IBKR says launch limits may change. Its earlier AI Integration feature connects accounts via MCP to ChatGPT, Claude, Grok and Perplexity for review-and-approve orders; the release does not say which platforms support autonomous execution.",
+   "headline": "Interactive Brokers launches Autonomous Trading, letting connected AI execute orders from a ring-fenced account partition",
+   "id": "ibkr-autonomous-trading-202610",
+   "partners": [],
+   "protocols": [
+    "Model Context Protocol (MCP) (AI Integration feature)"
+   ],
+   "region": "Global",
+   "sector": "Fintech",
+   "solutions": [],
+   "sources": [
+    "https://fxnewsgroup.com/forex-news/retail-forex/interactive-brokers-launches-autonomous-trading/",
+    "https://newshub.medianet.com.au/2026/10/interactive-brokers-introduces-autonomous-trading/177820/"
+   ],
+   "status": "live"
+  },
+  {
+   "addedAt": "2026-11-02T11:42:15.358Z",
+   "blurb": "World's largest retailer by revenue and the top-ranked Fortune Global 500 company.",
+   "company": "Walmart",
+   "companyId": "walmart",
+   "date": "2026-10-21",
+   "detail": "The Agent Gateway exposes Walmart and Sam's Club catalogues and checkout to approved agents over MCP, and Agent Profiles, rolling out from November, log each agent's purchases separately and let customers require per-order approval or set a spending limit. Walmart's terms bar agents from accessing payment information or exceeding the shopper's intent, and returns apply even when an agent errs.",
+   "headline": "Walmart lets approved AI agents shop through an MCP gateway, with separate agent profiles and spending caps",
+   "id": "walmart-agent-gateway-202610",
+   "partners": [],
+   "protocols": [
+    "Model Context Protocol (MCP)"
+   ],
+   "region": "US",
+   "sector": "Retail & consumer",
+   "solutions": [],
+   "sources": [
+    "https://techcrunch.com/2026/10/21/while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome-mat/",
+    "https://thenextweb.com/news/walmart-ai-agents-shop-agent-profiles"
+   ],
+   "status": "announced"
+  },
+  {
+   "addedAt": "2026-11-02T11:42:15.358Z",
+   "blurb": "Global card network operating VisaNet across more than 200 countries and territories.",
+   "company": "Visa",
+   "companyId": "visa",
+   "date": "2026-10-20",
+   "detail": "BILL's Payment Agent, registered in Visa's Agentic Directory, pays buyer-approved invoices by card with tokenised credentials, while Billtrust verifies the agent through the Trusted Agent Protocol to let it into supplier portals. Agents execute payments but do not choose which invoices to pay; no volumes or rollout dates were disclosed.",
+   "headline": "Visa pilots AI agents paying approved supplier invoices with BILL and Billtrust",
+   "id": "visa-bill-billtrust-agent-b2b-202610",
+   "partners": [
+    "BILL",
+    "Billtrust"
+   ],
+   "protocols": [
+    "Visa Trusted Agent Protocol",
+    "Visa Intelligent Commerce",
+    "Visa Agentic Directory"
+   ],
+   "region": "US",
+   "sector": "Payments",
+   "solutions": [
+    "visa-intelligent-commerce"
+   ],
+   "sources": [
+    "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22856.html",
+    "https://www.pymnts.com/partnerships/2026/visa-launches-agentic-payments-pilot-with-bill-and-billtrust/"
+   ],
+   "status": "pilot"
+  },
+  {
+   "addedAt": "2026-11-02T11:42:15.358Z",
+   "blurb": "Spain-headquartered global bank with large operations in Europe and the Americas.",
+   "company": "Banco Santander",
+   "companyId": "santander",
+   "date": "2026-10-19",
+   "detail": "Santander's AI Lab uses NVIDIA tooling to test open-weight models against banking tasks and to simulate and supervise agents, moving away from large general-purpose models toward smaller specialised ones. The new three-year framework spans foundation models, agents, fraud and AML, real-time decisioning and a banking digital twin. Selected experiments cut serving cost from about €5 to €0.03 per interaction.",
+   "headline": "Santander builds a model-evaluation 'arena' with NVIDIA and signs a three-year AI framework",
+   "id": "santander-nvidia-202610",
+   "partners": [
+    "NVIDIA"
+   ],
+   "protocols": [
+    "NVIDIA NeMo Customizer",
+    "NVIDIA Kumo open-weight structured-data models",
+    "NVIDIA Dynamo-Triton"
+   ],
+   "region": "Europe",
+   "sector": "Bank",
+   "solutions": [],
+   "sources": [
+    "https://santander.com/en/press-room/press-releases/2026/10/santander-builds-ai-capabilities-that-improve-performance-and-lower-costs-using-nvidia-ai-infrastructure"
+   ],
+   "status": "live"
+  },
+  {
+   "addedAt": "2026-11-02T11:42:15.358Z",
+   "blurb": "US-based global financial technology provider serving banks, merchants and capital markets firms.",
+   "company": "FIS",
+   "companyId": "fis",
+   "date": "2026-10-15",
+   "detail": "The agent assembles evidence for AML alerts and cases, links every statement to a source record and leaves case closure to human analysts. It integrates with FIS Horizon and Systematics cores, runs on Anthropic's Claude in FIS's private cloud, and Amalgamated Bank is deploying it as design partner.",
+   "headline": "FIS opens its Claude-powered AML Investigations Agent to all US banks",
+   "id": "fis-aml-agent-202610",
+   "partners": [
+    "Amalgamated Bank"
+   ],
+   "protocols": [
+    "Claude"
+   ],
+   "region": "US",
+   "sector": "Payments",
+   "solutions": [
+    "anthropic"
+   ],
+   "sources": [
+    "https://www.fisglobal.com/about-us/media-room/press-release/2026/fis-aml-investigations-agent-now-commercially-available"
+   ],
+   "status": "live"
+  },
+  {
+   "addedAt": "2026-11-02T11:42:15.358Z",
+   "blurb": "US card issuer and closed-loop network, strong in premium and corporate cards.",
+   "company": "American Express",
+   "companyId": "american-express",
+   "date": "2026-10-13",
+   "detail": "Intent Intelligence records a customer's agent instructions (merchant, budget, expiry, timing and conditions), has the customer authenticate them, and issues an Intent ID plus Proof of Intent Token that scope the digital credential the agent uses at checkout. Amex published it as a common approach other providers can adopt, delivered through its ACE developer kit; it reports no live integrations yet.",
+   "headline": "Amex publishes Intent Intelligence so issuers and merchants can check agent purchases against approved instructions",
+   "id": "american-express-intent-intelligence-202610",
+   "partners": [
+    "EMVCo (engagement)",
+    "x402 Foundation (supporting standards work)"
+   ],
+   "protocols": [
+    "ACE Developer Kit",
+    "Intent Intelligence",
+    "x402 (supporting)"
+   ],
+   "region": "US",
+   "sector": "Payments",
+   "solutions": [],
+   "sources": [
+    "https://www.americanexpress.com/en-us/newsroom/articles/innovation/intent-intelligence-framework-agentic-commerce.html",
+    "https://thepaypers.com/payments/news/american-express-publishes-framework-for-agentic-commerce-intent",
+    "https://www.digitalcommerce360.com/2026/10/16/american-express-ai-framework/amp/"
+   ],
+   "status": "announced"
+  },
+  {
+   "addedAt": "2026-11-02T11:42:15.358Z",
+   "banks": [
+    {
+     "company": "JPMorgan Chase",
+     "date": "2026-10-13",
+     "stance": "blocks login and money movement; read-only via aggregators"
+    },
+    {
+     "company": "Citigroup",
+     "date": "2026-10",
+     "stance": "blocks login and transactions; limited read-only via open-banking providers"
+    },
+    {
+     "company": "Bank of America",
+     "date": "2026-10",
+     "stance": "limits agent access to deposits while it works on liability protocols"
+    },
+    {
+     "company": "Morgan Stanley",
+     "date": "2026-10-22",
+     "stance": "has begun blocking outside agents"
+    },
+    {
+     "company": "Charles Schwab",
+     "date": "2026-10-16",
+     "stance": "blocks money movement; plans read-only MCP servers"
+    },
+    {
+     "company": "Royal Bank of Canada",
+     "date": "2026-10-27",
+     "stance": "blocks direct access; ends existing connections"
+    },
+    {
+     "company": "TD Bank",
+     "date": "2026-10-28",
+     "stance": "will block third-party personal agents"
+    },
+    {
+     "company": "BMO",
+     "date": "2026-10-28",
+     "stance": "does not allow agents to access digital properties or transact"
+    },
+    {
+     "company": "CIBC",
+     "date": "2026-10-28",
+     "stance": "does not support agents opening or accessing accounts"
+    },
+    {
+     "company": "Scotiabank",
+     "date": "2026-10-28",
+     "stance": "will limit third-party agents"
+    }
+   ],
+   "blurb": "Theme entry covering the largest US and Canadian banks and brokers, including JPMorgan Chase, Citigroup, Bank of America, Morgan Stanley, Charles Schwab, RBC, TD, BMO, CIBC and Scotiabank.",
+   "company": "Major North American banks and brokers",
+   "companyId": "north-american-banks-agent-access",
+   "countries": [
+    "US",
+    "Canada"
+   ],
+   "date": "2026-10-13",
+   "detail": "JPMorgan (13 Oct) bars agents from using customer credentials to log in or pay, leaving read-only balances through aggregators such as Plaid; Citi and Bank of America impose similar limits, Morgan Stanley has begun blocking agents, and Schwab blocks money movement while planning read-only MCP servers next to its own Charley assistant. In Canada RBC (27 Oct) is ending existing agent connections, TD says it will block them, BMO and CIBC say they do not allow or support them, Scotiabank will limit them and National Bank is monitoring. Reasons given are fraud, unclear liability and terms that require customers to log in themselves; most banks are building their own agents instead.",
+   "headline": "North American banks and brokers restrict outside AI agents to read-only access at most",
+   "id": "north-american-banks-restrict-agents-202610",
+   "partners": [],
+   "protocols": [
+    "Model Context Protocol (MCP)"
+   ],
+   "region": "US",
+   "sector": "Bank",
+   "solutions": [],
+   "sources": [
+    "https://www.pymnts.com/news/artificial-intelligence/2026/jamie-dimon-slams-the-door-on-rogue-ai-agents/",
+    "https://cybernews.com/security/jpmorgan-chase-blocks-outside-ai-agents/",
+    "https://www.axios.com/2026/10/22/ai-agents-banks-unauthorized-accounts-access",
+    "https://thenextweb.com/news/schwab-blocks-ai-agents-meta-muse",
+    "https://www.rbcroyalbank.com/en-ca/my-money-matters/money-academy/cyber-security/understanding-cyber-security/understanding-third-party-ai-agents-and-your-rbc-banking/",
+    "https://moneysense.ca/news/canadian-banks-blocking-personal-ai-agents",
+    "https://www.fintechweekly.com/magazine/articles/ai-agents-banks-block-account-access-europe-agentic-payments-2026"
+   ],
+   "status": "live",
+   "theme": true
+  },
+  {
+   "addedAt": "2026-11-02T11:42:15.358Z",
+   "blurb": "Spain's largest domestic bank by assets and one of the eurozone's biggest retail lenders.",
+   "company": "CaixaBank",
+   "companyId": "caixabank",
+   "date": "2026-10-09",
+   "detail": "CaixaBank will use Gemini Enterprise to build and govern internal agents that classify and manage documents, summarise complex financial content and automate routine tasks. The extension also brings hybrid private/public infrastructure, AI-driven security monitoring and a training programme, all under the bank's own governance frameworks.",
+   "headline": "CaixaBank extends Google Cloud partnership to 2033 and deploys Gemini Enterprise agents for employees",
+   "id": "caixabank-google-gemini-202610",
+   "partners": [
+    "Google Cloud"
+   ],
+   "protocols": [
+    "Gemini Enterprise"
+   ],
+   "region": "Europe",
+   "sector": "Bank",
+   "solutions": [
+    "google-gemini"
+   ],
+   "sources": [
+    "https://www.googlecloudpresscorner.com/2026-10-09-CaixaBank-Expands-Strategic-Collaboration-with-Google-Cloud-to-Accelerate-AI-and-Data-Capabilities"
+   ],
+   "status": "announced"
+  },
+  {
+   "addedAt": "2026-11-02T11:42:15.358Z",
+   "blurb": "One of the four largest US banks, serving consumers, businesses and corporates.",
+   "company": "Wells Fargo",
+   "companyId": "wells-fargo",
+   "date": "2026-10-03",
+   "detail": "A new Section 15 on 'Third-Party Artificial Intelligence Agents or Agentic AI', posted in early October and effective 24 November 2026, says transactions submitted by a customer's AI agent are deemed initiated by the customer, that agent use is at the customer's own risk, and that the bank does not monitor or certify agent providers. The bank keeps the right to limit or cut off specific agents. Note: the primary source is the bank's terms page; details were checked via secondary coverage and should be confirmed against the live agreement before approval.",
+   "headline": "Wells Fargo's new online banking terms treat AI-agent instructions as customer-authorised and place agent risk on the customer",
+   "id": "wells-fargo-agent-terms-202611",
+   "partners": [],
+   "protocols": [],
+   "region": "US",
+   "sector": "Bank",
+   "solutions": [],
+   "sources": [
+    "https://www.wellsfargo.com/online-banking/online-access-agreement/upcoming/",
+    "https://arturmarkus.com/wells-fargo-ships-section-15-on-november-24-every-ai-agent-instruction-is-deemed-authorized-by-you"
+   ],
+   "status": "announced"
+  },
+  {
+   "addedAt": "2026-11-02T11:42:15.358Z",
+   "blurb": "World's largest custodian bank, servicing tens of trillions of dollars in assets.",
+   "company": "BNY",
+   "companyId": "bny",
+   "date": "2026-09-29",
+   "detail": "BNY described a digital employee in production that fixes payment messages by checking fields for meaning and for ISO 20022 syntax, and passes judgement calls to staff. It was one of several bank agent deployments shown at Sibos 2026. The model or vendor behind it was not disclosed.",
+   "headline": "BNY puts a digital employee to work repairing payment messages, with humans keeping final judgement",
+   "id": "bny-payment-repair-202609",
+   "partners": [],
+   "protocols": [
+    "ISO 20022"
+   ],
+   "region": "US",
+   "sector": "Bank",
+   "solutions": [],
+   "sources": [
+    "https://thefintechtimes.com/sibos-2026-day-two-banks-put-ai-agents-to-work-but-keep-the-judgement-for-people/"
+   ],
+   "status": "live"
+  },
+  {
+   "addedAt": "2026-11-02T11:42:15.358Z",
+   "blurb": "London-headquartered global bank and one of the world's largest transaction-banking providers.",
+   "company": "HSBC",
+   "companyId": "hsbc",
+   "date": "2026-09-29",
+   "detail": "Corporate and institutional clients can connect their own AI tools to authorised balances, transactions and payment data through HSBC's MCP server, alongside its APIs, SDKs and sandbox. HSBC plans an 'Ask HSBC' query feature and a corporate digital assistant in coming months.",
+   "headline": "HSBC opens authorised banking data to corporate clients' AI tools via MCP in HSBCnio",
+   "id": "hsbc-hsbcnio-mcp-202609",
+   "partners": [],
+   "protocols": [
+    "Model Context Protocol"
+   ],
+   "region": "Global",
+   "sector": "Bank",
+   "solutions": [],
+   "sources": [
+    "https://www.hsbc.com/news-and-views/news/hsbc-news-archive/hsbc-launches-hsbcnio-digital-banking-solution-for-businesses",
+    "https://americanbanker.com/payments/news/hsbc-develops-new-ai-tools-to-lure-corporate-clients"
+   ],
+   "status": "live"
+  },
+  {
+   "addedAt": "2026-11-02T11:42:15.358Z",
+   "blurb": "Largest bank in the euro zone by assets, headquartered in Paris, with more than 180,000 staff.",
+   "company": "BNP Paribas",
+   "companyId": "bnp-paribas",
+   "date": "2026-09-24",
+   "detail": "The agreement lets BNP Paribas build, evaluate and run purpose-built agents on Gemini Enterprise, with first targets in Corporate & Institutional Banking such as preparing corporate credit memos, then sales, trading, research and structuring. Gemini models are being added to LLM@CIB, an internal assistant used by over 65,000 staff, and already power Nickel Assist for about 200 advisers at its Nickel payment-account business. The bank's data governance rules decide which workloads may go to public cloud, and some data categories will stay off it.",
+   "headline": "BNP Paribas signs a five-year Google Cloud deal to build Gemini agents, starting in corporate and institutional banking",
+   "id": "bnpparibas-google-cloud-202609",
+   "partners": [
+    "Google Cloud"
+   ],
+   "protocols": [
+    "Gemini",
+    "Gemini Enterprise"
+   ],
+   "region": "Europe",
+   "sector": "Bank",
+   "solutions": [
+    "google-gemini"
+   ],
+   "sources": [
+    "https://www.googlecloudpresscorner.com/2026-09-24-BNP-Paribas-and-Google-Cloud-Announce-New-Partnership-on-Agentic-AI-and-Cloud-Innovation",
+    "https://group.bnpparibas/en/press-release/bnp-paribas-and-google-cloud-announce-new-partnership-on-agentic-ai-and-cloud-innovation",
+    "https://www.intelligentcio.com/eu/2026/10/23/bnp-paribas-signs-five-year-google-cloud-deal-to-expand-ai-across-banking/"
+   ],
+   "status": "announced"
+  },
+  {
+   "addedAt": "2026-10-19T17:30:00Z",
+   "blurb": "Singapore-based cross-border payments arm of Ant (Alipay+, Antom, WorldFirst).",
+   "company": "Ant International",
+   "companyId": "ant-international",
+   "date": "2026-09-18",
+   "detail": "The launch spans nearly 100 products, an 'Account for Agent' business account, and proprietary models for fraud (Antom 3-in-1 Transformer) and FX forecasting (FalconTST). A know-your-agent framework and AgentSafePay guarantee address agent-specific risks such as prompt injection.",
+   "headline": "Ant International unveils AI-native payments stack with accounts for agents",
+   "id": "antinternational-ai-stack-202609",
+   "partners": [],
+   "protocols": [
+    "Agentic Mobile Protocol"
+   ],
+   "region": "Asia",
+   "sector": "Payments",
+   "solutions": [],
+   "sources": [
+    "https://fintech.global/2026/09/18/ant-international-hands-payment-control-to-ai-agents/"
+   ],
+   "status": "live"
+  },
+  {
+   "addedAt": "2026-11-02T11:42:15.358Z",
+   "blurb": "One of the largest US brokerage and wealth firms and the biggest custodian for independent RIAs, serving more than 16,000 advisory firms.",
+   "company": "Charles Schwab",
+   "companyId": "schwab",
+   "date": "2026-09-14",
+   "detail": "RIAs custodied at Schwab can reach Schwab Advisor Center from Claude through an authenticated connection, alongside connectors to CRM, planning and reporting tools and agents for pre- and post-meeting work, with admin audit logs. Schwab's CEO described it as a pilot to be widened to more clients and other models; Anthropic's 20-seat Enterprise minimum has drawn criticism from smaller firms.",
+   "headline": "Schwab connects its RIA custody platform to Claude for Financial Advisors",
+   "id": "schwab-claude-advisors-202609",
+   "partners": [],
+   "protocols": [
+    "Model Context Protocol (MCP)",
+    "Claude for Financial Advisors"
+   ],
+   "region": "US",
+   "sector": "Asset manager",
+   "solutions": [
+    "anthropic"
+   ],
+   "sources": [
+    "https://pressroom.aboutschwab.com/press-releases/press-release/2026/Charles-Schwab-and-Anthropic-to-Bring-Claude-to-Independent-Registered-Investment-Advisors/default.aspx",
+    "https://riabiz.com/a/2026/10/24/schwab-trumpeted-anthropics-claude-for-all-16000-of-its-rias-but-a-20-seat-enterprise-minimum-suddenly-sidelines-11000-plus-small-firms-right-before-impact-2026"
+   ],
+   "status": "pilot"
+  },
+  {
+   "addedAt": "2026-11-02T11:42:15.358Z",
+   "blurb": "Meta Platforms: owner of Facebook, Instagram and WhatsApp with billions of monthly users; Fortune Global 500.",
+   "company": "Meta",
+   "companyId": "meta",
+   "date": "2026-09-08",
+   "detail": "Muse can check out instantly with a shopper's saved Link payment method at businesses that accept Link (over 1 million), and elsewhere uses a one-time virtual card limited to the approved purchase, so the agent never sees card details. Launch was for US consumers; PayPal added checkout for its customers in September. It is one of the largest consumer deployments of agent checkout to date.",
+   "headline": "Meta's Muse agent buys from any online merchant via Stripe Link, later adding PayPal",
+   "id": "meta-muse-checkout-202609",
+   "partners": [
+    "Stripe",
+    "PayPal"
+   ],
+   "protocols": [
+    "Stripe Link",
+    "single-use virtual cards"
+   ],
+   "region": "US",
+   "sector": "Tech",
+   "solutions": [
+    "stripe-acp",
+    "paypal-agentic"
+   ],
+   "sources": [
+    "https://stripe.com/newsroom/news/stripe-helps-meta-muse-shop-with-link",
+    "https://www.pymnts.com/news/artificial-intelligence/2026/meta-adds-paypal-muse-ai-assistant-global-checkout/"
+   ],
+   "status": "live"
+  },
+  {
+   "addedAt": "2026-11-02T11:42:15.358Z",
+   "blurb": "World's largest cryptocurrency exchange by trading volume.",
+   "company": "Binance",
+   "companyId": "binance",
+   "date": "2026-08-20",
+   "detail": "Agent OS lets agents from tools such as ChatGPT, Claude Code, Codex and Cursor read market and account data and place trades within permissions and limits the user sets, optionally ring-fenced in subaccounts. It also connects agents to Binance's payment and onchain tools. Binance monitors the trades but has no view of the agent's reasoning.",
+   "headline": "Binance opens customer accounts to outside AI agents through Agent OS, with user-set limits",
+   "id": "binance-agent-os-202608",
+   "partners": [],
+   "protocols": [
+    "ChatGPT",
+    "Claude Code",
+    "Codex",
+    "Cursor"
+   ],
+   "region": "Global",
+   "sector": "Market infrastructure",
+   "solutions": [],
+   "sources": [
+    "https://cointelegraph.com/news/binance-opens-crypto-trading-to-ai-agents-with-user-set-controls",
+    "https://decrypt.co/376161/binance-ai-agents-trade-crypto",
+    "https://www.financemagnates.com/cryptocurrency/exchange/binance-creates-operating-system-for-agents-as-ai-trading-moves-beyond-apis/"
+   ],
+   "status": "live"
+  },
+  {
+   "addedAt": "2026-11-02T11:42:15.358Z",
+   "blurb": "World's largest card network by transactions, with 4bn+ credentials.",
+   "company": "Visa",
+   "companyId": "visa",
+   "date": "2026-08-03",
+   "detail": "BioCatch serves 350+ banks in 21 countries, including over 100 of the largest, and analyses about 19bn user sessions a month using behavioural and device signals. Visa plans to use it to stop account takeover, scams, mule activity and application fraud before the point of payment; the deal awaits regulatory approval and is expected to close by the end of Visa's fiscal Q2 2027.",
+   "headline": "Visa agrees to acquire AI behavioural fraud specialist BioCatch for $2.4bn in cash",
+   "id": "visa-biocatch-202608",
+   "partners": [
+    "BioCatch"
+   ],
+   "protocols": [],
+   "region": "Global",
+   "sector": "Payments",
+   "solutions": [],
+   "sources": [
+    "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22626.html",
+    "https://www.fintechfutures.com/m-a/visa-acquires-biocatch"
+   ],
+   "status": "announced"
+  },
+  {
+   "addedAt": "2026-10-19T17:30:00Z",
+   "blurb": "Latin America's largest private bank, headquartered in São Paulo.",
+   "company": "Itaú Unibanco",
+   "companyId": "itau",
+   "date": "2026-07-27",
+   "detail": "ia.i lets customers ask questions and carry out Pix transfers by text or voice, launching to about 300,000 customers with full-base rollout targeted by end-2026. Product simulation, contracting and recurring spending analysis are planned next.",
+   "headline": "Itaú launches ia.i, a conversational AI layer across its banking app",
+   "id": "itau-iai-202607",
+   "partners": [],
+   "protocols": [],
+   "region": "LatAm",
+   "sector": "Bank",
+   "solutions": [],
+   "sources": [
+    "https://mundodomarketing.com.br/itau-lanca-iai-para-transformar-ia-generativa-em-interface-do-banco",
+    "https://www.itau.com.br/media/dam/m/6faa1448dd30b9a0/original/27-07-2026-Itau-Unibanco-lanc-a-ia-i-nova-experie-ncia-conversacional-que-levara-a-IA-generativa-a-todos-os-produtos-e-servic-os-do-banco.pdf"
+   ],
+   "status": "live"
+  },
+  {
+   "addedAt": "2026-10-19T17:30:00Z",
+   "blurb": "Japan's largest banking group and one of the world's biggest banks by assets.",
+   "company": "MUFG",
+   "companyId": "mufg",
+   "date": "2026-07-07",
+   "detail": "Mitsubishi UFJ Bank began a phased ChatGPT Enterprise rollout in 2026 after mandatory training, and staff built more than 1,800 custom GPTs ('AI bankers'). MUFG also plans balance and transaction queries for Moneytree users inside ChatGPT and an AI concierge for its digital bank.",
+   "headline": "MUFG rolls ChatGPT Enterprise to ~35,000 bank staff and plans ChatGPT apps",
+   "id": "mufg-openai-202607",
+   "partners": [
+    "Moneytree",
+    "WealthNavi"
+   ],
+   "protocols": [
+    "Apps in ChatGPT"
+   ],
+   "region": "Asia",
+   "sector": "Bank",
+   "solutions": [
+    "openai"
+   ],
+   "sources": [
+    "https://openai.com/index/mufg"
+   ],
+   "status": "live"
+  },
+  {
+   "addedAt": "2026-11-02T11:42:15.358Z",
+   "blurb": "London-headquartered global bank, one of Europe's largest, with a big Asian franchise.",
+   "company": "HSBC",
+   "companyId": "hsbc",
+   "date": "2026-06-17",
+   "detail": "HSBC gets access to Gemini models and the Gemini Enterprise Agent Platform, plus joint engineering with Google Cloud and DeepMind, to build more than 200 new AI use cases over two years. Early priorities are adviser insights in wealth management, generative and agentic financial-crime detection meant to halve intervention time across about a billion monthly transactions, and a wider decision assistant for staff. HSBC says each top initiative could be worth over $100m.",
+   "headline": "HSBC and Google Cloud agree a multi-year partnership to deploy Gemini agents across wealth, financial crime and frontline teams",
+   "id": "hsbc-google-cloud-202606",
+   "partners": [
+    "Google DeepMind"
+   ],
+   "protocols": [
+    "Gemini",
+    "Gemini Enterprise Agent Platform"
+   ],
+   "region": "UK",
+   "sector": "Bank",
+   "solutions": [
+    "google-gemini"
+   ],
+   "sources": [
+    "https://www.hsbc.com/news-and-views/news/media-releases/2026/hsbc-and-google-cloud-announce-transformative-ai-banking-partnership"
+   ],
+   "status": "announced"
+  },
+  {
+   "addedAt": "2026-10-19T17:30:00Z",
+   "blurb": "Dutch global payments platform for large enterprise merchants.",
+   "company": "Adyen",
+   "companyId": "adyen",
+   "date": "2026-06-16",
+   "detail": "Modular Agentic Feed, Agentic Cart and Agentic Payments layers let enterprises sell via conversational platforms without rebuilding checkout. It is in limited US availability, works with Meta's AI checkout, and Adyen endorses UCP, AP2 and ACP.",
+   "headline": "Adyen launches 'Adyen Agentic' APIs for selling through AI assistants",
+   "id": "adyen-agentic-202606",
+   "partners": [
+    "American Express",
+    "Mastercard",
+    "Visa",
+    "Salesforce",
+    "Meta"
+   ],
+   "protocols": [
+    "Universal Commerce Protocol",
+    "AP2",
+    "Agentic Commerce Protocol"
+   ],
+   "region": "Europe",
+   "sector": "Payments",
+   "solutions": [
+    "adyen-agentic",
+    "google-ap2",
+    "stripe-acp"
+   ],
+   "sources": [
+    "https://www.adyen.com/press-and-media/adyen-agentic"
+   ],
+   "status": "pilot"
+  },
+  {
+   "addedAt": "2026-10-19T17:30:00Z",
+   "blurb": "World's largest card network by transactions, with 4bn+ credentials.",
+   "company": "Visa",
+   "companyId": "visa",
+   "date": "2026-05-20",
+   "detail": "Agentic Ready gives issuers a production-grade environment to test agent-initiated transactions built on Visa Intelligent Commerce tokens, identity and controls. Early participants include Emirates NBD, Mashreq, QNB, Kuwait Finance House and National Bank of Egypt.",
+   "headline": "Visa enrols 34 issuers across the Middle East and Africa in 'Agentic Ready'",
+   "id": "visa-agentic-ready-cemea-202605",
+   "partners": [
+    "Emirates NBD",
+    "Mashreq",
+    "Qatar National Bank",
+    "Kuwait Finance House"
+   ],
+   "protocols": [
+    "Visa Intelligent Commerce"
+   ],
+   "region": "Middle East",
+   "sector": "Payments",
+   "solutions": [
+    "visa-intelligent-commerce"
+   ],
+   "sources": [
+    "https://km.visamiddleeast.com/en_KM/about-visa/newsroom/press-releases/prl-20052026.html"
+   ],
+   "status": "pilot"
+  },
+  {
+   "addedAt": "2026-10-19T17:30:00Z",
+   "blurb": "Operator of Alipay, China's dominant digital wallet with around a billion users.",
+   "company": "Ant Group (Alipay)",
+   "companyId": "ant-group",
+   "date": "2026-04-21",
+   "detail": "Alipay's AI Pay, which passed 100 million users and 120 million weekly transactions in February 2026, now lets OpenClaw-type agents, including Claude Code, pay on a user's instruction after identity checks and per-payment authorisation. Alipay also released a Payment MCP Server and AI subscription payments for developers.",
+   "headline": "Alipay AI Pay opens payments to third-party AI agents",
+   "id": "alipay-aipay-agents-202604",
+   "partners": [
+    "Alibaba Cloud"
+   ],
+   "protocols": [
+    "MCP"
+   ],
+   "region": "Asia",
+   "sector": "Payments",
+   "solutions": [],
+   "sources": [
+    "https://www.businesswire.com/news/home/20260421171651/en/Alipay-AI-Pay-Launches-New-Service-Enabling-OpenClaw-type-AI-Agents-to-Make-Payments"
+   ],
+   "status": "live"
+  },
+  {
+   "addedAt": "2026-10-19T17:30:00Z",
+   "blurb": "US card issuer and closed-loop network, strong in premium and corporate cards.",
+   "company": "American Express",
+   "companyId": "american-express",
+   "date": "2026-04-14",
+   "detail": "The Agentic Commerce Experiences kit lets cardmembers approve specific verified AI agents to use their cards, with 'Intent Intelligence' checking purchases match instructions. Amex is also planning Agent Purchase Protection to handle disputes when an agent errs.",
+   "headline": "Amex launches ACE developer kit for agent purchases with purchase protection",
+   "id": "amex-ace-202604",
+   "partners": [],
+   "protocols": [],
+   "region": "US",
+   "sector": "Payments",
+   "solutions": [],
+   "sources": [
+    "https://www.paymentsjournal.com/amex-bets-on-ai-agent-payments/"
+   ],
+   "status": "announced"
+  },
+  {
+   "addedAt": "2026-10-19T17:30:00Z",
+   "blurb": "UK-based digital bank with tens of millions of retail customers globally.",
+   "company": "Revolut",
+   "companyId": "revolut",
+   "date": "2026-04-09",
+   "detail": "AIR handles spending insights, investment tracking, subscription management and card freezes conversationally, plus travel budgets and eSIM purchases. It only sees data the user can already see, and Revolut says third-party AI partners retain no data.",
+   "headline": "Revolut launches AIR, an in-app AI assistant, to UK customers",
+   "id": "revolut-air-202604",
+   "partners": [],
+   "protocols": [],
+   "region": "UK",
+   "sector": "Fintech",
+   "solutions": [],
+   "sources": [
+    "https://www.revolut.com/news/revolut_enters_new_era_of_money_intelligence_with_launch_of_ai_assistant/"
+   ],
+   "status": "live"
+  },
+  {
+   "addedAt": "2026-10-19T17:30:00Z",
+   "blurb": "China's largest insurer by market value, also owning Ping An Bank.",
+   "company": "Ping An",
+   "companyId": "ping-an",
+   "date": "2026-03-31",
+   "detail": "Ping An reports that nearly 60% of health and accident claims are now settled without human handling, some in under a minute, and that AI handled 70% of Ping An Bank's loan recoveries in 2025. A gateway linking around 500 services, using AI agents for underwriting, claims and cross-selling, was due in April 2026; Ping An builds on existing LLMs rather than its own.",
+   "headline": "Ping An automates ~60% of health and accident claims and launches an agent gateway",
+   "id": "pingan-ai-claims-202603",
+   "partners": [],
+   "protocols": [],
+   "region": "Asia",
+   "sector": "Insurance",
+   "solutions": [],
+   "sources": [
+    "https://www.insurancejournal.com/news/international/2026/03/31/864014.htm"
+   ],
+   "status": "live"
+  },
+  {
+   "addedAt": "2026-10-19T17:30:00Z",
+   "blurb": "Spain-headquartered global bank with large operations in Europe and the Americas.",
+   "company": "Banco Santander",
+   "companyId": "santander",
+   "date": "2026-03-02",
+   "detail": "Santander ran an end-to-end payment initiated by an AI agent over its live payments infrastructure using Mastercard Agent Pay, within preset limits and permissions. PayOS handled orchestration; the bank says it is not yet a commercial rollout and will extend testing.",
+   "headline": "Santander and Mastercard complete Europe's first live AI-agent payment",
+   "id": "santander-agentpay-202603",
+   "partners": [
+    "PayOS"
+   ],
+   "protocols": [
+    "Mastercard Agentic Tokens"
+   ],
+   "region": "Europe",
+   "sector": "Bank",
+   "solutions": [
+    "mastercard-agent-pay"
+   ],
+   "sources": [
+    "https://www.santander.com/en/press-room/press-releases/2026/03/santander-and-mastercard-complete-europes-first-live-end-to-end-payment-executed-by-an-ai-agent"
+   ],
+   "status": "pilot"
+  },
+  {
+   "addedAt": "2026-10-19T17:30:00Z",
+   "blurb": "Major US commercial property-casualty insurer.",
+   "company": "AIG",
+   "companyId": "aig",
+   "date": "2026-02-17",
+   "detail": "AIG Assist is deployed across most commercial lines, and an orchestration layer coordinates multiple AI agents; its Lexington unit handled 370,000+ submissions in 2025 without adding staff. AIG used LLMs with Palantir to assess portfolio fit for its new Lloyd's syndicate with Amwins and Blackstone.",
+   "headline": "AIG scales generative AI underwriting with an agent orchestration layer",
+   "id": "aig-genai-underwriting-202602",
+   "partners": [
+    "Palantir"
+   ],
+   "protocols": [],
+   "region": "US",
+   "sector": "Insurance",
+   "solutions": [],
+   "sources": [
+    "https://www.artificialintelligence-news.com/news/insurance-giant-aig-deploys-agentic-ai-with-orchestration-layer/"
+   ],
+   "status": "live"
+  },
+  {
+   "addedAt": "2026-10-19T17:30:00Z",
+   "blurb": "Southeast Asia's largest bank, headquartered in Singapore.",
+   "company": "DBS Bank",
+   "companyId": "dbs",
+   "date": "2026-02-16",
+   "detail": "In trials, AI agents completed food-and-beverage purchases with DBS/POSB credit and debit cards through issuer-controlled flows. DBS is validating tokenised 'AI-ready' credentials, stronger authentication and intent-based transaction controls, with online shopping and travel next.",
+   "headline": "DBS is first Asia-Pacific issuer to pilot Visa Intelligent Commerce",
+   "id": "dbs-visa-agentic-202602",
+   "partners": [],
+   "protocols": [
+    "Visa Intelligent Commerce"
+   ],
+   "region": "Asia",
+   "sector": "Bank",
+   "solutions": [
+    "visa-intelligent-commerce"
+   ],
+   "sources": [
+    "https://www.dbs.com/newsroom/DBS_is_first_bank_in_Asia_Pacific_to_pilot_Visa_Intelligent_Commerce_for_everyday_payments"
+   ],
+   "status": "pilot"
+  },
+  {
+   "addedAt": "2026-10-19T17:30:00Z",
+   "blurb": "Global investment bank and asset/wealth manager headquartered in New York.",
+   "company": "Goldman Sachs",
+   "companyId": "goldman-sachs",
+   "date": "2026-02-09",
+   "detail": "Anthropic engineers have worked with Goldman's teams for about six months to build autonomous agents on Claude for back-office work such as trade accounting, reconciliation, compliance checks and client onboarding. The agents remain in testing, with humans reviewing their output; CIO Marco Argenti calls them a 'digital co-worker'.",
+   "headline": "Goldman tests Claude-based agents for accounting, compliance and onboarding",
+   "id": "goldman-anthropic-agents-202602",
+   "partners": [],
+   "protocols": [
+    "Claude Opus 4.6"
+   ],
+   "region": "US",
+   "sector": "Bank",
+   "solutions": [
+    "anthropic"
+   ],
+   "sources": [
+    "https://www.artificialintelligence-news.com/news/goldman-sachs-tests-autonomous-ai-agents-for-process-heavy-work/",
+    "https://www.hl.co.uk/shares/stock-market-news/company--news/goldman-sachs-working-with-anthropic-to-automate-accounting,-compliance-roles"
+   ],
+   "status": "pilot"
+  },
+  {
+   "addedAt": "2026-10-19T17:30:00Z",
+   "blurb": "Munich-based insurer and asset manager (incl. PIMCO), one of the world's largest.",
+   "company": "Allianz",
+   "companyId": "allianz",
+   "date": "2026-01-12",
+   "detail": "Allianz is integrating Claude into its internal AI platform, giving thousands of developers Claude Code, and building agents for multi-step workflows such as motor and health claims intake. The firms are co-designing logging of each decision and data source for auditability.",
+   "headline": "Allianz signs global partnership with Anthropic for claims agents and coding",
+   "id": "allianz-anthropic-202601",
+   "partners": [],
+   "protocols": [
+    "Claude Code"
+   ],
+   "region": "Europe",
+   "sector": "Insurance",
+   "solutions": [
+    "anthropic"
+   ],
+   "sources": [
+    "https://www.reinsurancene.ws/allianz-partners-with-anthropic-to-accelerate-adoption-of-responsible-ai/"
+   ],
+   "status": "live"
+  },
+  {
+   "addedAt": "2026-10-19T17:30:00Z",
+   "blurb": "US payments and core-banking processor serving millions of merchants and thousands of banks.",
+   "company": "Fiserv",
+   "companyId": "fiserv",
+   "date": "2025-12-22",
+   "detail": "Fiserv is among the first large processors to adopt Mastercard's Agent Pay Acceptance Framework at scale, acting as a network-token requestor for merchants via Secure Card on File. The aim is to let merchants accept agent-initiated payments with tokenisation, authentication and fraud controls.",
+   "headline": "Fiserv adopts Mastercard's Agent Pay acceptance framework for merchants",
+   "id": "fiserv-agentpay-202512",
+   "partners": [],
+   "protocols": [
+    "Mastercard Agentic Tokens"
+   ],
+   "region": "US",
+   "sector": "Payments",
+   "solutions": [
+    "mastercard-agent-pay"
+   ],
+   "sources": [
+    "https://www.businesswire.com/news/home/20251222291522/en/Fiserv-and-Mastercard-Partner-to-Advance-Trusted-Agentic-Commerce-For-Merchants"
+   ],
+   "status": "announced"
+  },
+  {
+   "addedAt": "2026-10-19T17:30:00Z",
+   "blurb": "Dubai-based banking group, one of the largest in the Middle East.",
+   "company": "Emirates NBD",
+   "companyId": "emirates-nbd",
+   "date": "2025-12-18",
+   "detail": "Using an Emirates NBD Darna Visa credit card, a customer paid property service charges via an AI agent in the Live Aldar app through a consent-based flow. Visa called it the first live Visa Intelligent Commerce implementation in the region, with wider UAE availability to follow.",
+   "headline": "Emirates NBD card powers the region's first live Visa agentic payment",
+   "id": "emiratesnbd-visa-agentic-202512",
+   "partners": [
+    "Aldar"
+   ],
+   "protocols": [
+    "Visa Intelligent Commerce"
+   ],
+   "region": "Middle East",
+   "sector": "Bank",
+   "solutions": [
+    "visa-intelligent-commerce"
+   ],
+   "sources": [
+    "https://www.visa.com/en-ae/newsroom/visa-aldar-agentic-payments-partnership"
+   ],
+   "status": "live"
+  },
+  {
+   "addedAt": "2026-10-19T17:30:00Z",
+   "blurb": "Spanish banking group with major franchises in Spain, Mexico, Turkey and South America.",
+   "company": "BBVA",
+   "companyId": "bbva",
+   "date": "2025-12-12",
+   "detail": "BBVA turned its OpenAI relationship, which started with 3,300 seats in May 2024, into a multi-year programme rolling ChatGPT Enterprise to its full workforce in 25 countries. Its customer assistant Blue runs on OpenAI models, and the bank is exploring letting customers bank directly inside ChatGPT.",
+   "headline": "BBVA extends ChatGPT Enterprise to all 120,000 employees",
+   "id": "bbva-openai-202512",
+   "partners": [],
+   "protocols": [],
+   "region": "Europe",
+   "sector": "Bank",
+   "solutions": [
+    "openai"
+   ],
+   "sources": [
+    "https://openai.com/index/bbva-collaboration-expansion/"
+   ],
+   "status": "live"
+  },
+  {
+   "addedAt": "2026-10-19T17:30:00Z",
+   "blurb": "London-headquartered global bank, one of Europe's largest, with a big Asian franchise.",
+   "company": "HSBC",
+   "companyId": "hsbc",
+   "date": "2025-12-03",
+   "detail": "HSBC gains access to Mistral's commercial models and will co-develop generative AI tools, including self-hosted models wired into internal systems, to upgrade its employee AI platform for lending analysis, translation and procurement. Later priorities include fraud and AML checks, credit processes and customer onboarding; HSBC already runs 600+ AI use cases.",
+   "headline": "HSBC signs multi-year partnership with Mistral AI, including self-hosted models",
+   "id": "hsbc-mistral-202512",
+   "partners": [],
+   "protocols": [],
+   "region": "UK",
+   "sector": "Bank",
+   "solutions": [
+    "mistral"
+   ],
+   "sources": [
+    "https://www.fintechfutures.com/ai-in-fintech/hsbc-and-mistral-ai-forge-multi-year-partnership-to-advance-generative-ai-integration"
+   ],
+   "status": "announced"
+  },
+  {
+   "addedAt": "2026-10-19T17:30:00Z",
+   "blurb": "Global card network operating in 200+ countries and territories.",
+   "company": "Mastercard",
+   "companyId": "mastercard",
+   "date": "2025-11-19",
+   "detail": "With retailer Majid Al Futtaim and fintech Dataiera, Mastercard piloted Agent Pay so a cardholder's AI agent could find and pay for VOX Cinemas tickets. It is the first market outside the US to see a live Agent Pay transaction.",
+   "headline": "Mastercard's first Agent Pay transaction outside the US happens in the UAE",
+   "id": "mastercard-agentpay-uae-202511",
+   "partners": [
+    "Majid Al Futtaim",
+    "Dataiera"
+   ],
+   "protocols": [
+    "Mastercard Agentic Tokens"
+   ],
+   "region": "Middle East",
+   "sector": "Payments",
+   "solutions": [
+    "mastercard-agent-pay"
+   ],
+   "sources": [
+    "https://www.zawya.com/en/press-release/companies-news/mastercard-brings-agentic-payments-to-life-with-majid-al-futtaim-in-the-uae-clgyxowu",
+    "https://www.cdomagazine.tech/aiml/mastercard-launches-agent-pay-in-the-uae-completing-its-first-transaction-outside-the-us"
+   ],
+   "status": "pilot"
+  },
+  {
+   "addedAt": "2026-10-19T17:30:00Z",
+   "blurb": "One of Brazil's largest banks, with ~74m customers.",
+   "company": "Banco Bradesco",
+   "companyId": "bradesco",
+   "date": "2025-11-15",
+   "detail": "Built with Microsoft and Avanade, Bridge powers BIA for customers, employees and engineers, with reported resolution rates above 80%, plus a collections agent analysing 18,000+ calls a day. Voice-driven Pix via WhatsApp is in pilot.",
+   "headline": "Bradesco runs BIA assistants on 'Bridge', a multi-agent Azure OpenAI platform",
+   "id": "bradesco-bridge-202511",
+   "partners": [
+    "Avanade"
+   ],
+   "protocols": [],
+   "region": "LatAm",
+   "sector": "Bank",
+   "solutions": [
+    "microsoft-azure-ai",
+    "openai"
+   ],
+   "sources": [
+    "https://www.microsoft.com/en/customers/story/25660-banco-bradesco-sa-azure-ai-foundry"
+   ],
+   "status": "live"
+  },
+  {
+   "addedAt": "2026-10-19T17:30:00Z",
+   "blurb": "The UK's largest retail bank by customers.",
+   "company": "Lloyds Banking Group",
+   "companyId": "lloyds",
+   "date": "2025-11-06",
+   "detail": "Lloyds unveiled a conversational assistant that gives personalised spending insights, using generative AI for dialogue and agentic AI to carry out actions, and can hand off to human experts. About 7,000 staff were testing it, with a customer launch planned for early 2026 and later expansion to mortgages, car finance and protection.",
+   "headline": "Lloyds pilots an agentic AI financial assistant ahead of a 2026 customer launch",
+   "id": "lloyds-ai-assistant-202511",
+   "partners": [
+    "Google Cloud Vertex AI"
+   ],
+   "protocols": [],
+   "region": "UK",
+   "sector": "Bank",
+   "solutions": [],
+   "sources": [
+    "https://www.fintechfutures.com/ai-in-fintech/lloyds-banking-group-to-launch-ai-financial-assistant-in-2026",
+    "https://www.fstech.co.uk/fst/Lloyds_Pilots_Agentic_AI_Assistant_For_Mobile_Customers.php"
+   ],
+   "status": "pilot"
+  },
+  {
+   "addedAt": "2026-10-19T17:30:00Z",
+   "blurb": "Global digital-payments company with 400m+ consumer and merchant accounts.",
+   "company": "PayPal",
+   "companyId": "paypal",
+   "date": "2025-10-28",
+   "detail": "PayPal will let ChatGPT shoppers pay with PayPal (balance, bank or card) under its buyer and seller protections and will process payments for merchants using Instant Checkout. It also connects its merchant network to OpenAI via the Agentic Commerce Protocol.",
+   "headline": "PayPal adopts ACP to bring its wallet and merchants into ChatGPT checkout",
+   "id": "paypal-openai-acp-202510",
+   "partners": [],
+   "protocols": [
+    "Agentic Commerce Protocol"
+   ],
+   "region": "US",
+   "sector": "Payments",
+   "solutions": [
+    "paypal-agentic",
+    "openai",
+    "stripe-acp"
+   ],
+   "sources": [
+    "https://www.fox5ny.com/news/paypal-partners-openai-customers-check-out-chatgpt"
+   ],
+   "status": "announced"
+  },
+  {
+   "addedAt": "2026-10-19T17:30:00Z",
+   "blurb": "London Stock Exchange Group: exchange operator and major financial data provider (Workspace).",
+   "company": "LSEG",
+   "companyId": "lseg",
+   "date": "2025-10-27",
+   "detail": "Claude for Financial Services customers can access LSEG data, starting with Financial Analytics, through an MCP server listed in Claude's partner directory, with more data categories phasing in. LSEG Workspace licensees can extend their entitlements into Claude.",
+   "headline": "LSEG brings licensed market data into Claude via an MCP server",
+   "id": "lseg-anthropic-202510",
+   "partners": [],
+   "protocols": [
+    "MCP"
+   ],
+   "region": "UK",
+   "sector": "Market infrastructure",
+   "solutions": [
+    "lseg-ai",
+    "anthropic"
+   ],
+   "sources": [
+    "https://www.lseg.com/en/media-centre/press-releases/2025/lseg-announces-collaboration-with-anthropic"
+   ],
+   "status": "live"
+  },
+  {
+   "addedAt": "2026-10-19T17:30:00Z",
+   "blurb": "Largest US crypto exchange and developer of the Base layer-2 network.",
+   "company": "Coinbase",
+   "companyId": "coinbase",
+   "date": "2025-10-22",
+   "detail": "Payments MCP lets models such as Claude and Gemini create wallets, use on-ramps and send stablecoin payments through natural language. It can run locally and complements x402 for agent-to-service payments.",
+   "headline": "Coinbase releases Payments MCP to give AI agents wallets and stablecoin payments",
+   "id": "coinbase-payments-mcp-202510",
+   "partners": [],
+   "protocols": [
+    "MCP",
+    "x402"
+   ],
+   "region": "US",
+   "sector": "Fintech",
+   "solutions": [
+    "coinbase-x402",
+    "anthropic",
+    "google-gemini"
+   ],
+   "sources": [
+    "https://theblock.co/news/ecosystems/2025-10-22-coinbase-unveils-tool-ai-agents-claude-gemini-access-crypto-wallets-375791",
+    "https://www.coinbase.com/developer-platform/discover/launches/payments-mcp"
+   ],
+   "status": "live"
+  },
+  {
+   "addedAt": "2026-10-19T17:30:00Z",
+   "blurb": "Latin America's largest e-commerce and fintech group.",
+   "company": "Mercado Pago (Mercado Libre)",
+   "companyId": "mercado-libre",
+   "date": "2025-10-16",
+   "detail": "Users can pay bills, send Pix transfers, move money into savings pots and check balances by text or voice, with the assistant learning routines to suggest savings. Rollout started gradually in Brazil.",
+   "headline": "Mercado Pago rolls out an AI assistant that executes 60+ financial tasks",
+   "id": "mercadopago-assistant-202510",
+   "partners": [],
+   "protocols": [],
+   "region": "LatAm",
+   "sector": "Fintech",
+   "solutions": [],
+   "sources": [
+    "https://tecnoblog.net/noticias/mercado-pago-anuncia-ia-que-faz-transacoes-financeiras-para-o-usuario/",
+    "https://olhardigital.com.br/2025/10/16/pro/mercado-pago-lanca-assistente-financeiro-com-ia/"
+   ],
+   "status": "live"
+  },
+  {
+   "addedAt": "2026-10-19T17:30:00Z",
+   "blurb": "World's largest card network by transactions, with 4bn+ credentials.",
+   "company": "Visa",
+   "companyId": "visa",
+   "date": "2025-10-15",
+   "detail": "The open framework lets merchants tell legitimate shopping agents from bots: approved agents send cryptographically signed intent, account and payment data based on HTTP Message Signatures. It is on GitHub and the Visa Developer Center, with x402 interoperability work alongside Coinbase.",
+   "headline": "Visa and Cloudflare publish the Trusted Agent Protocol",
+   "id": "visa-trusted-agent-protocol-202510",
+   "partners": [
+    "Cloudflare",
+    "Adyen",
+    "Checkout.com",
+    "Fiserv",
+    "Shopify",
+    "Stripe",
+    "Worldpay"
+   ],
+   "protocols": [
+    "Trusted Agent Protocol",
+    "HTTP Message Signatures",
+    "x402"
+   ],
+   "region": "Global",
+   "sector": "Payments",
+   "solutions": [
+    "visa-intelligent-commerce",
+    "coinbase-x402"
+   ],
+   "sources": [
+    "https://fintechnews.sg/120190/ai/visa-trusted-agent-protocol/"
+   ],
+   "status": "live"
+  },
+  {
+   "addedAt": "2026-10-19T17:30:00Z",
+   "blurb": "World's largest company by revenue and largest retailer.",
+   "company": "Walmart",
+   "companyId": "walmart",
+   "date": "2025-10-14",
+   "detail": "Walmart and Sam's Club customers will be able to buy products directly in ChatGPT using OpenAI's Instant Checkout. Walmart is also training associates with ChatGPT Enterprise and OpenAI certifications.",
+   "headline": "Walmart lets shoppers buy inside ChatGPT via Instant Checkout",
+   "id": "walmart-chatgpt-checkout-202510",
+   "partners": [],
+   "protocols": [
+    "Agentic Commerce Protocol"
+   ],
+   "region": "US",
+   "sector": "Retail & consumer",
+   "solutions": [
+    "openai",
+    "stripe-acp"
+   ],
+   "sources": [
+    "https://www.pymnts.com/partnerships/2025/walmart-launches-ai-first-shopping-experience-customers-can-checkout-within-chatgpt/"
+   ],
+   "status": "announced"
+  },
+  {
+   "addedAt": "2026-10-19T17:30:00Z",
+   "blurb": "Largest US bank by assets, roughly 317,000 staff and an ~$18bn annual tech budget.",
+   "company": "JPMorgan Chase",
+   "companyId": "jpmorgan",
+   "date": "2025-10-07",
+   "detail": "About 250,000 JPMorgan employees can now use LLM Suite, which gives access to OpenAI and Anthropic models, and roughly half use it every day. The platform is refreshed about every eight weeks with new data connections, and the bank is adding agents for multistep work such as building investment-banking decks and automating back-office processes.",
+   "headline": "LLM Suite reaches ~250,000 employees as JPMorgan moves into agentic workflows",
+   "id": "jpmorgan-llmsuite-agents-202510",
+   "partners": [],
+   "protocols": [],
+   "region": "US",
+   "sector": "Bank",
+   "solutions": [
+    "openai",
+    "anthropic"
+   ],
+   "sources": [
+    "https://connect.cefpro.com/article/view/inside-jpmorgan-llm-suite-as-ai-agents-spread-across-the-bank"
+   ],
+   "status": "live"
+  },
+  {
+   "addedAt": "2026-10-19T17:30:00Z",
+   "blurb": "Private payments infrastructure company processing well over $1tn a year for online businesses.",
+   "company": "Stripe",
+   "companyId": "stripe",
+   "date": "2025-09-29",
+   "detail": "US ChatGPT users can buy from Etsy sellers in-chat, with Shopify merchants to follow; Stripe issues a Shared Payment Token scoped to one merchant and cart so card details stay hidden. ACP is an open standard that merchants on other processors can also adopt.",
+   "headline": "Stripe powers ChatGPT Instant Checkout and co-launches the Agentic Commerce Protocol",
+   "id": "stripe-acp-202509",
+   "partners": [
+    "Etsy",
+    "Shopify"
+   ],
+   "protocols": [
+    "Agentic Commerce Protocol",
+    "Shared Payment Token"
+   ],
+   "region": "US",
+   "sector": "Payments",
+   "solutions": [
+    "stripe-acp",
+    "openai"
+   ],
+   "sources": [
+    "https://stripe.com/newsroom/news/stripe-openai-instant-checkout"
+   ],
+   "status": "live"
+  },
+  {
+   "addedAt": "2026-10-19T17:30:00Z",
+   "blurb": "Germany's largest bank, with a global investment bank.",
+   "company": "Deutsche Bank",
+   "companyId": "deutsche-bank",
+   "date": "2025-09-23",
+   "detail": "DB Lumina, live since September 2024, gives research and banking staff chat, prompt templates and RAG over internal research and filings with inline citations and audit logs. About 5,000 people used it at publication, with a target of 10,000+ by end-2025 and specialised compliance and risk agents planned.",
+   "headline": "Deutsche Bank scales DB Lumina, a Gemini-based research agent",
+   "id": "deutschebank-lumina-202509",
+   "partners": [
+    "Google Cloud Vertex AI"
+   ],
+   "protocols": [
+    "Gemini 2.5",
+    "RAG"
+   ],
+   "region": "Europe",
+   "sector": "Bank",
+   "solutions": [
+    "google-gemini"
+   ],
+   "sources": [
+    "https://cloud.google.com/blog/topics/financial-services/deutsche-bank-delivers-ai-powered-financial-research-with-db-lumina?hl=en"
+   ],
+   "status": "live"
+  },
+  {
+   "addedAt": "2026-10-19T17:30:00Z",
+   "blurb": "Second-largest US bank, with tens of millions of digital banking clients.",
+   "company": "Bank of America",
+   "companyId": "bank-of-america",
+   "date": "2025-08-20",
+   "detail": "Erica, launched in 2018, has served nearly 50 million users and averages more than 58 million interactions a month. Internally, Erica for Employees is used by over 90% of staff and has halved IT service-desk calls, while CashPro Chat brings the assistant to corporate treasury clients.",
+   "headline": "BofA's Erica assistant passes 3 billion client interactions",
+   "id": "bofa-erica-202508",
+   "partners": [],
+   "protocols": [],
+   "region": "US",
+   "sector": "Bank",
+   "solutions": [],
+   "sources": [
+    "https://newsroom.bankofamerica.com/content/newsroom/press-releases/2025/08/a-decade-of-ai-innovation--bofa-s-virtual-assistant-erica-surpas.html"
+   ],
+   "status": "live"
+  },
+  {
+   "addedAt": "2026-10-19T17:30:00Z",
+   "blurb": "Australia's largest bank by market value and customers.",
+   "company": "Commonwealth Bank of Australia",
+   "companyId": "commbank",
+   "date": "2025-08-13",
+   "detail": "The multi-year deal has both companies' engineers exploring generative AI for scam and fraud detection and more personalised services. CommBank staff will gradually get ChatGPT Enterprise, backed by training programmes.",
+   "headline": "CommBank becomes OpenAI's strategic banking partner in Australia",
+   "id": "cba-openai-202508",
+   "partners": [],
+   "protocols": [],
+   "region": "Asia",
+   "sector": "Bank",
+   "solutions": [
+    "openai"
+   ],
+   "sources": [
+    "https://www.commbank.com.au/articles/newsroom/2025/08/tech-ai-partnership.html"
+   ],
+   "status": "announced"
+  },
+  {
+   "addedAt": "2026-10-19T17:30:00Z",
+   "blurb": "Spain-headquartered global bank with large operations in Europe and the Americas.",
+   "company": "Banco Santander",
+   "companyId": "santander",
+   "date": "2025-08-13",
+   "detail": "Santander gave ChatGPT Enterprise to nearly 15,000 staff in Europe and the Americas within two months, targeting 30,000. Early uses include investment copilots, personalised customer journeys and agents for back-office automation, on a model-agnostic architecture.",
+   "headline": "Santander deploys ChatGPT Enterprise in push to become an 'AI-native' bank",
+   "id": "santander-openai-202508",
+   "partners": [],
+   "protocols": [],
+   "region": "Europe",
+   "sector": "Bank",
+   "solutions": [
+    "openai"
+   ],
+   "sources": [
+    "https://fintech.global/2025/08/13/santander-partners-with-openai-to-drive-ai-first-banking/"
+   ],
+   "status": "live"
+  },
+  {
+   "addedAt": "2026-10-19T17:30:00Z",
+   "blurb": "One of the four largest US banks, serving consumers, businesses and corporates.",
+   "company": "Wells Fargo",
+   "companyId": "wells-fargo",
+   "date": "2025-08-05",
+   "detail": "Wells Fargo is extending Google's Agentspace agent platform, already used by more than 2,000 employees, to staff across branches, investment banking and corporate functions. Use cases include policy look-ups, reviewing large document sets and real-time market insight.",
+   "headline": "Wells Fargo expands Google Cloud deal to put AI agents in every team",
+   "id": "wellsfargo-agentspace-202508",
+   "partners": [
+    "Google Agentspace"
+   ],
+   "protocols": [],
+   "region": "US",
+   "sector": "Bank",
+   "solutions": [
+    "google-gemini"
+   ],
+   "sources": [
+    "https://www.ciodive.com/news/wells-fargo-google-cloud-agentic-AI/756872/",
+    "https://www.fintechfutures.com/ai-in-fintech/wells-fargo-expands-google-cloud-partnership-for-agentic-ai"
+   ],
+   "status": "live"
+  },
+  {
+   "addedAt": "2026-10-19T17:30:00Z",
+   "blurb": "US exchange operator whose Verafin unit serves 1,300+ financial institutions on financial crime.",
+   "company": "Nasdaq",
+   "companyId": "nasdaq",
+   "date": "2025-07-22",
+   "detail": "The Agentic AI Workforce starts with a Digital Sanctions Analyst, which dispositions false-positive alerts and is claimed to cut review workload by over 80%, and a Digital EDD Analyst for low-risk periodic reviews. Both were in beta, due for clients by end-2025.",
+   "headline": "Nasdaq Verafin launches 'digital workers' for sanctions and EDD reviews",
+   "id": "nasdaq-verafin-agentic-202507",
+   "partners": [
+    "Verafin"
+   ],
+   "protocols": [],
+   "region": "US",
+   "sector": "Market infrastructure",
+   "solutions": [],
+   "sources": [
+    "https://fintech.global/2025/07/22/nasdaq-verafin-launches-agentic-ai-for-aml-compliance/"
+   ],
+   "status": "pilot"
+  },
+  {
+   "addedAt": "2026-10-19T17:30:00Z",
+   "blurb": "Manager of Norway's ~$2tn sovereign wealth fund, the world's largest.",
+   "company": "Norges Bank Investment Management",
+   "companyId": "nbim",
+   "date": "2025-07-15",
+   "detail": "NBIM uses Claude Enterprise, including Claude Code for analysts and quants, with MCP links to its Snowflake warehouse so portfolio managers and risk teams can query data and analyse earnings calls. It estimates about 213,000 hours saved; figures are self-reported in an Anthropic launch announcement.",
+   "headline": "NBIM reports ~20% productivity gain from firm-wide Claude rollout",
+   "id": "nbim-claude-202507",
+   "partners": [
+    "Snowflake"
+   ],
+   "protocols": [
+    "MCP",
+    "Claude Sonnet 4.5"
+   ],
+   "region": "Europe",
+   "sector": "Asset manager",
+   "solutions": [
+    "anthropic"
+   ],
+   "sources": [
+    "https://www.claude.com/customers/nbim",
+    "https://www.fi-desk.com/roster-of-finance-heavyweights-welcomes-claude-finance-with-acclaim/"
+   ],
+   "status": "live"
+  },
+  {
+   "addedAt": "2026-10-19T17:30:00Z",
+   "blurb": "Ratings, index and market-data group (Capital IQ, Kensho).",
+   "company": "S&P Global",
+   "companyId": "sp-global",
+   "date": "2025-07-15",
+   "detail": "Kensho built an MCP server for its LLM-ready API so Claude users can query Capital IQ financials and earnings-call transcripts in natural language. It launched as part of Anthropic's financial-analysis offering for hedge funds, PE and banking analysts.",
+   "headline": "S&P Global plugs Capital IQ data into Claude through a Kensho MCP server",
+   "id": "spglobal-anthropic-202507",
+   "partners": [],
+   "protocols": [
+    "MCP"
+   ],
+   "region": "US",
+   "sector": "Market infrastructure",
+   "solutions": [
+    "kensho",
+    "anthropic"
+   ],
+   "sources": [
+    "https://press.spglobal.com/2025-07-15-S-P-Global-and-Anthropic-Announce-Integration-of-S-P-Globals-Trusted-Financial-Data-into-Claude"
+   ],
+   "status": "live"
+  },
+  {
+   "addedAt": "2026-10-19T17:30:00Z",
+   "blurb": "Global investment bank and asset/wealth manager headquartered in New York.",
+   "company": "Goldman Sachs",
+   "companyId": "goldman-sachs",
+   "date": "2025-06-23",
+   "detail": "Following a January 2025 rollout to about 10,000 staff, Goldman made its in-house GS AI Assistant available firmwide, with versions tailored for engineers, bankers, research analysts and wealth teams. Users can choose among several models from OpenAI, Google and Anthropic, plus open-source models, depending on the task.",
+   "headline": "Goldman rolls its GS AI Assistant out across the whole firm",
+   "id": "goldman-gs-ai-assistant-202506",
+   "partners": [],
+   "protocols": [
+    "GPT-4o",
+    "o3-mini",
+    "Gemini 2.0 Flash",
+    "Gemini 1.5 Pro",
+    "Claude 3.7 Sonnet"
+   ],
+   "region": "US",
+   "sector": "Bank",
+   "solutions": [
+    "openai",
+    "google-gemini",
+    "anthropic"
+   ],
+   "sources": [
+    "https://foxbusiness.com/technology/goldman-sachs-announces-firmwide-launch-ai-assistant"
+   ],
+   "status": "live"
+  },
+  {
+   "addedAt": "2026-10-19T17:30:00Z",
+   "blurb": "UK-headquartered universal bank with a major global investment bank.",
+   "company": "Barclays",
+   "companyId": "barclays",
+   "date": "2025-06-02",
+   "detail": "Barclays is rolling Microsoft 365 Copilot out to 100,000 colleagues in a deal reported to be worth tens of millions a year. It includes a 'Colleague AI Agent' inside its staff productivity hub to find data and handle tasks such as booking desks and leave.",
+   "headline": "Barclays licenses Microsoft 365 Copilot for 100,000 staff",
+   "id": "barclays-copilot-202506",
+   "partners": [
+    "Microsoft 365 Copilot"
+   ],
+   "protocols": [],
+   "region": "UK",
+   "sector": "Bank",
+   "solutions": [
+    "microsoft-azure-ai"
+   ],
+   "sources": [
+    "https://www.techradar.com/pro/microsoft-and-barclays-bank-sign-major-copilot-license-deal"
+   ],
+   "status": "live"
+  },
+  {
+   "addedAt": "2026-10-19T17:30:00Z",
+   "blurb": "Largest US crypto exchange and developer of the Base layer-2 network.",
+   "company": "Coinbase",
+   "companyId": "coinbase",
+   "date": "2025-05-06",
+   "detail": "x402 revives the HTTP 402 'Payment Required' code so APIs, apps and AI agents can pay per request in stablecoins without accounts or API keys. Launch partners included AWS, Circle, Anthropic and NEAR; the spec later moved to a foundation with Cloudflare.",
+   "headline": "Coinbase launches x402 for stablecoin payments over HTTP",
+   "id": "coinbase-x402-202505",
+   "partners": [
+    "Circle",
+    "Cloudflare"
+   ],
+   "protocols": [
+    "x402",
+    "USDC"
+   ],
+   "region": "US",
+   "sector": "Fintech",
+   "solutions": [
+    "coinbase-x402",
+    "anthropic",
+    "aws-bedrock",
+    "near-ai"
+   ],
+   "sources": [
+    "https://cointelegraph.com/news/coinbase-x402-payments-protocol-make-ai-agents-more-autonomous"
+   ],
+   "status": "live"
+  },
+  {
+   "addedAt": "2026-10-19T17:30:00Z",
+   "blurb": "World's largest card network by transactions, with 4bn+ credentials.",
+   "company": "Visa",
+   "companyId": "visa",
+   "date": "2025-04-30",
+   "detail": "Visa Intelligent Commerce bundles tokenised 'AI-ready' cards, consumer-set spending controls, opt-in data sharing and APIs for agent developers. Launch partners included Anthropic, Microsoft, Mistral, OpenAI, Perplexity, Samsung and Stripe.",
+   "headline": "Visa launches Intelligent Commerce so AI agents can find and pay",
+   "id": "visa-intelligent-commerce-202504",
+   "partners": [
+    "IBM",
+    "Perplexity",
+    "Samsung",
+    "Stripe"
+   ],
+   "protocols": [
+    "Visa Token Service"
+   ],
+   "region": "Global",
+   "sector": "Payments",
+   "solutions": [
+    "visa-intelligent-commerce",
+    "anthropic",
+    "openai",
+    "mistral",
+    "microsoft-azure-ai"
+   ],
+   "sources": [
+    "https://usa.visa.com/about-visa/newsroom/press-releases.release.21361.html"
+   ],
+   "status": "live"
+  },
+  {
+   "addedAt": "2026-10-19T17:30:00Z",
+   "blurb": "Global card network operating in 200+ countries and territories.",
+   "company": "Mastercard",
+   "companyId": "mastercard",
+   "date": "2025-04-29",
+   "detail": "Agent Pay extends Mastercard tokenisation to 'Agentic Tokens' that let registered AI agents pay on a cardholder's behalf. Launch collaborators included Microsoft (Azure OpenAI, Copilot Studio), IBM watsonx Orchestrate, Braintree and Checkout.com; by September 2025 Citi and U.S. Bank cardholders were first in line, with all US cardholders slated for the holiday season.",
+   "headline": "Mastercard unveils Agent Pay and agentic tokens",
+   "id": "mastercard-agentpay-202504",
+   "partners": [
+    "IBM",
+    "Braintree",
+    "Checkout.com",
+    "Citi",
+    "U.S. Bank"
+   ],
+   "protocols": [
+    "Mastercard Agentic Tokens",
+    "MCP"
+   ],
+   "region": "Global",
+   "sector": "Payments",
+   "solutions": [
+    "mastercard-agent-pay",
+    "microsoft-azure-ai"
+   ],
+   "sources": [
+    "https://newsroom.mastercard.com/news/press/2025/april/mastercard-unveils-agent-pay-pioneering-agentic-payments-technology-to-power-commerce-in-the-age-of-ai",
+    "https://fstech.co.uk/fst/Citi_and_us_bank_first_to_try_out_mastercard_agent_pay.php"
+   ],
+   "status": "live"
+  },
+  {
+   "addedAt": "2026-10-19T17:30:00Z",
+   "blurb": "Global digital-payments company with 400m+ consumer and merchant accounts.",
+   "company": "PayPal",
+   "companyId": "paypal",
+   "date": "2025-04-28",
+   "detail": "The open-source toolkit connects PayPal's APIs for orders, invoices, disputes, subscriptions and reporting to agent frameworks via MCP and Vercel's AI SDK. A hosted MCP server lets LLM agents create orders or payment links from natural-language prompts.",
+   "headline": "PayPal ships an Agent Toolkit and remote MCP server",
+   "id": "paypal-agent-toolkit-202504",
+   "partners": [
+    "Vercel"
+   ],
+   "protocols": [
+    "MCP"
+   ],
+   "region": "US",
+   "sector": "Payments",
+   "solutions": [
+    "paypal-agentic"
+   ],
+   "sources": [
+    "https://www.infoq.com/news/2025/04/paypal-mcp-ai-toolkit",
+    "https://developer.paypal.com/community/blog/paypal-agentic-ai-toolkit/"
+   ],
+   "status": "live"
+  },
+  {
+   "addedAt": "2026-10-19T17:30:00Z",
+   "blurb": "World's largest online retailer and cloud provider (AWS).",
+   "company": "Amazon",
+   "companyId": "amazon",
+   "date": "2025-04-03",
+   "detail": "In beta for a subset of US app users, the agent completes purchases on third-party brand websites, with the brand handling fulfilment and returns. It runs on Amazon Nova and Anthropic Claude via Bedrock, and Amazon takes no commission.",
+   "headline": "Amazon tests 'Buy for Me', an agent that checks out on other brands' sites",
+   "id": "amazon-buy-for-me-202504",
+   "partners": [],
+   "protocols": [
+    "Amazon Nova",
+    "Claude"
+   ],
+   "region": "US",
+   "sector": "Retail & consumer",
+   "solutions": [
+    "aws-bedrock",
+    "anthropic"
+   ],
+   "sources": [
+    "https://www.digitalcommerce360.com/2025/04/08/amazon-buy-for-me-agentic-ai-shopping-tool"
+   ],
+   "status": "pilot"
+  },
+  {
+   "addedAt": "2026-10-19T17:30:00Z",
+   "blurb": "London-headquartered bank focused on Asia, Africa and the Middle East.",
+   "company": "Standard Chartered",
+   "companyId": "standard-chartered",
+   "date": "2025-03-27",
+   "detail": "SC GPT supports operations, sales and marketing, software engineering and risk reporting, and local teams can build market-specific tools on it. A version grounded in group data was in development, with ten more markets planned.",
+   "headline": "Standard Chartered launches SC GPT for ~70,000 staff in 41 markets",
+   "id": "standardchartered-scgpt-202503",
+   "partners": [],
+   "protocols": [],
+   "region": "UK",
+   "sector": "Bank",
+   "solutions": [],
+   "sources": [
+    "https://www.sc.com/en/press-release/standard-chartered-rolls-out-sc-gpt-advancing-ai-driven-innovation-in-banking"
+   ],
+   "status": "live"
+  },
+  {
+   "addedAt": "2026-10-19T17:30:00Z",
+   "blurb": "US retail brokerage and crypto trading app.",
+   "company": "Robinhood",
+   "companyId": "robinhood",
+   "date": "2025-03-26",
+   "detail": "Cortex provides real-time market analysis, stock summaries and trade-building suggestions tailored to user preferences, but cannot place trades itself. It launched alongside Robinhood Strategies (robo-advice) and Robinhood Banking, and later reached the UK.",
+   "headline": "Robinhood launches Cortex AI research assistant for Gold members",
+   "id": "robinhood-cortex-202503",
+   "partners": [],
+   "protocols": [],
+   "region": "US",
+   "sector": "Fintech",
+   "solutions": [],
+   "sources": [
+    "https://www.benzinga.com/25/03/44530226/robinhood-launches-ai-investment-tool-cortex-to-expand-market-analysis-access-a-premium-research-assistant-right-"
+   ],
+   "status": "live"
+  },
+  {
+   "addedAt": "2026-10-19T17:30:00Z",
+   "blurb": "One of the UK's largest retail and commercial banks; ~80% of retail customers bank digitally only.",
+   "company": "NatWest Group",
+   "companyId": "natwest",
+   "date": "2025-03-20",
+   "detail": "The collaboration gives NatWest direct access to OpenAI technology to upgrade its Cora+ customer assistant and AskArchie+ staff chatbot. Priorities include helping customers spot and report fraud and scams, plus complaints handling across retail, commercial and wealth.",
+   "headline": "NatWest becomes the first UK bank to partner with OpenAI",
+   "id": "natwest-openai-202503",
+   "partners": [],
+   "protocols": [],
+   "region": "UK",
+   "sector": "Bank",
+   "solutions": [
+    "openai"
+   ],
+   "sources": [
+    "https://www.natwestgroup.com/news-and-insights/news-room/press-releases/ai-and-data/2025/mar/natwest-open-ai-collaborate-to-accelerate-cutting-edge-ai-transf.html"
+   ],
+   "status": "live"
+  },
+  {
+   "addedAt": "2026-10-19T17:30:00Z",
+   "blurb": "World's largest custodian bank, servicing tens of trillions of dollars in assets.",
+   "company": "BNY",
+   "companyId": "bny",
+   "date": "2025-02-27",
+   "detail": "BNY is bringing OpenAI's reasoning models, fine-tuning, API and ChatGPT Enterprise into Eliza, its internal enterprise AI platform launched in August 2024 and used regularly by more than half of staff. Around 40 AI solutions were in development at announcement, covering predictive analytics, anomaly detection and automation.",
+   "headline": "BNY signs multi-year OpenAI deal to power its Eliza platform",
+   "id": "bny-openai-eliza-202502",
+   "partners": [
+    "NVIDIA"
+   ],
+   "protocols": [],
+   "region": "US",
+   "sector": "Bank",
+   "solutions": [
+    "openai"
+   ],
+   "sources": [
+    "https://www.fintechfutures.com/ai-in-fintech/bny-boosts-ai-transformation-strategy-with-multi-year-openai-partnership"
+   ],
+   "status": "live"
+  },
+  {
+   "addedAt": "2026-10-19T17:30:00Z",
+   "blurb": "Global card network operating in 200+ countries and territories.",
+   "company": "Mastercard",
+   "companyId": "mastercard",
+   "date": "2024-12-20",
+   "detail": "Recorded Future uses AI to analyse threat data, and Mastercard is combining it with its own fraud signals to protect issuers and merchants (for example, flagging compromised cards). The deal closed in December 2024 after a September announcement.",
+   "headline": "Mastercard completes $2.65bn purchase of AI threat-intelligence firm Recorded Future",
+   "id": "mastercard-recordedfuture-202412",
+   "partners": [
+    "Recorded Future"
+   ],
+   "protocols": [],
+   "region": "Global",
+   "sector": "Payments",
+   "solutions": [],
+   "sources": [
+    "https://www.businesswire.com/news/home/20241220165251/en/Mastercard-Finalizes-Acquisition-of-Recorded-Future"
+   ],
+   "status": "live"
+  },
+  {
+   "addedAt": "2026-10-19T17:30:00Z",
+   "blurb": "World's largest card network by transactions, with 4bn+ credentials.",
+   "company": "Visa",
+   "companyId": "visa",
+   "date": "2024-12-18",
+   "detail": "Visa completed its purchase of Cambridge-based Featurespace, whose adaptive behavioural analytics detect payment fraud and financial crime in real time. The deal strengthens Visa's risk and identity services for issuers and acquirers.",
+   "headline": "Visa closes its acquisition of AI fraud specialist Featurespace",
+   "id": "visa-featurespace-202412",
+   "partners": [],
+   "protocols": [],
+   "region": "Global",
+   "sector": "Payments",
+   "solutions": [
+    "featurespace"
+   ],
+   "sources": [
+    "https://www.businesswire.com/news/home/20241218857122/en/Visa-Completes-Acquisition-of-Featurespace"
+   ],
+   "status": "live"
+  },
+  {
+   "addedAt": "2026-10-19T17:30:00Z",
+   "blurb": "Global US bank operating in about 160 countries, with a large transaction-services franchise.",
+   "company": "Citigroup",
+   "companyId": "citi",
+   "date": "2024-12-05",
+   "detail": "Citi Assist answers staff questions about internal policies and procedures, while Citi Stylus summarises, compares and searches multiple documents at once. The rollout began in eight countries including the US, UK, India and Singapore, with wider access planned over time.",
+   "headline": "Citi rolls out two generative AI tools to ~140,000 employees",
+   "id": "citi-assist-stylus-202412",
+   "partners": [],
+   "protocols": [],
+   "region": "US",
+   "sector": "Bank",
+   "solutions": [],
+   "sources": [
+    "https://www.retailbankerinternational.com/news/citigroup-launches-ai-tools"
+   ],
+   "status": "live"
+  },
+  {
+   "addedAt": "2026-10-19T17:30:00Z",
+   "blurb": "World's largest wealth manager, headquartered in Zurich.",
+   "company": "UBS",
+   "companyId": "ubs",
+   "date": "2024-11-01",
+   "detail": "UBS agreed to deploy 50,000 Microsoft 365 Copilot seats, at the time one of the largest Copilot deals in banking. It builds on UBS's broader Azure cloud partnership with Microsoft.",
+   "headline": "UBS buys 50,000 Microsoft 365 Copilot licences",
+   "id": "ubs-copilot-202411",
+   "partners": [
+    "Microsoft 365 Copilot"
+   ],
+   "protocols": [],
+   "region": "Europe",
+   "sector": "Bank",
+   "solutions": [
+    "microsoft-azure-ai"
+   ],
+   "sources": [
+    "https://www.netzwoche.ch/news/2024-11-01/ubs-fuehrt-microsoft-copilot-ein"
+   ],
+   "status": "live"
+  },
+  {
+   "addedAt": "2026-10-19T17:30:00Z",
+   "blurb": "Largest US bank by assets, roughly 317,000 staff and an ~$18bn annual tech budget.",
+   "company": "JPMorgan Chase",
+   "companyId": "jpmorgan",
+   "date": "2024-07-26",
+   "detail": "JPMorgan gave about 50,000 asset- and wealth-management employees access to LLM Suite, a bank-built, ChatGPT-style assistant for writing, ideation and summarisation, which an internal memo compared to a research analyst. The bank bars staff from consumer chatbots, so LLM Suite became the sanctioned route to generative AI.",
+   "headline": "JPMorgan opens its in-house LLM Suite chatbot to tens of thousands of staff",
+   "id": "jpmorgan-llmsuite-202407",
+   "partners": [],
+   "protocols": [],
+   "region": "US",
+   "sector": "Bank",
+   "solutions": [
+    "openai"
+   ],
+   "sources": [
+    "https://itpro.com/technology/artificial-intelligence/jp-morgan-rolls-out-in-house-chatbot-to-boost-productivity"
+   ],
+   "status": "live"
+  },
+  {
+   "addedAt": "2026-10-19T17:30:00Z",
+   "blurb": "Largest bank in the euro zone by assets, headquartered in Paris.",
+   "company": "BNP Paribas",
+   "companyId": "bnp-paribas",
+   "date": "2024-07-10",
+   "detail": "After testing Mistral models in Global Markets from September 2023 and widening use in February 2024, BNP Paribas signed a multi-year deal covering all current and future Mistral commercial models. Use cases span customer support, sales and IT, with on-premises deployment cited as a fit for regulated banking.",
+   "headline": "BNP Paribas licenses all of Mistral AI's models across the group",
+   "id": "bnpparibas-mistral-202407",
+   "partners": [],
+   "protocols": [],
+   "region": "Europe",
+   "sector": "Bank",
+   "solutions": [
+    "mistral"
+   ],
+   "sources": [
+    "https://group.bnpparibas/en/press-release/bnp-paribas-and-mistral-ai-sign-a-partnership-agreement-covering-all-mistral-ai-models"
+   ],
+   "status": "live"
+  },
+  {
+   "addedAt": "2026-10-19T17:30:00Z",
+   "blurb": "World's largest hedge fund, managing ~$100bn+.",
+   "company": "Bridgewater Associates",
+   "companyId": "bridgewater",
+   "date": "2024-07-02",
+   "detail": "Run by co-CIO Greg Jensen's AIA Labs, the fund uses machine learning as the main basis for investment decisions after a year-long test sleeve in Pure Alpha. Bloomberg reported it would also draw on models from OpenAI, Anthropic and Perplexity, though Bridgewater did not comment.",
+   "headline": "Bridgewater launches a ~$2bn fund driven mainly by machine learning",
+   "id": "bridgewater-aia-fund-202407",
+   "partners": [
+    "Perplexity"
+   ],
+   "protocols": [],
+   "region": "US",
+   "sector": "Asset manager",
+   "solutions": [
+    "openai",
+    "anthropic"
+   ],
+   "sources": [
+    "https://www.advisorperspectives.com/articles/2024/07/02/bridgewater-launches-2-billion-fund-machine-learning"
+   ],
+   "status": "live"
+  },
+  {
+   "addedAt": "2026-10-19T17:30:00Z",
+   "blurb": "US investment bank with one of the largest wealth-management businesses in the world.",
+   "company": "Morgan Stanley",
+   "companyId": "morgan-stanley",
+   "date": "2024-06-26",
+   "detail": "AI @ Morgan Stanley Debrief records client meetings (with consent), summarises key points, drafts a follow-up email and logs notes to Salesforce for financial advisers. It builds on the AI @ Morgan Stanley Assistant research chatbot, which the firm says 98% of adviser teams already use.",
+   "headline": "Morgan Stanley gives advisers an OpenAI-powered meeting note-taker",
+   "id": "morganstanley-debrief-202406",
+   "partners": [
+    "Salesforce"
+   ],
+   "protocols": [],
+   "region": "US",
+   "sector": "Bank",
+   "solutions": [
+    "openai"
+   ],
+   "sources": [
+    "https://www.morganstanley.com/press-releases/ai-at-morgan-stanley-debrief-launch"
+   ],
+   "status": "live"
+  },
+  {
+   "addedAt": "2026-10-19T17:30:00Z",
+   "blurb": "Latin America's largest digital bank, with 100m+ customers in Brazil, Mexico and Colombia.",
+   "company": "Nubank",
+   "companyId": "nubank",
+   "date": "2024-06-26",
+   "detail": "Hyperplane's platform trains and deploys deep-learning models on first-party banking data, and it now powers core ML capabilities for Nubank's product teams. The deal underpins Nubank's push into hyper-personalised banking.",
+   "headline": "Nubank acquires Hyperplane to build foundation models on its own data",
+   "id": "nubank-hyperplane-202406",
+   "partners": [
+    "Hyperplane"
+   ],
+   "protocols": [],
+   "region": "LatAm",
+   "sector": "Fintech",
+   "solutions": [],
+   "sources": [
+    "https://nu.com/en/newsroom/company/nubank-acquires-hyperplane-to-accelerate-ai-first-strategy"
+   ],
+   "status": "live"
+  },
+  {
+   "addedAt": "2026-10-19T17:30:00Z",
+   "blurb": "UAE's largest bank by assets.",
+   "company": "First Abu Dhabi Bank",
+   "companyId": "fab",
+   "date": "2024-04-03",
+   "detail": "FAB is using Azure AI services for an 'AI Innovation Hub' to embed generative AI in products and back-office operations, eyeing automation in lending, payments and digital ops. It is also moving data-centre workloads to Azure via G42's Core42.",
+   "headline": "FAB builds an Azure-based generative AI innovation hub with Microsoft",
+   "id": "fab-microsoft-aihub-202404",
+   "partners": [
+    "Core42 (G42)"
+   ],
+   "protocols": [],
+   "region": "Middle East",
+   "sector": "Bank",
+   "solutions": [
+    "microsoft-azure-ai"
+   ],
+   "sources": [
+    "https://www.fintechfutures.com/ai-in-fintech/first-abu-dhabi-bank-partners-microsoft-to-develop-new-ai-powered-banking-capabilities"
+   ],
+   "status": "announced"
+  },
+  {
+   "addedAt": "2026-10-19T17:30:00Z",
+   "blurb": "Swedish buy-now-pay-later and payments provider.",
+   "company": "Klarna",
+   "companyId": "klarna",
+   "date": "2024-02-27",
+   "detail": "In its first month the assistant handled 2.3m conversations in 35 languages, equivalent to about 700 full-time agents, with resolution time falling from 11 to under 2 minutes. Klarna projected a $40m profit improvement in 2024.",
+   "headline": "Klarna's OpenAI-built assistant handles two-thirds of support chats",
+   "id": "klarna-openai-assistant-202402",
+   "partners": [],
+   "protocols": [],
+   "region": "Europe",
+   "sector": "Fintech",
+   "solutions": [
+    "openai"
+   ],
+   "sources": [
+    "https://tech.eu/2024/02/28/power-of-ai-is-happening-right-now-says-klarna-boss-as/"
+   ],
+   "status": "live"
+  },
+  {
+   "addedAt": "2026-10-19T17:30:00Z",
+   "blurb": "Global card network operating in 200+ countries and territories.",
+   "company": "Mastercard",
+   "companyId": "mastercard",
+   "date": "2024-02-01",
+   "detail": "Decision Intelligence Pro analyses relationships among entities in a transaction to sharpen the risk score in under 50 milliseconds. Mastercard's initial modelling showed fraud detection up about 20% on average and false positives down more than 85%.",
+   "headline": "Mastercard adds a generative AI model to its real-time fraud scoring",
+   "id": "mastercard-dipro-202402",
+   "partners": [],
+   "protocols": [],
+   "region": "Global",
+   "sector": "Payments",
+   "solutions": [],
+   "sources": [
+    "https://fintech.global/2024/02/02/mastercard-launches-genai-tool-to-combat-fraud/"
+   ],
+   "status": "live"
+  }
+ ]
+}

@@ -1,0 +1,237 @@
+{
+ "slug": "stablecoins",
+ "title": "Stablecoin Atlas",
+ "navLabel": "Stablecoins",
+ "tagline": "Stablecoin & payments ecosystem map",
+ "intro": "Who issues stablecoins, which chains they settle on, the APIs that make them usable, and the networks and institutions bringing them to users.",
+ "initiativesHeading": "How the world’s largest companies are using stablecoins",
+ "layers": [
+  {
+   "id": "issuers",
+   "name": "Issuers & reserves",
+   "short": "Issuers",
+   "description": "The companies that mint stablecoins and hold the assets backing them. Revenue mostly comes from interest on reserves, which is why distribution deals and yield-sharing shape this layer.",
+   "watch": [
+    "Reserve composition and attestation cadence",
+    "Licensing: EMI status under MiCA, permitted-issuer status under the GENIUS Act",
+    "Revenue-sharing deals with distributors such as exchanges, wallets and PSPs",
+    "Multi-chain support and native cross-chain transfer"
+   ]
+  },
+  {
+   "id": "chains",
+   "name": "Chains & settlement",
+   "short": "Chains",
+   "description": "The blockchains and interoperability protocols that tokens move on. General-purpose chains still carry most volume, while payments-specific chains compete on fees, finality and compliance features.",
+   "watch": [
+    "Where stablecoin supply and transfer volume actually sit",
+    "Payments chains launched by Stripe, Circle and Tether-aligned teams",
+    "Gas abstraction, fee tokens and finality times",
+    "Bridging and native cross-chain transfer standards"
+   ]
+  },
+  {
+   "id": "infra",
+   "name": "Infrastructure & APIs",
+   "short": "Infra & APIs",
+   "description": "The B2B layer that turns stablecoins into something a bank or fintech can integrate: on/off-ramps, orchestration, virtual accounts, custody, wallets and compliance.",
+   "watch": [
+    "API surface: virtual accounts, payouts, issuance, wallets",
+    "KYC/KYB turnaround and coverage by country",
+    "Sandbox fidelity, webhooks, error models and versioning",
+    "Consolidation through acquisitions by networks and PSPs"
+   ]
+  },
+  {
+   "id": "networks",
+   "name": "Networks & acquirers",
+   "short": "Networks",
+   "description": "Card networks, acquirers and PSPs plugging stablecoins into existing merchant acceptance, settlement and payout flows, so neither merchant nor consumer has to touch a wallet.",
+   "watch": [
+    "Stablecoin settlement for issuers and acquirers",
+    "Stablecoin-linked card issuing programmes",
+    "Merchant acceptance that settles in fiat",
+    "Which infrastructure providers they buy or partner with"
+   ]
+  },
+  {
+   "id": "frontend",
+   "name": "Front-end institutions",
+   "short": "Front-end",
+   "description": "The brands end users and businesses actually touch: neobanks, remittance apps, commerce platforms and banks. Most of them rent their stablecoin infrastructure, which makes this layer the customer base for the infra layer.",
+   "watch": [
+    "Which infra provider powers each product",
+    "Remittance corridors moving to stablecoin rails",
+    "Bank deposit tokens and tokenised cash",
+    "Consumer yield and stablecoin balances in apps"
+   ]
+  },
+  {
+   "id": "regulation",
+   "name": "Regulation",
+   "short": "Regulation",
+   "description": "The regimes that decide who may issue stablecoins, how reserves are held, and who may distribute them. They directly shape partner onboarding requirements and KYC/KYB obligations.",
+   "watch": [
+    "Implementing rules and licensing timelines",
+    "Treatment of yield and interest on stablecoins",
+    "Rules for foreign-issued coins and passporting",
+    "Travel rule and AML expectations for intermediaries"
+   ]
+  }
+ ],
+ "groups": {
+  "issuers": {
+   "rules": [
+    {
+     "match": "synthetic|decentral|protocol|crypto-native",
+     "group": "Crypto-native & synthetic"
+    },
+    {
+     "match": "bank",
+     "group": "Bank-issued"
+    },
+    {
+     "match": ".",
+     "group": "Fiat-backed issuers"
+    }
+   ],
+   "order": [
+    "Fiat-backed issuers",
+    "Bank-issued",
+    "Crypto-native & synthetic"
+   ]
+  },
+  "chains": {
+   "rules": [
+    {
+     "match": "interop|bridge|messaging",
+     "group": "Interoperability"
+    },
+    {
+     "match": "l2|layer 2|rollup",
+     "group": "Ethereum L2s"
+    },
+    {
+     "match": "payment|stablecoin",
+     "group": "Payments-specific chains"
+    },
+    {
+     "match": ".",
+     "group": "General-purpose L1s"
+    }
+   ],
+   "order": [
+    "General-purpose L1s",
+    "Payments-specific chains",
+    "Ethereum L2s",
+    "Interoperability"
+   ]
+  },
+  "infra": {
+   "rules": [
+    {
+     "match": "kyc|kyb|identity|kyt|compliance|analytics",
+     "group": "Compliance & identity"
+    },
+    {
+     "match": "ramp",
+     "group": "On/off-ramps"
+    },
+    {
+     "match": "custod|wallet|key",
+     "group": "Custody & wallets"
+    },
+    {
+     "match": ".",
+     "group": "Orchestration & issuance APIs"
+    }
+   ],
+   "order": [
+    "On/off-ramps",
+    "Orchestration & issuance APIs",
+    "Custody & wallets",
+    "Compliance & identity"
+   ]
+  },
+  "networks": {
+   "rules": [
+    {
+     "match": "card network",
+     "group": "Card networks"
+    },
+    {
+     "match": "issuing|issuer",
+     "group": "Card issuing"
+    },
+    {
+     "match": ".",
+     "group": "PSPs & acquirers"
+    }
+   ],
+   "order": [
+    "Card networks",
+    "PSPs & acquirers",
+    "Card issuing"
+   ]
+  },
+  "frontend": {
+   "rules": [
+    {
+     "match": "remit",
+     "group": "Remittance"
+    },
+    {
+     "match": "neobank|brokerage|exchange|trading",
+     "group": "Neobanks & trading apps"
+    },
+    {
+     "match": "\\bbank\\b",
+     "group": "Banks"
+    },
+    {
+     "match": ".",
+     "group": "Commerce & wallets"
+    }
+   ],
+   "order": [
+    "Neobanks & trading apps",
+    "Remittance",
+    "Commerce & wallets",
+    "Banks"
+   ]
+  },
+  "regulation": {
+   "rules": [
+    {
+     "match": ".",
+     "group": "Regimes"
+    }
+   ],
+   "order": [
+    "Regimes"
+   ]
+  }
+ },
+ "filter": {
+  "label": "Type",
+  "field": "kind",
+  "options": [
+   [
+    "company",
+    "Companies"
+   ],
+   [
+    "protocol",
+    "Protocols"
+   ],
+   [
+    "institution",
+    "Institutions"
+   ],
+   [
+    "regulation",
+    "Regulation"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,2419 @@
+{
+ "updated": "2026-11-02",
+ "initiatives": [
+  {
+   "addedAt": "2026-11-02T11:40:49.157Z",
+   "blurb": "US ride-hailing and delivery platform, a Fortune Global 500 company with roughly $40B+ in annual revenue",
+   "company": "Uber",
+   "companyId": "uber",
+   "date": "2026-10-30",
+   "detail": "Uber's treasury bought Franklin Templeton tokenized MMF shares via Tradeweb and paid with HSBC Bank USA tokenized deposits, with cash and fund legs settling delivery-versus-payment on Canton through Fireblocks wallets. It then sold part of the holding over a weekend while continuing to earn yield until payout; redemptions settle only to KYC-verified corporate accounts. Transaction sizes were not disclosed.",
+   "headline": "Uber pilots a 24/7 treasury flow, buying a Franklin tokenized money fund with HSBC tokenized deposits on Canton",
+   "id": "uber-canton-treasury-pilot-202610",
+   "partners": [
+    "HSBC Bank USA",
+    "Tradeweb",
+    "Digital Asset"
+   ],
+   "protocols": [
+    "Canton"
+   ],
+   "region": "US",
+   "sector": "Tech",
+   "solutions": [
+    "franklin",
+    "canton",
+    "fireblocks"
+   ],
+   "sources": [
+    "https://www.canton.network/canton-network-press-releases/uber-completes-pilot-of-a-first-ever-on-chain-liquidity-and-settlement-solution-on-a-public-network"
+   ],
+   "status": "pilot"
+  },
+  {
+   "addedAt": "2026-11-02T11:40:49.157Z",
+   "blurb": "US investment bank, about $1.7T in assets and one of the largest securities borrowers",
+   "company": "Goldman Sachs",
+   "companyId": "goldman",
+   "date": "2026-10-28",
+   "detail": "Goldman joined EquiLend's 1Source, a shared DLT record of agreed securities loans and their lifecycle changes, aimed at cutting trade breaks that have become more costly under T+1. The platform runs on Digital Asset's technology as a private permissioned network, and BNY and National Bank of Canada already send live transactions to it.",
+   "headline": "Goldman Sachs joins EquiLend's Canton-based 1Source ledger for securities lending",
+   "id": "goldman-equilend-1source-202610",
+   "partners": [
+    "EquiLend",
+    "Digital Asset"
+   ],
+   "protocols": [
+    "Daml"
+   ],
+   "region": "US",
+   "sector": "Bank",
+   "solutions": [
+    "canton"
+   ],
+   "sources": [
+    "https://www.ledgerinsights.com/goldman-sachs-joins-equilends-dlt-securities-lending-platform-1source/"
+   ],
+   "status": "live"
+  },
+  {
+   "addedAt": "2026-11-02T11:40:49.157Z",
+   "blurb": "Alphabet's cloud unit, one of the three largest hyperscalers; Alphabet is a Fortune Global 500 company",
+   "company": "Google (Alphabet)",
+   "companyId": "google",
+   "date": "2026-10-28",
+   "detail": "Google Multi-Party Compute distributes signing authority over a key across several parties so no single provider holds it whole, with thresholds such as 2-of-3 or 5-of-7 and an advisory policy engine for limits and allow-lists. It supports ECDSA signing (Bitcoin, Ethereum) and Ed25519 (Solana) and is in private preview with unnamed bank testers; Alphabet already uses it for its own holdings. No pricing or named bank customers have been disclosed.",
+   "headline": "Google Cloud previews MPC-based digital-asset key custody for banks, with GA targeted for early 2027",
+   "id": "google-mpc-custody-202610",
+   "partners": [],
+   "protocols": [
+    "Ethereum",
+    "Solana",
+    "Bitcoin"
+   ],
+   "region": "Global",
+   "sector": "Tech",
+   "solutions": [],
+   "sources": [
+    "https://unchainedcrypto.com/google-pitches-banks-on-splitting-crypto-keys-across-clouds-with-new-custody-service/",
+    "https://cloud.google.com/blog/products/identity-security/how-confidential-space-and-mpc-can-help-secure-digital-assets"
+   ],
+   "status": "pilot"
+  },
+  {
+   "addedAt": "2026-11-02T11:40:49.157Z",
+   "blurb": "World's largest asset manager, issuer of the BUIDL tokenized Treasury fund",
+   "company": "BlackRock",
+   "companyId": "blackrock",
+   "date": "2026-10-27",
+   "detail": "BlackRock and BlackRock Japan signed an MoU with SBI Holdings and Startale Group to examine infrastructure, business models and regulatory requirements for connecting tokenized MMFs with JPYSC, issued by SBI Shinsei Trust Bank and distributed by SBI VC Trade. It is an exploratory agreement: no fund, blockchain, timetable or volumes were disclosed.",
+   "headline": "BlackRock, SBI and Startale agree to explore linking tokenized money funds with a yen stablecoin",
+   "id": "blackrock-sbi-jpysc-mmf-202610",
+   "partners": [
+    "SBI Holdings",
+    "Startale Group",
+    "SBI Shinsei Trust Bank",
+    "SBI VC Trade"
+   ],
+   "protocols": [
+    "JPYSC"
+   ],
+   "region": "Asia",
+   "sector": "Asset manager",
+   "solutions": [
+    "blackrock"
+   ],
+   "sources": [
+    "https://crypto.news/blackrock-sbi-startale-tokenized-funds-jpysc/",
+    "https://www.cryptotimes.io/2026/10/27/blackrock-sbi-startale-explore-linking-tokenized-money-market-funds-with-japans-yen-stablecoin/"
+   ],
+   "status": "announced"
+  },
+  {
+   "addedAt": "2026-11-02T11:40:49.157Z",
+   "blurb": "World's largest custodian bank, about $58T in assets under custody/administration",
+   "company": "BNY",
+   "companyId": "bny",
+   "date": "2026-10-27",
+   "detail": "BNY now offers custody of XRP and the RLUSD stablecoin to eligible institutions and intends to let clients mint and redeem RLUSD through the bank. With Ripple and working-capital provider C2FO it is testing tokenized financing of approved supplier invoices on the XRP Ledger, aiming to pay suppliers in seconds while keeping existing invoice terms. No availability date has been given.",
+   "headline": "BNY expands its Ripple tie-up to XRP/RLUSD custody and a tokenized receivables pilot with C2FO",
+   "id": "bny-ripple-trade-finance-202610",
+   "partners": [
+    "Ripple",
+    "C2FO"
+   ],
+   "protocols": [
+    "XRP Ledger"
+   ],
+   "region": "US",
+   "sector": "Bank",
+   "solutions": [
+    "bny"
+   ],
+   "sources": [
+    "https://www.theblock.co/news/business/2026-10-27-ripple-bny-explore-using-xrp-ledger-finance-approved-invoices-431891",
+    "https://crypto.news/ripple-bny-c2fo-xrp-ledger-tokenized-trade-finance/"
+   ],
+   "status": "announced"
+  },
+  {
+   "addedAt": "2026-11-02T11:40:49.157Z",
+   "blurb": "Core US post-trade utility; DTC holds about $114T in custody",
+   "company": "DTCC",
+   "companyId": "dtcc",
+   "date": "2026-10-27",
+   "detail": "Twenty DTC participants, including Bank of America, Barclays, BNP Paribas, Citi, Citadel Securities, Fidelity, J.P. Morgan, Morgan Stanley, State Street, UBS, Alpaca and Apex Clearing, have signed up, with more to be onboarded on a rolling basis. Tokens carry the same CUSIP and rights as street-name holdings; transfers within a chain run 24/7, while conversions and cross-chain moves run on business-day hours. Stellar, Circle's Arc and a collateral AppChain are on the 2027 roadmap; reporting notes BNY and Goldman Sachs are not among the launch users.",
+   "headline": "DTCC opens its Tokenization Service for production use, starting with 34 securities on Canton and a private Besu ledger",
+   "id": "dtcc-tokenization-service-live-202610",
+   "partners": [
+    "Bank of America",
+    "Barclays",
+    "BNP Paribas",
+    "Citi",
+    "Citadel Securities",
+    "J.P. Morgan",
+    "Morgan Stanley",
+    "State Street",
+    "UBS",
+    "Alpaca",
+    "Apex Clearing",
+    "BitGo",
+    "Talos",
+    "Tradeweb",
+    "Virtu"
+   ],
+   "protocols": [
+    "Canton",
+    "Hyperledger Besu"
+   ],
+   "region": "US",
+   "sector": "Market infrastructure",
+   "solutions": [
+    "dtcc",
+    "canton",
+    "fidelity",
+    "broadridge",
+    "fireblocks",
+    "ondo"
+   ],
+   "sources": [
+    "https://www.businesswire.com/news/home/20261027462327/en/DTCC-Tokenization-Service-Goes-Live-Marking-Major-Milestone-in-the-Adoption-of-Digital-Assets",
+    "https://www.ledgerinsights.com/alpaca-citi-jp-morgan-among-early-adopters-as-dtcc-tokenization-service-goes-live/",
+    "https://www.coindesk.com/business/2026/10/28/wall-street-backbone-dtcc-brings-usd30-trillion-securities-closer-to-blockchain-with-major-banks"
+   ],
+   "status": "live"
+  },
+  {
+   "addedAt": "2026-11-02T11:40:49.157Z",
+   "blurb": "Global active asset manager overseeing roughly $500B",
+   "company": "Janus Henderson",
+   "companyId": "janus-henderson",
+   "date": "2026-10-27",
+   "detail": "JQQQ is an issuer-sponsored onchain fund that seeks to track the Nasdaq-100, with Nasdaq licensing the index, Centrifuge providing the tokenization infrastructure and Stellar as the sole launch chain. Access is limited to eligible non-US investors. Janus Henderson says its onchain platform now spans more than $1B across Treasuries, structured credit and equities.",
+   "headline": "Janus Henderson launches JQQQ, a Nasdaq-licensed tokenized Nasdaq-100 fund, on Stellar",
+   "id": "janus-henderson-jqqq-stellar-202610",
+   "partners": [
+    "Nasdaq (index licensor)"
+   ],
+   "protocols": [
+    "Stellar"
+   ],
+   "region": "Global",
+   "sector": "Asset manager",
+   "solutions": [
+    "centrifuge",
+    "stellar"
+   ],
+   "sources": [
+    "https://www.coindesk.com/business/2026/10/27/nasdaq-100-comes-onchain-as-janus-henderson-and-centrifuge-launch-first-licensed-fund",
+    "https://cryptobriefing.com/janus-henderson-tokenized-nasdaq-100-fund-jqqq/"
+   ],
+   "status": "live"
+  },
+  {
+   "addedAt": "2026-11-02T11:40:49.157Z",
+   "blurb": "UK insurer whose asset management arm, Aviva Investors, runs a large money market fund range",
+   "company": "Aviva",
+   "companyId": "aviva",
+   "date": "2026-10-26",
+   "detail": "Aviva Investors launched a tokenized share class of its Sterling Liquidity Fund, an Irish UCITS MMF of about £22B, and invested £50m in it. Together with the USD Liquidity Fund share class launched in July 2026, its tokenized classes hold over £86m. The tokens represent ownership in the existing fund for eligible wallet-holding investors, with BNY as fund custodian, Komainu as digital asset custodian and Licuido as tokenization infrastructure.",
+   "headline": "Aviva Investors puts a tokenized share class of its £22B sterling money fund on the XRP Ledger",
+   "id": "aviva-sterling-tokenized-mmf-202610",
+   "partners": [
+    "Ripple",
+    "Komainu",
+    "Licuido"
+   ],
+   "protocols": [
+    "XRP Ledger"
+   ],
+   "region": "UK",
+   "sector": "Insurance",
+   "solutions": [
+    "bny"
+   ],
+   "sources": [
+    "https://ripple.com/ripple-press/aviva-investors-expands-its-tokenised-offering-with-the-launch-of-a-sterling-liquidity-fund-tokenised-share-class/",
+    "https://www.theblock.co/news/business/2026-10-26-aviva-investors-ripple-tokenized-share-class-sterling-fund-xrp-ledger-431712"
+   ],
+   "status": "live"
+  },
+  {
+   "addedAt": "2026-11-02T11:40:49.157Z",
+   "blurb": "UK-headquartered global bank, about $3T in assets",
+   "company": "HSBC",
+   "companyId": "hsbc",
+   "date": "2026-10-23",
+   "detail": "HSBC intends to let Hong Kong retail clients subscribe to a tokenized HKD money market fund from HK$100 through its mobile banking app before the end of 2026, with tokenized gold and third-party funds planned later. The plan was disclosed alongside RedCoin's rollout on HSBC's own DLT network; the fund and ledger have not been named.",
+   "headline": "HSBC plans HK$100-minimum tokenized money market fund access for Hong Kong retail clients",
+   "id": "hsbc-retail-tokenized-mmf-202610",
+   "partners": [],
+   "protocols": [
+    "HSBC proprietary DLT"
+   ],
+   "region": "Asia",
+   "sector": "Bank",
+   "solutions": [
+    "hk-tokenization"
+   ],
+   "sources": [
+    "https://crypto.news/hsbc-redcoin-stablecoin-payme-hong-kong-launch/",
+    "https://coincentral.com/hsbc-launches-redcoin-with-hk100-investments-to-follow"
+   ],
+   "status": "announced"
+  },
+  {
+   "addedAt": "2026-11-02T11:40:49.157Z",
+   "blurb": "Largest US bank; its asset management arm runs about $4.8T (Sep 2026)",
+   "company": "JPMorgan Chase",
+   "companyId": "jpmorgan",
+   "date": "2026-10-22",
+   "detail": "Both funds, previously Ethereum-only, now have official token contracts on Solana; investors still subscribe and redeem through Morgan Money and receive tokens at approved wallet addresses, with $1M minimums. The release gives no figure for assets held on Solana and names no Solana custody partner. Lookalike tokens using the JLTXX ticker have appeared on Solana launchpads and are unrelated to the fund.",
+   "headline": "J.P. Morgan Asset Management extends its MONY and JLTXX tokenized money funds to Solana",
+   "id": "jpmorgan-mmfs-solana-202610",
+   "partners": [
+    "Morgan Money",
+    "SS&C (MONY transfer agent)"
+   ],
+   "protocols": [
+    "Solana",
+    "Ethereum"
+   ],
+   "region": "US",
+   "sector": "Bank",
+   "solutions": [
+    "solana",
+    "kinexys"
+   ],
+   "sources": [
+    "https://solanacompass.com/news/jp-morgan-asset-management-brings-its-mony-and-jltxx-tokenized-money-market-funds-to-solana",
+    "https://crypto.news/jpmorgan-mony-jltxx-tokenized-funds-solana/"
+   ],
+   "status": "live"
+  },
+  {
+   "addedAt": "2026-11-02T11:40:49.157Z",
+   "blurb": "Italian insurer and Fortune Global 500 group whose Generali Investments arm manages several hundred billion euros",
+   "company": "Generali",
+   "companyId": "generali",
+   "date": "2026-10-21",
+   "detail": "The DLT-based share class of the Luxembourg Generali Money Market Fund is initially restricted to Generali group companies, with wider client access planned. Generali frames it as the first of a broader tokenized product range and highlights collateral uses, including for stablecoin issuers. Chain and tokenization provider were not disclosed.",
+   "headline": "Generali Investments launches a natively tokenized share class of its €13B money market fund",
+   "id": "generali-tokenized-mmf-202610",
+   "partners": [],
+   "protocols": [],
+   "region": "Europe",
+   "sector": "Insurance",
+   "solutions": [],
+   "sources": [
+    "https://www.ledgerinsights.com/generali-launches-tokenized-share-class-of-its-money-market-fund/",
+    "https://www.assetservicingtimes.com/assetservicesnews/digitalassetsarticle.php?article_id=18471"
+   ],
+   "status": "live"
+  },
+  {
+   "addedAt": "2026-11-02T11:40:49.157Z",
+   "blurb": "UK-headquartered global bank, about $3T in assets",
+   "company": "HSBC",
+   "companyId": "hsbc",
+   "date": "2026-10-21",
+   "detail": "Ant International's WhaleRTP platform moved excess treasury cash held as HSBC tokenized deposits into a Franklin Templeton money market fund issued on the Benji platform. HSBC called it a first transaction and announced it via LinkedIn posts, with no amounts or chain disclosed. It follows a similar Ant arrangement with an Amundi tokenized fund in June.",
+   "headline": "HSBC's tokenized deposits fund a first sweep of Ant International cash into a Franklin tokenized money fund",
+   "id": "hsbc-ant-franklin-deposit-sweep-202610",
+   "partners": [
+    "Ant International",
+    "Franklin Templeton"
+   ],
+   "protocols": [],
+   "region": "Asia",
+   "sector": "Bank",
+   "solutions": [
+    "franklin",
+    "hk-tokenization"
+   ],
+   "sources": [
+    "https://www.ledgerinsights.com/ant-international-uses-hsbc-tokenized-deposits-to-sweep-idle-cash-into-tokenized-benji-mmf/"
+   ],
+   "status": "pilot"
+  },
+  {
+   "addedAt": "2026-11-02T11:40:49.157Z",
+   "blurb": "Emerging-markets-focused UK bank, about $850B in assets",
+   "company": "Standard Chartered",
+   "companyId": "standard-chartered",
+   "date": "2026-10-21",
+   "detail": "The bank will buy 100% of Zodia Custody UK Limited and, after closing, combine the regulated custody business with its Securities Services digital asset custody so clients get traditional and digital asset custody from one provider. Zodia's software and professional services move to a new SC Ventures entity, Zodia Solutions, backed by bank investors including Northern Trust, NAB Ventures, SBI Ventures and Emirates NBD. Completion depends on regulatory approvals; no price or timeline was given.",
+   "headline": "Standard Chartered agrees to take full ownership of Zodia Custody and merge it into its securities services arm",
+   "id": "standard-chartered-zodia-custody-202610",
+   "partners": [
+    "Zodia Custody",
+    "SC Ventures",
+    "Zodia Solutions"
+   ],
+   "protocols": [],
+   "region": "UK",
+   "sector": "Bank",
+   "solutions": [],
+   "sources": [
+    "https://zodia-custody.com/standard-chartered-signs-definitive-agreements-to-acquire-zodia-custody/",
+    "https://www.fintechfutures.com/m-a/standard-chartered-to-acquire-zodia-custody"
+   ],
+   "status": "announced"
+  },
+  {
+   "addedAt": "2026-11-02T11:40:49.157Z",
+   "blurb": "Largest US bank, about $4T in assets",
+   "company": "JPMorgan Chase",
+   "companyId": "jpmorgan",
+   "date": "2026-10-19",
+   "detail": "Kinexys issued JPM Coin (JPMD) on Ethereum mainnet, adding to its Base deployment from November 2025; approved institutional clients can move tokenized JPMorgan deposits 24/7 across both chains. A Canton deployment has been announced but is not yet live. Kinexys-wide volume figures cited in coverage cover all services, not JPMD on public chains.",
+   "headline": "JPMorgan brings its JPMD deposit token to Ethereum mainnet for institutional clients",
+   "id": "jpmorgan-jpmd-ethereum-202610",
+   "partners": [
+    "Coinbase (Base)"
+   ],
+   "protocols": [
+    "Ethereum",
+    "Base"
+   ],
+   "region": "US",
+   "sector": "Bank",
+   "solutions": [
+    "kinexys",
+    "ethereum"
+   ],
+   "sources": [
+    "https://www.ledgerinsights.com/jpm-coin-arrives-on-ethereum/",
+    "https://cryptodaily.co.uk/2026/10/jpm-coin-ethereum-institutional-launch"
+   ],
+   "status": "live"
+  },
+  {
+   "addedAt": "2026-11-02T11:40:49.157Z",
+   "blurb": "Cloud unit of Alphabet, a Fortune Global 500 tech giant",
+   "company": "Google Cloud",
+   "companyId": "google",
+   "date": "2026-10-16",
+   "detail": "Jack Henry expanded its 2022 Google Cloud partnership to integrate Google Cloud Universal Ledger (GCUL), letting its bank and credit-union clients issue tokenized deposits with 24/7 settlement. It adds a core-processor channel to GCUL's existing work with CME Group; no launch date or first bank was disclosed.",
+   "headline": "Google Cloud signs Jack Henry as the first core-banking integrator of GCUL, targeting tokenized deposits for community banks",
+   "id": "google-gcul-jack-henry-202610",
+   "partners": [
+    "Jack Henry"
+   ],
+   "protocols": [
+    "Google Cloud Universal Ledger"
+   ],
+   "region": "US",
+   "sector": "Tech",
+   "solutions": [],
+   "sources": [
+    "https://finviz.com/news/403628/jack-henry-expands-collaboration-with-google-cloud-to-deliver-tokenized-deposits-for-banks-and-credit-unions",
+    "https://www.ledgerinsights.com/jack-henry-plans-to-support-tokenized-deposits-using-google-cloud-universal-ledger/"
+   ],
+   "status": "announced"
+  },
+  {
+   "addedAt": "2026-10-20T12:46:38.161Z",
+   "blurb": "Largest global custodian bank and a leading US Treasury settlement and triparty collateral agent",
+   "company": "BNY",
+   "companyId": "bny",
+   "date": "2026-10-13",
+   "detail": "Citadel Securities bought the note through BNY on Tradeweb; BNY recorded a tokenized representation on its private digital ledger, where it settled within minutes rather than T+1. Citadel then posted it as collateral in an overnight triparty repo with BNY providing cash. BNY says it plans more digital cash and tokenized deposit capabilities and longer settlement hours.",
+   "headline": "Citadel Securities uses a BNY-tokenized 2-year Treasury note as collateral in an overnight triparty repo",
+   "id": "bny-citadel-tokenized-repo-202610",
+   "partners": [
+    "Citadel Securities",
+    "Tradeweb"
+   ],
+   "protocols": [
+    "BNY private ledger"
+   ],
+   "region": "US",
+   "sector": "Bank",
+   "solutions": [
+    "bny"
+   ],
+   "sources": [
+    "https://www.bny.com/corporate/global/en/about-us/newsroom/press-release/bny-completes-tokenized-us-treasury-triparty-repo-workflow-with-citadel-securities.html"
+   ],
+   "status": "pilot"
+  },
+  {
+   "addedAt": "2026-10-20T12:44:49.631Z",
+   "blurb": "Global investment bank and wealth manager, one of the largest US broker-dealers",
+   "company": "Morgan Stanley",
+   "companyId": "morgan-stanley",
+   "date": "2026-10-12",
+   "detail": "The bank revised its timeline from the second half of 2026, saying it needs live products before client demand builds. No chain or partner was named; separately it is building custodial wallet infrastructure and has conditional OCC approval for a digital asset trust.",
+   "headline": "Morgan Stanley targets Q1 2027 to support tokenized equities on its ATS",
+   "id": "morgan-stanley-tokenized-equities-ats-202610",
+   "partners": [],
+   "protocols": [],
+   "region": "US",
+   "sector": "Bank",
+   "solutions": [],
+   "sources": [
+    "https://www.theblock.co/news/markets/2026-10-12-morgan-stanley-tokenized-equities-q1-2027-418256"
+   ],
+   "status": "announced"
+  },
+  {
+   "addedAt": "2026-10-20T12:45:36.686Z",
+   "blurb": "One of the world's largest banks, headquartered in London with a major Asian franchise",
+   "company": "HSBC",
+   "companyId": "hsbc",
+   "date": "2026-10-09",
+   "detail": "The test paired HSBC's Tokenised Deposit Service with Ant Digital's Anvita Flow agent network on the Jovay testnet, with bank-side risk checks kept in the loop. Payments were typically under $2 and settled in real time; HSBC called it a technical verification, not a commercial launch.",
+   "headline": "HSBC tests AI-agent micropayments settled in its tokenized deposits with Ant Digital",
+   "id": "hsbc-ant-agent-payments-202610",
+   "partners": [
+    "Ant Digital Technologies"
+   ],
+   "protocols": [
+    "Jovay testnet"
+   ],
+   "region": "Asia",
+   "sector": "Bank",
+   "solutions": [],
+   "sources": [
+    "https://cryptobriefing.com/hsbc-ant-digital-ai-agent-tokenized-deposits/"
+   ],
+   "status": "pilot"
+  },
+  {
+   "addedAt": "2026-10-20T12:45:24.814Z",
+   "blurb": "Owner of the NYSE and one of the largest global exchange and clearing groups",
+   "company": "Intercontinental Exchange (NYSE)",
+   "companyId": "ice-nyse",
+   "date": "2026-10-04",
+   "detail": "The venue would pair each tokenized stock with USDC, USDG or USDT in permissioned pools on X Layer, open only to screened traders holding a non-transferable identity token. Under the exemption, issuers get 30 days' notice and can object; objections from nine companies (eight from the original list) bar only this venue. No launch date has been given.",
+   "headline": "ICE's joint venture with OKX files to trade 63 tokenized US stocks, and nine issuers opt out",
+   "id": "ice-okxice-tokenized-venue-202610",
+   "partners": [
+    "OKX"
+   ],
+   "protocols": [
+    "X Layer",
+    "USDC",
+    "USDG",
+    "USDT"
+   ],
+   "region": "US",
+   "sector": "Market infrastructure",
+   "solutions": [],
+   "sources": [
+    "https://www.theblock.co/news/markets/2026-10-17-coreweave-broadcom-verizon-among-nine-companies-objecting-to-tokenized-trading-of-their-shares-on-okxice-418859"
+   ],
+   "status": "announced"
+  },
+  {
+   "blurb": "ETF and tokenized fund issuer, about $177B in AUM",
+   "company": "WisdomTree",
+   "companyId": "wisdomtree",
+   "date": "2026-09-29",
+   "detail": "WisdomTree grouped its 15 SEC-registered tokenized funds, onchain transfer agent and Prime/Connect platforms under WisdomTree Onchain, across eight chains. Tokenized assets grew from about $770M to over $1.2B in 2026, and WTGXX gained 24/7 secondary liquidity.",
+   "headline": "WisdomTree rebrands its tokenization business as WisdomTree Onchain as tokenized AUM passes $1.2B",
+   "id": "wisdomtree-onchain-brand-202609",
+   "partners": [],
+   "protocols": [
+    "Ethereum",
+    "Arbitrum",
+    "Avalanche",
+    "Base",
+    "Optimism",
+    "Plume",
+    "Solana",
+    "Stellar"
+   ],
+   "region": "US",
+   "sector": "Asset manager",
+   "solutions": [
+    "wisdomtree",
+    "ethereum",
+    "avalanche",
+    "plume",
+    "solana",
+    "stellar"
+   ],
+   "sources": [
+    "https://www.businesswire.com/news/home/20260929951922/en/WisdomTree-Introduces-WisdomTree-Onchain-as-Tokenized-Fund-Assets-Surpass-%241.2-Billion"
+   ],
+   "status": "live"
+  },
+  {
+   "addedAt": "2026-11-02T11:40:49.157Z",
+   "blurb": "World's largest asset manager, over $10T in AUM",
+   "company": "BlackRock",
+   "companyId": "blackrock",
+   "date": "2026-09-24",
+   "detail": "Ondo Global Markets issues three portfolio tokens (High Income, Diversified Growth and High Growth) built on strategies from BlackRock's Model Portfolio Solutions team, with holdings, weights and rebalances visible onchain. They are offered to eligible investors outside the US and are designed to move across wallets, exchanges and DeFi apps. Ondo added four more portfolios on October 1; the release does not name the chains.",
+   "headline": "BlackRock-built model portfolios go onchain as Ondo Intelligent Portfolio tokens",
+   "id": "blackrock-ondo-model-portfolios-202609",
+   "partners": [
+    "Ondo Global Markets"
+   ],
+   "protocols": [],
+   "region": "Global",
+   "sector": "Asset manager",
+   "solutions": [
+    "ondo",
+    "blackrock"
+   ],
+   "sources": [
+    "https://www.eqs-news.com/news/corporate/ondo-launches-intelligent-portfolios-powered-by-blackrock-bringing-portfolio-strategies-onchain/4dd2ae1e-66db-4350-b039-66861be820eb_en"
+   ],
+   "status": "live"
+  },
+  {
+   "addedAt": "2026-11-02T11:40:49.157Z",
+   "blurb": "Canada's six largest banks, which together hold the bulk of Canadian deposits; RBC and TD rank among the world's largest banks",
+   "company": "Canada's Big Six banks (RBC, TD, Scotiabank, BMO, CIBC, National Bank)",
+   "companyId": "canada-big-six",
+   "date": "2026-09-22",
+   "detail": "The six banks set up a joint venture to explore moving CAD tokenized deposits between institutions, with a first phase limited to transfers among the participants and a longer-term aim of linking to other digital asset networks. No technology partner or launch date was named, and the project does not yet commit any bank to issuing a token. OSFI said on September 10 that tokenized deposits are not legally distinct from traditional deposits and that banks should engage supervisors before launching such products.",
+   "headline": "Canada's Big Six banks team up to explore an interbank Canadian-dollar tokenized deposit system",
+   "id": "canada-big-six-tokenized-deposits-202609",
+   "partners": [],
+   "protocols": [],
+   "region": "Global",
+   "sector": "Bank",
+   "solutions": [],
+   "sources": [
+    "https://www.coindesk.com/business/2026/09/22/canada-s-big-six-banks-unite-to-launch-interbank-tokenized-deposit-initiative",
+    "https://www.ledgerinsights.com/canadas-big-six-banks-plan-tokenized-deposits/"
+   ],
+   "status": "announced"
+  },
+  {
+   "blurb": "Japan's largest banking group, about $2.7T in assets",
+   "company": "Mitsubishi UFJ Financial Group",
+   "companyId": "mufg",
+   "date": "2026-08-13",
+   "detail": "Four MUFG firms began a proof of concept for DvP settlement of tokenized JGBs against tokenized deposits or stablecoins, plus automated repo lifecycle via Secured Finance's protocol. Selected under the FSA's Payment Innovation Project, it aims at intraday repo and extended settlement windows in Japan's core funding market.",
+   "headline": "MUFG tests onchain Japanese government bond repo on Canton with Progmat and Digital Asset",
+   "id": "mufg-jgb-repo-202608",
+   "partners": [
+    "Progmat",
+    "Digital Asset",
+    "Secured Finance",
+    "Morgan Stanley"
+   ],
+   "protocols": [
+    "Canton"
+   ],
+   "region": "Asia",
+   "sector": "Bank",
+   "solutions": [
+    "canton"
+   ],
+   "sources": [
+    "https://www.tr.mufg.jp/english/pressreleases/pdf/20260813_2.pdf"
+   ],
+   "status": "pilot"
+  },
+  {
+   "blurb": "UK-based global asset manager, several hundred billion pounds in AUM",
+   "company": "Schroders",
+   "companyId": "schroders",
+   "date": "2026-08-06",
+   "detail": "The Central Bank of Ireland approved a tokenized share class (Schroders Onchain Active Returns) of a USD money market fund, using Kinexys by JPMorgan to link onchain transfers and smart-contract redemptions to the transfer agent. Transfers are limited to Schroders clients, with collateral and 24/7 treasury uses in view.",
+   "headline": "Schroders wins Irish approval for SOAR, its first tokenized money market share class, on Kinexys",
+   "id": "schroders-soar-kinexys-202608",
+   "partners": [
+    "Central Bank of Ireland"
+   ],
+   "protocols": [],
+   "region": "UK",
+   "sector": "Asset manager",
+   "solutions": [
+    "kinexys"
+   ],
+   "sources": [
+    "https://www.marketsmedia.com/schroders-secures-approval-for-first-tokenised-share-class/"
+   ],
+   "status": "announced"
+  },
+  {
+   "blurb": "World's largest asset manager, over $10T in AUM",
+   "company": "BlackRock",
+   "companyId": "blackrock",
+   "date": "2026-08-04",
+   "detail": "BlackRock minted tokenized share classes across six Institutional Cash Series funds on Ethereum, with Kinexys by JPMorgan linking onchain tokens to the transfer agent's register. Approved investors in 13 jurisdictions get 24/7 peer-to-peer transfers for treasury, collateral and bank distribution use cases. It is BlackRock's first tokenized fund offering in Europe.",
+   "headline": "BlackRock tokenizes 12 share classes of its $311B European ICS money market funds with Kinexys",
+   "id": "blackrock-ics-europe-kinexys-202608",
+   "partners": [],
+   "protocols": [
+    "Ethereum"
+   ],
+   "region": "Global",
+   "sector": "Asset manager",
+   "solutions": [
+    "blackrock",
+    "kinexys",
+    "ethereum"
+   ],
+   "sources": [
+    "https://theblock.co/post/410554/blackrock-debuts-tokenized-share-classes-for-select-european-money-market-funds-with-311-billion-in-assets"
+   ],
+   "status": "live"
+  },
+  {
+   "blurb": "Largest US bank, about $4T in assets",
+   "company": "JPMorgan Chase",
+   "companyId": "jpmorgan",
+   "date": "2026-08-04",
+   "detail": "BlackRock launched 12 tokenized share classes across six Institutional Cash Series funds in EUR, GBP and USD, with Kinexys handling minting and burning on Ethereum while the transfer agent keeps the official register. Available to professional clients in 13 jurisdictions, it brings one of Europe's largest MMF ranges onchain via a bank rail.",
+   "headline": "JPMorgan's Kinexys tokenizes share classes of BlackRock's $311B European cash funds",
+   "id": "jpmorgan-blackrock-ics-202608",
+   "partners": [],
+   "protocols": [
+    "Ethereum"
+   ],
+   "region": "Europe",
+   "sector": "Bank",
+   "solutions": [
+    "kinexys",
+    "blackrock",
+    "ethereum"
+   ],
+   "sources": [
+    "https://decrypt.co/374894/blackrock-tokenizes-311b-of-european-money-market-funds-with-jp-morgans-kinexys"
+   ],
+   "status": "live"
+  },
+  {
+   "addedAt": "2026-10-20T12:44:44.693Z",
+   "blurb": "One of the four largest US banks by assets",
+   "company": "Wells Fargo",
+   "companyId": "wells-fargo",
+   "date": "2026-08-04",
+   "detail": "The deposits run on Wells Fargo's proprietary blockchain with smart-contract conditional payments and 24/7 settlement, and keep normal deposit protections for US-booked balances. The initial rollout is a limited USD–GBP exchange for select clients, with more clients, countries and currencies planned through 2027.",
+   "headline": "Wells Fargo rolls out tokenized deposits for corporate clients, starting with USD–GBP payments",
+   "id": "wells-fargo-tokenized-deposits-202608",
+   "partners": [],
+   "protocols": [
+    "Wells Fargo proprietary blockchain"
+   ],
+   "region": "US",
+   "sector": "Bank",
+   "solutions": [],
+   "sources": [
+    "https://newsroom.wf.com/news-releases/news-details/2026/Wells-Fargo-to-Launch-Tokenized-Deposits-for-Corporate-and-Commercial-Clients/default.aspx",
+    "https://www.coindesk.com/business/2026/10/17/goldman-wells-fargo-morgan-stanley-see-tokenization-as-a-growth-play-not-a-threat"
+   ],
+   "status": "live"
+  },
+  {
+   "blurb": "World's largest asset manager, over $10T in AUM",
+   "company": "BlackRock",
+   "companyId": "blackrock",
+   "date": "2026-08-03",
+   "detail": "BlackRock added OnChain Shares to its Select Treasury Based Liquidity Fund (BSTBL, Ethereum, BNY as transfer agent) and launched a new Daily Reinvestment Stablecoin Reserve Vehicle (BRSRV, multi-chain, Securitize as transfer agent). Both target stablecoin issuers needing GENIUS Act-compatible reserve assets; they followed SEC filings in May 2026.",
+   "headline": "BlackRock launches tokenized money market funds BSTBL and BRSRV for stablecoin reserves",
+   "id": "blackrock-stablecoin-reserve-funds-202608",
+   "partners": [],
+   "protocols": [
+    "Ethereum",
+    "ERC-20"
+   ],
+   "region": "Global",
+   "sector": "Asset manager",
+   "solutions": [
+    "blackrock",
+    "bny",
+    "securitize",
+    "ethereum",
+    "sec"
+   ],
+   "sources": [
+    "https://theblock.co/post/410469/blackrock-launches-two-tokenized-money-market-funds-stablecoin-reserves",
+    "https://www.crowdfundinsider.com/?p=278346"
+   ],
+   "status": "live"
+  },
+  {
+   "blurb": "Core US post-trade utility; DTC holds about $114T in custody",
+   "company": "DTCC",
+   "companyId": "dtcc",
+   "date": "2026-07-15",
+   "detail": "Around 30 to 40 firms, including JPMorgan, BlackRock, Goldman Sachs and Vanguard, converted DTC-held securities into tokens and used them in production transactions on a private Besu network and Canton. DTCC said the service will open more broadly from October 2026 on approved networks.",
+   "headline": "DTCC runs its first live tokenized trades of stocks, ETFs and Treasuries with Wall Street firms",
+   "id": "dtcc-live-trades-202607",
+   "partners": [
+    "JPMorgan Chase",
+    "Goldman Sachs",
+    "Vanguard",
+    "Invesco"
+   ],
+   "protocols": [
+    "Hyperledger Besu",
+    "Canton"
+   ],
+   "region": "US",
+   "sector": "Market infrastructure",
+   "solutions": [
+    "dtcc",
+    "canton",
+    "blackrock",
+    "chainlink"
+   ],
+   "sources": [
+    "https://genfinity.io/2026/07/15/dtcc-processes-first-live-tokenized-trades-stocks-etfs-treasuries/",
+    "https://www.theblock.co/newsletters/tokenization-briefing/2026-10-08-dtcc-brings-tokenization-us-markets-417839"
+   ],
+   "status": "pilot"
+  },
+  {
+   "blurb": "US retail brokerage and crypto platform, S&P 500 member",
+   "company": "Robinhood",
+   "companyId": "robinhood",
+   "date": "2026-07-01",
+   "detail": "Robinhood's Arbitrum-based L2 reached mainnet, with Stock Tokens (debt securities from Robinhood Assets Jersey) trading 24/7 on DEXs such as Uniswap and usable as lending collateral, for eligible users in 120+ countries outside the US.",
+   "headline": "Robinhood Chain goes live with 24/7 tradable Stock Tokens usable in DeFi",
+   "id": "robinhood-chain-mainnet-202607",
+   "partners": [
+    "Arbitrum",
+    "Uniswap",
+    "BitGo",
+    "Alchemy"
+   ],
+   "protocols": [
+    "Robinhood Chain",
+    "Arbitrum",
+    "Ethereum"
+   ],
+   "region": "US",
+   "sector": "Fintech",
+   "solutions": [
+    "robinhood",
+    "chainlink",
+    "ethereum"
+   ],
+   "sources": [
+    "https://www.theblock.co/post/406918/"
+   ],
+   "status": "live"
+  },
+  {
+   "blurb": "Global asset manager, over $2.2T in AUM",
+   "company": "Invesco",
+   "companyId": "invesco",
+   "date": "2026-06-24",
+   "detail": "The SEC filing adds a $1 NAV fund holding cash and short-term Treasuries, designed to back GENIUS Act payment stablecoins, with shares recorded on public blockchains and Superstate as sub-transfer agent. It joins BlackRock and others targeting stablecoin reserve demand.",
+   "headline": "Invesco files for a tokenized Stablecoin Reserves Onchain Fund with Superstate",
+   "id": "invesco-stablecoin-reserves-fund-202606",
+   "partners": [],
+   "protocols": [],
+   "region": "US",
+   "sector": "Asset manager",
+   "solutions": [
+    "superstate",
+    "sec"
+   ],
+   "sources": [
+    "https://cryptobriefing.com/invesco-sec-stablecoin-reserves-onchain-fund/"
+   ],
+   "status": "announced"
+  },
+  {
+   "blurb": "Global US bank, about $2.6T in assets",
+   "company": "Citigroup",
+   "companyId": "citi",
+   "date": "2026-06-11",
+   "detail": "Following its 2025 tie-up with SDX, Citi began offering tokenized stakes in private firms to its wealth and institutional clients and completed a first transaction, per WSJ reporting. It moves Citi's tokenization work beyond deposits into equity exposure for clients.",
+   "headline": "Citi completes its first sale of tokenized private-company shares to wealth and institutional clients",
+   "id": "citi-private-shares-live-202606",
+   "partners": [
+    "SIX Digital Exchange"
+   ],
+   "protocols": [
+    "SDX DLT CSD"
+   ],
+   "region": "US",
+   "sector": "Bank",
+   "solutions": [
+    "swiss-dlt"
+   ],
+   "sources": [
+    "https://thedefiant.io/news/tradfi-and-fintech/citi-rolls-out-tokenized-private-company-shares-wealth-institutional-clients"
+   ],
+   "status": "live"
+  },
+  {
+   "addedAt": "2026-11-02T11:40:49.157Z",
+   "blurb": "Global investment bank, about $1.8T in assets",
+   "company": "Goldman Sachs",
+   "companyId": "goldman",
+   "date": "2026-06-04",
+   "detail": "LRC Group is launching a Luxembourg-structured real estate fund whose units are recorded on GS DAP, Goldman's tokenization platform. Apex Group's Fundrock acts as AIFM with Apex entities providing administration, depositary and banking, Archax custodies the digital securities and is the first distribution channel, and Ownera links participants. No fund size or go-live date was given.",
+   "headline": "A tokenized Luxembourg real estate fund from LRC Group is issued on Goldman Sachs' GS DAP ledger",
+   "id": "goldman-lrc-real-estate-fund-202606",
+   "partners": [
+    "LRC Group",
+    "Apex Group (Fundrock LIS)",
+    "Ownera"
+   ],
+   "protocols": [
+    "GS DAP"
+   ],
+   "region": "Europe",
+   "sector": "Bank",
+   "solutions": [
+    "archax"
+   ],
+   "sources": [
+    "https://www.ledgerinsights.com/tokenized-real-estate-fund-issued-on-goldman-sachs-distributed-ledger/",
+    "https://apexgroup.com/insights/apex-group-supports-launch-of-tokenised-real-estate-fund-with-industry-partners/"
+   ],
+   "status": "announced"
+  },
+  {
+   "blurb": "Global asset manager, over $1T in client assets",
+   "company": "Fidelity International",
+   "companyId": "fidelity-international",
+   "date": "2026-05-13",
+   "detail": "Fidelity USD Digital Liquidity Fund (FILQ) is a AAA-mf rated tokenized liquidity fund with 24/7 subscriptions and redemptions and stablecoin settlement. Sygnum provides tokenization and Chainlink oracles publish NAV onchain. It extends Fidelity International's earlier tokenized share work with Sygnum into a dedicated product.",
+   "headline": "Fidelity International launches FILQ, a tokenized USD liquidity fund, with Sygnum and Chainlink",
+   "id": "fidelity-international-filq-202605",
+   "partners": [
+    "Sygnum Bank"
+   ],
+   "protocols": [],
+   "region": "Global",
+   "sector": "Asset manager",
+   "solutions": [
+    "fidelity",
+    "chainlink"
+   ],
+   "sources": [
+    "https://finance.yahoo.com/markets/crypto/articles/fidelity-launches-filq-first-tokenized-094715860.html"
+   ],
+   "status": "live"
+  },
+  {
+   "addedAt": "2026-10-20T12:44:56.839Z",
+   "blurb": "Largest US bank, about $4T in assets",
+   "company": "JPMorgan Chase",
+   "companyId": "jpmorgan",
+   "date": "2026-05-13",
+   "detail": "Qualified investors subscribe and redeem on Morgan Money and receive token balances at their own addresses, with daily dividend reinvestment. JPMorgan AM seeded it with $100M, with Anchorage Digital also participating at launch.",
+   "headline": "J.P. Morgan Asset Management launches JLTXX, a registered tokenized Treasury money fund on Ethereum",
+   "id": "jpmorgan-jltxx-mmf-202605",
+   "partners": [
+    "Anchorage Digital"
+   ],
+   "protocols": [
+    "Ethereum"
+   ],
+   "region": "US",
+   "sector": "Bank",
+   "solutions": [
+    "ethereum",
+    "anchorage"
+   ],
+   "sources": [
+    "https://www.prnewswire.com/news-releases/jp-morgan-asset-management-launches-second-tokenized-money-market-fund-on-ethereum-302771391.html"
+   ],
+   "status": "live"
+  },
+  {
+   "blurb": "US custody bank and asset manager, among the world's largest by assets",
+   "company": "State Street",
+   "companyId": "state-street",
+   "date": "2026-05-05",
+   "detail": "The State Street Galaxy Onchain Liquidity Sweep Fund lets qualified purchasers sweep stablecoins into a yield-bearing fund 24/7, starting on Solana with Stellar and Ethereum planned. Galaxy tokenizes, Anchorage custodies, Chainlink handles NAV and PYUSD supports flows; Ondo's OUSG was reported as anchor investor. It brings a top custody bank into the BUIDL/BENJI category.",
+   "headline": "State Street and Galaxy launch SWEEP, a tokenized liquidity fund on Solana",
+   "id": "state-street-sweep-solana-202605",
+   "partners": [
+    "Galaxy",
+    "PayPal (PYUSD)"
+   ],
+   "protocols": [
+    "Solana"
+   ],
+   "region": "US",
+   "sector": "Bank",
+   "solutions": [
+    "anchorage",
+    "chainlink",
+    "solana",
+    "ondo",
+    "stellar",
+    "ethereum"
+   ],
+   "sources": [
+    "https://theblock.co/post/400086/state-street-and-galaxy-launch-fund-on-solana-designed-to-sweep-stablecoins-into-productive-vehicle"
+   ],
+   "status": "live"
+  },
+  {
+   "blurb": "World's largest derivatives exchange operator",
+   "company": "CME Group",
+   "companyId": "cme",
+   "date": "2026-03-24",
+   "detail": "BMO will be the first bank to offer tokenized cash on CME's permissioned network on Google Cloud Universal Ledger, letting mutual clients post margin at any hour, with launch targeted for H2 2026. It follows CME and Google Cloud's March 2025 GCUL tokenization pilot and brings tokenized collateral to the largest derivatives exchange.",
+   "headline": "CME Group, Google Cloud and BMO plan 24/7 tokenized cash for futures margin",
+   "id": "cme-gcul-tokenized-cash-202603",
+   "partners": [
+    "Google Cloud",
+    "BMO"
+   ],
+   "protocols": [
+    "Google Cloud Universal Ledger"
+   ],
+   "region": "US",
+   "sector": "Market infrastructure",
+   "solutions": [],
+   "sources": [
+    "https://www.cmegroup.com/media-room/press-releases/2026/3/24/bmo-introduces-tokenized-cash-and-deposit-platform-with-cme-group-and-google-cloud.html",
+    "https://www.cmegroup.com/media-room/press-releases/2025/3/25/cme_group_will_introducetokenizationtechnologytoenhancecapitalma.html"
+   ],
+   "status": "announced"
+  },
+  {
+   "blurb": "Global asset manager, over $2.2T in AUM",
+   "company": "Invesco",
+   "companyId": "invesco",
+   "date": "2026-03-24",
+   "detail": "Invesco becomes investment manager of USTB (renamed Invesco Short Duration US Government Securities Fund) while Superstate keeps the token, smart contracts and digital transfer agency. Invesco is the first asset manager on Superstate's transfer-agent rails.",
+   "headline": "Invesco takes over management of Superstate's ~$967M USTB tokenized Treasury fund",
+   "id": "invesco-ustb-superstate-202603",
+   "partners": [],
+   "protocols": [],
+   "region": "US",
+   "sector": "Asset manager",
+   "solutions": [
+    "superstate"
+   ],
+   "sources": [
+    "https://www.nasdaq.com/press-release/invesco-and-superstate-advance-institutional-tokenization-through-ustb-partnership"
+   ],
+   "status": "announced"
+  },
+  {
+   "blurb": "Second-largest US stock exchange operator",
+   "company": "Nasdaq",
+   "companyId": "nasdaq",
+   "date": "2026-03-18",
+   "detail": "After a September 2025 filing, the SEC approved Nasdaq's rule letting tokenized versions of listed stocks trade with the same priority as normal shares, settling in tokenized form via DTC's pilot. Tokens must carry full shareholder rights, making Nasdaq the first major US exchange cleared for tokenized equities.",
+   "headline": "SEC approves Nasdaq trading of tokenized shares on the same order book as regular stock",
+   "id": "nasdaq-sec-approval-202603",
+   "partners": [],
+   "protocols": [],
+   "region": "US",
+   "sector": "Market infrastructure",
+   "solutions": [
+    "nasdaq",
+    "sec",
+    "dtcc"
+   ],
+   "sources": [
+    "https://theblock.co/post/394238/sec-approves-nasdaq-tokenized-equities-trading-pilot",
+    "https://www.theblock.co/post/369814"
+   ],
+   "status": "announced"
+  },
+  {
+   "blurb": "Largest eurozone bank, about €2.7T in assets",
+   "company": "BNP Paribas",
+   "companyId": "bnp-paribas",
+   "date": "2026-02-20",
+   "detail": "BNP Paribas Asset Management issued a permissioned tokenized share class of a French MMF on Ethereum, with BNP Paribas CIB's AssetFoundry platform handling tokenization and the securities services arm acting as transfer agent. The limited intra-group test follows an earlier private-chain MMF and explores public-chain fund distribution.",
+   "headline": "BNP Paribas tokenizes a money market fund share class on public Ethereum via AssetFoundry",
+   "id": "bnp-paribas-mmf-ethereum-202602",
+   "partners": [],
+   "protocols": [
+    "Ethereum"
+   ],
+   "region": "Europe",
+   "sector": "Bank",
+   "solutions": [
+    "ethereum"
+   ],
+   "sources": [
+    "https://group.bnpparibas/en/press-release/bnp-paribas-explores-public-blockchain-infrastructure-for-money-market-fund-tokenisation"
+   ],
+   "status": "pilot"
+  },
+  {
+   "blurb": "World's largest asset manager, over $10T in AUM",
+   "company": "BlackRock",
+   "companyId": "blackrock",
+   "date": "2026-02-11",
+   "detail": "Through Securitize and Uniswap Labs, pre-qualified institutional investors can trade BUIDL via an RFQ flow on UniswapX, settling onchain. BlackRock also disclosed buying an undisclosed amount of UNI. It was BlackRock's first direct use of DeFi trading rails for a tokenized product.",
+   "headline": "BlackRock makes BUIDL tradable via UniswapX for whitelisted institutions and buys UNI",
+   "id": "blackrock-buidl-uniswapx-202602",
+   "partners": [
+    "Uniswap Labs"
+   ],
+   "protocols": [
+    "Ethereum",
+    "UniswapX"
+   ],
+   "region": "Global",
+   "sector": "Asset manager",
+   "solutions": [
+    "blackrock",
+    "securitize",
+    "ethereum"
+   ],
+   "sources": [
+    "https://www.theblock.co/post/389421/blackrock-securitize-tap-defi-giant-uniswap-for-direct-onchain-buidl-trading-uni-surges-20"
+   ],
+   "status": "live"
+  },
+  {
+   "blurb": "Global asset manager, about $1.6T in AUM",
+   "company": "Franklin Templeton",
+   "companyId": "franklin",
+   "date": "2026-02-11",
+   "detail": "Institutional Binance clients can use Benji-issued tokenized money market fund shares as trading collateral while the assets stay in regulated off-exchange custody with Ceffu. It mirrors Binance's BUIDL arrangement and deepens use of tokenized MMFs as yield-bearing margin.",
+   "headline": "Franklin Templeton and Binance let institutions post tokenized money fund shares as off-exchange collateral",
+   "id": "franklin-binance-collateral-202602",
+   "partners": [
+    "Ceffu"
+   ],
+   "protocols": [],
+   "region": "Global",
+   "sector": "Asset manager",
+   "solutions": [
+    "franklin",
+    "binance"
+   ],
+   "sources": [
+    "https://finance.yahoo.com/news/binance-teams-franklin-templeton-tokenized-080000926.html"
+   ],
+   "status": "live"
+  },
+  {
+   "blurb": "Intercontinental Exchange, owner of the New York Stock Exchange",
+   "company": "ICE / NYSE",
+   "companyId": "ice-nyse",
+   "date": "2026-01-19",
+   "detail": "NYSE is developing a platform combining its Pillar matching engine with blockchain post-trade for always-on trading, fractional shares and instant settlement of tokenized US equities and ETFs, pending approval. Parent ICE is working with BNY and Citi on tokenized deposits for its clearinghouses.",
+   "headline": "NYSE unveils a 24/7 tokenized stock and ETF trading venue with stablecoin funding",
+   "id": "ice-nyse-tokenized-platform-202601",
+   "partners": [
+    "Citigroup"
+   ],
+   "protocols": [],
+   "region": "US",
+   "sector": "Market infrastructure",
+   "solutions": [
+    "bny"
+   ],
+   "sources": [
+    "https://www.theblock.co/post/386123/nyse-develops-tokenized-securities-platform-to-support-24-7-trading"
+   ],
+   "status": "announced"
+  },
+  {
+   "blurb": "World's largest custodian, about $58T in assets under custody/administration",
+   "company": "BNY",
+   "companyId": "bny",
+   "date": "2026-01-09",
+   "detail": "BNY began issuing blockchain-based representations of client deposits, with ICE, Citadel Securities, DRW, Ripple Prime, Baillie Gifford and Circle as first clients. The service targets collateral and margin flows and is moving toward 24/7 operation, extending the world's largest custodian into programmable cash.",
+   "headline": "BNY launches tokenized deposits for institutional collateral and margin payments",
+   "id": "bny-tokenized-deposits-202601",
+   "partners": [
+    "Intercontinental Exchange",
+    "Citadel Securities",
+    "DRW",
+    "Ripple Prime",
+    "Baillie Gifford",
+    "Circle"
+   ],
+   "protocols": [],
+   "region": "US",
+   "sector": "Bank",
+   "solutions": [
+    "bny"
+   ],
+   "sources": [
+    "https://www.bloomberg.com/news/articles/2026-01-09/bny-launches-tokenized-deposits-in-digital-assets-expansion",
+    "https://www.theblock.co/post/384930/bny-activates-tokenized-deposit-service-payments-collateral"
+   ],
+   "status": "live"
+  },
+  {
+   "blurb": "Post-trade fintech handling over $18T a day in securities",
+   "company": "Broadridge",
+   "companyId": "broadridge",
+   "date": "2026-01-08",
+   "detail": "Broadridge's Distributed Ledger Repo platform averaged $384B a day in December 2025, nearly $9T for the month and up 490% year on year. It is the largest live use of tokenized settlement in wholesale markets, showing DLT-based repo at systemic scale.",
+   "headline": "Broadridge's tokenized repo platform processes nearly $9T in a single month",
+   "id": "broadridge-dlr-9t-202601",
+   "partners": [],
+   "protocols": [
+    "Distributed Ledger Repo (DLR)"
+   ],
+   "region": "US",
+   "sector": "Market infrastructure",
+   "solutions": [
+    "broadridge"
+   ],
+   "sources": [
+    "https://www.broadridge.com/press-release/2026/broadridge-distributed-ledger-repo-platform-december"
+   ],
+   "status": "live"
+  },
+  {
+   "blurb": "Largest US bank, about $4T in assets",
+   "company": "JPMorgan Chase",
+   "companyId": "jpmorgan",
+   "date": "2026-01-07",
+   "detail": "Kinexys and Digital Asset said JPM Coin will be issued, transferred and redeemed directly on Canton, with a phased rollout through 2026. Adding a privacy-focused institutional chain alongside Base makes JPMD multi-chain and connects it to Canton's tokenized collateral and repo activity.",
+   "headline": "JPMorgan plans to issue its JPMD deposit token natively on the Canton Network",
+   "id": "jpmorgan-jpmd-canton-202601",
+   "partners": [
+    "Digital Asset"
+   ],
+   "protocols": [
+    "Canton"
+   ],
+   "region": "US",
+   "sector": "Bank",
+   "solutions": [
+    "kinexys",
+    "canton"
+   ],
+   "sources": [
+    "https://www.canton.network/news/j.p.-morgans-deposit-token-to-be-issued-natively-on-canton-network"
+   ],
+   "status": "announced"
+  },
+  {
+   "blurb": "Emerging-markets-focused UK bank, about $850B in assets",
+   "company": "Standard Chartered",
+   "companyId": "standard-chartered",
+   "date": "2025-12-18",
+   "detail": "Standard Chartered rolled out tokenized account balances on Ant International's Whale treasury platform for 24/7 intra-group liquidity moves, covering SGD and USD in Singapore and HKD, CNH and USD in Hong Kong. It builds on both firms' work in MAS Project Guardian and turns a pilot into a live corporate treasury service.",
+   "headline": "Standard Chartered launches tokenized SGD and USD deposits for Ant International",
+   "id": "standard-chartered-tokenised-deposits-202512",
+   "partners": [
+    "Ant International"
+   ],
+   "protocols": [
+    "Whale"
+   ],
+   "region": "Asia",
+   "sector": "Bank",
+   "solutions": [
+    "mas-guardian"
+   ],
+   "sources": [
+    "https://www.sc.com/en/press-release/standard-chartered-launches-blockchain-based-tokenised-deposits-solution-in-sgd-and-usd/"
+   ],
+   "status": "live"
+  },
+  {
+   "blurb": "Largest US bank, about $4T in assets",
+   "company": "JPMorgan Chase",
+   "companyId": "jpmorgan",
+   "date": "2025-12-15",
+   "detail": "J.P. Morgan Asset Management debuted MONY, a tokenized money market fund on public Ethereum for qualified investors, seeded with about $100M of its own capital per WSJ reports. It is the bank's first tokenized MMF and puts the largest US bank head to head with BlackRock's BUIDL and other onchain cash funds.",
+   "headline": "JPMorgan Asset Management launches its first tokenized money market fund, MONY, on Ethereum",
+   "id": "jpmorgan-mony-mmf-202512",
+   "partners": [],
+   "protocols": [
+    "Ethereum"
+   ],
+   "region": "US",
+   "sector": "Bank",
+   "solutions": [
+    "kinexys",
+    "ethereum"
+   ],
+   "sources": [
+    "https://www.bloomberg.com/news/articles/2025-12-15/jpmorgan-debuts-first-money-market-fund-tokenized-on-ethereum",
+    "https://thedefiant.io/j-p-morgan-launches-tokenized-money-market-fund-on-ethereum"
+   ],
+   "status": "live"
+  },
+  {
+   "blurb": "Core US post-trade utility; DTC holds about $114T in custody",
+   "company": "DTCC",
+   "companyId": "dtcc",
+   "date": "2025-12-11",
+   "detail": "SEC staff let DTC run a three-year tokenization service for Russell 1000 stocks, major index ETFs and US Treasuries, with tokens mirroring the rights of the underlying and moving on pre-approved chains via DTCC's ComposerX suite. It is the first regulatory green light for tokenization inside the core US settlement system.",
+   "headline": "DTCC wins SEC no-action relief to tokenize DTC-held stocks, ETFs and Treasuries",
+   "id": "dtcc-no-action-202512",
+   "partners": [],
+   "protocols": [
+    "ComposerX"
+   ],
+   "region": "US",
+   "sector": "Market infrastructure",
+   "solutions": [
+    "dtcc",
+    "sec"
+   ],
+   "sources": [
+    "https://www.theblock.co/post/382331/dtcc-subsidiary-tokenization-service-us-securities",
+    "https://www.morganlewis.com/pubs/2026/01/new-sec-guidance-provides-regulatory-pathway-for-dtc-securities-tokenization-services"
+   ],
+   "status": "announced"
+  },
+  {
+   "blurb": "French universal bank, about €1.5T in assets",
+   "company": "Société Générale",
+   "companyId": "societe-generale",
+   "date": "2025-11-18",
+   "detail": "SG-FORGE issued short-term SOFR-linked notes as security tokens on the Canton Network, bought by DRW, with BNY as paying agent. They were the first securities tokenized via Broadridge's new tokenization service, marking SocGen's entry into US digital debt.",
+   "headline": "Société Générale-FORGE issues its first US tokenized bond on Canton using Broadridge",
+   "id": "societe-generale-us-digital-bond-202511",
+   "partners": [
+    "DRW",
+    "Digital Asset",
+    "IntellectEU"
+   ],
+   "protocols": [
+    "Canton"
+   ],
+   "region": "US",
+   "sector": "Bank",
+   "solutions": [
+    "canton",
+    "broadridge",
+    "bny"
+   ],
+   "sources": [
+    "https://www.societegenerale.com/sites/default/files/documents/2025-11/20251118-pr-societe-generale-sg-forge-us-digital-bond.pdf"
+   ],
+   "status": "live"
+  },
+  {
+   "blurb": "World's largest asset manager, over $10T in AUM",
+   "company": "BlackRock",
+   "companyId": "blackrock",
+   "date": "2025-11-14",
+   "detail": "Binance accepts BUIDL (then over $2.5B) as off-exchange collateral for institutional traders, integrated with its triparty banking agents and custody partner Ceffu, and BUIDL extends to BNB Chain. It shows tokenized money market funds moving into core crypto-market plumbing as yield-bearing margin.",
+   "headline": "BlackRock's BUIDL becomes off-exchange trading collateral on Binance and launches on BNB Chain",
+   "id": "blackrock-buidl-binance-202511",
+   "partners": [
+    "Ceffu"
+   ],
+   "protocols": [
+    "BNB Chain"
+   ],
+   "region": "Global",
+   "sector": "Asset manager",
+   "solutions": [
+    "blackrock",
+    "securitize",
+    "binance"
+   ],
+   "sources": [
+    "https://theblock.co/post/378883/blackrock-binance-partner-on-buidl-integration-and-launch-on-bnb-chain"
+   ],
+   "status": "live"
+  },
+  {
+   "blurb": "Global asset manager, about $1.6T in AUM",
+   "company": "Franklin Templeton",
+   "companyId": "franklin",
+   "date": "2025-11-12",
+   "detail": "Benji was extended to Canton, a privacy-enabled network for regulated institutions, giving banks and trading firms on Canton's Global Collateral Network access to Franklin's tokenized funds. It added a permissioned option alongside Benji's public-chain deployments.",
+   "headline": "Franklin Templeton puts its Benji tokenized funds on the Canton Network",
+   "id": "franklin-benji-canton-202511",
+   "partners": [],
+   "protocols": [
+    "Canton"
+   ],
+   "region": "Global",
+   "sector": "Asset manager",
+   "solutions": [
+    "franklin",
+    "canton"
+   ],
+   "sources": [
+    "https://decrypt.co/348256/franklin-templeton-tokenized-fund-platform-canton-network"
+   ],
+   "status": "live"
+  },
+  {
+   "blurb": "Largest US bank, about $4T in assets",
+   "company": "JPMorgan Chase",
+   "companyId": "jpmorgan",
+   "date": "2025-11-12",
+   "detail": "After a five-month pilot, Kinexys made JPM Coin (JPMD) available to institutional clients on Base for 24/7, near-instant USD transfers, with B2C2, Coinbase and Mastercard among early test users. It positions a bank deposit token as a regulated alternative to stablecoins on a public chain.",
+   "headline": "JPMorgan opens its JPMD deposit token on Base to institutional clients",
+   "id": "jpmorgan-jpmd-base-202511",
+   "partners": [
+    "B2C2",
+    "Mastercard"
+   ],
+   "protocols": [
+    "Base",
+    "Ethereum"
+   ],
+   "region": "US",
+   "sector": "Bank",
+   "solutions": [
+    "kinexys",
+    "coinbase"
+   ],
+   "sources": [
+    "https://www.theblock.co/post/378493/jpmorgan-deposit-token-jpm-coin"
+   ],
+   "status": "live"
+  },
+  {
+   "blurb": "Southeast Asia's largest bank, about S$800B in assets",
+   "company": "DBS",
+   "companyId": "dbs",
+   "date": "2025-11-11",
+   "detail": "DBS Token Services and Kinexys Digital Payments are building interoperability so tokenized deposits can be settled across public and permissioned chains, for example a JPMD payment on Base redeemed via DBS. The goal is to keep tokenized money fungible across banks rather than locked in single-bank networks.",
+   "headline": "DBS and JPMorgan's Kinexys design a framework to move tokenized deposits between their banks across chains",
+   "id": "dbs-kinexys-interop-202511",
+   "partners": [
+    "JPMorgan Chase"
+   ],
+   "protocols": [
+    "Base",
+    "Kinexys Digital Payments",
+    "DBS Token Services"
+   ],
+   "region": "Asia",
+   "sector": "Bank",
+   "solutions": [
+    "kinexys"
+   ],
+   "sources": [
+    "https://www.dbs.com/newsroom/DBS_and_Kinexys_by_JP_Morgan_to_develop_framework_for_interbank_tokenised_deposit_transfers_across_multiple_blockchains"
+   ],
+   "status": "announced"
+  },
+  {
+   "blurb": "UK-headquartered global bank, about $3T in assets",
+   "company": "HSBC",
+   "companyId": "hsbc",
+   "date": "2025-11-11",
+   "detail": "The HKSAR government's third digital green bond, about US$1.3B across HKD, RMB, USD and EUR tranches, was issued on HSBC Orion integrated with the CMU. It was billed as the biggest digital bond issuance to date, showing tokenized sovereign debt reaching benchmark size.",
+   "headline": "HSBC Orion carries Hong Kong's HK$10B digital green bond, the largest digital bond yet",
+   "id": "hsbc-hk-digital-bond-202511",
+   "partners": [
+    "HKMA"
+   ],
+   "protocols": [
+    "HSBC Orion"
+   ],
+   "region": "Asia",
+   "sector": "Bank",
+   "solutions": [
+    "hk-tokenization"
+   ],
+   "sources": [
+    "https://www.about.hsbc.com.hk/news-and-media/hsbc-facilitates-worlds-largest-digital-bond-issuance-in-hong-kong",
+    "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2025/11/20251111-6/"
+   ],
+   "status": "live"
+  },
+  {
+   "blurb": "Global US bank, about $2.6T in assets",
+   "company": "Citigroup",
+   "companyId": "citi",
+   "date": "2025-11-07",
+   "detail": "Citi added euro payments and an Irish hub to Citi Token Services, which already runs 24/7 tokenized USD transfers in the US, UK, Singapore and Hong Kong on a private permissioned chain. Clients in Dublin can now move USD and EUR around the clock to other CTS branches, building on CTS's link to Citi's 24/7 USD clearing.",
+   "headline": "Citi extends its Citi Token Services tokenized deposits to euros and Dublin",
+   "id": "citi-cts-euro-202511",
+   "partners": [],
+   "protocols": [
+    "Private permissioned blockchain"
+   ],
+   "region": "Global",
+   "sector": "Bank",
+   "solutions": [],
+   "sources": [
+    "https://www.citigroup.com/global/news/press-release/2025/citi-unveils-strategic-expansion-citi-token-services-euro-integration"
+   ],
+   "status": "live"
+  },
+  {
+   "blurb": "Global asset manager, about $1.6T in AUM",
+   "company": "Franklin Templeton",
+   "companyId": "franklin",
+   "date": "2025-11-06",
+   "detail": "Announced at Hong Kong Fintech Week, the offering is based on Franklin's Luxembourg UCITS OnChain U.S. Government Money Fund and is initially for professional investors. Hong Kong is Franklin's fourth tokenized MMF market after the US, Luxembourg and Singapore.",
+   "headline": "Franklin Templeton launches its first tokenized money market fund in Hong Kong",
+   "id": "franklin-hk-tokenized-mmf-202511",
+   "partners": [],
+   "protocols": [],
+   "region": "Global",
+   "sector": "Asset manager",
+   "solutions": [
+    "franklin",
+    "hk-tokenization"
+   ],
+   "sources": [
+    "https://www.ledgerinsights.com/franklin-templeton-launches-tokenized-mmf-in-hong-kong/"
+   ],
+   "status": "live"
+  },
+  {
+   "blurb": "Europe's largest asset manager, about $2.3T in AUM",
+   "company": "Amundi",
+   "companyId": "amundi",
+   "date": "2025-11-04",
+   "detail": "Amundi Funds Cash EUR gained a J28 EUR DLT share class with units recorded on Ethereum and CACEIS supplying investor wallets and the order platform; the first transaction settled on 4 November 2025. Europe's largest asset manager plans 24/7 dealing settled in stablecoins or a future CBDC.",
+   "headline": "Amundi tokenizes a share class of its euro money market fund on public Ethereum",
+   "id": "amundi-tokenized-mmf-202511",
+   "partners": [
+    "CACEIS"
+   ],
+   "protocols": [
+    "Ethereum"
+   ],
+   "region": "Europe",
+   "sector": "Asset manager",
+   "solutions": [
+    "ethereum"
+   ],
+   "sources": [
+    "https://www.theblock.co/post/380765/amundi-tokenizes-money-market-fund-on-ethereum",
+    "https://funds-europe.com/amundi-launches-its-first-tokenised-fund/"
+   ],
+   "status": "live"
+  },
+  {
+   "blurb": "Deutsche Börse's post-trade arm, about €18T in assets under custody",
+   "company": "Clearstream (Deutsche Börse)",
+   "companyId": "clearstream",
+   "date": "2025-11-04",
+   "detail": "Deutsche Börse's Clearstream rolled out D7 DLT, a CSDR-compliant platform for tokenized issuance starting with commercial paper and medium-term notes for Eurobond issuers, running on Google Cloud. It builds on ECB wholesale settlement trials and links to the 360X trading venue.",
+   "headline": "Clearstream launches D7 DLT for issuing tokenized securities under EU rules",
+   "id": "clearstream-d7-dlt-202511",
+   "partners": [
+    "Google Cloud",
+    "360X"
+   ],
+   "protocols": [
+    "D7 DLT"
+   ],
+   "region": "Europe",
+   "sector": "Market infrastructure",
+   "solutions": [
+    "clearstream"
+   ],
+   "sources": [
+    "https://www.clearstream.com/clearstream-en/newsroom/251104-4757900"
+   ],
+   "status": "live"
+  },
+  {
+   "blurb": "Largest Swiss bank, about $6.9T in invested assets",
+   "company": "UBS",
+   "companyId": "ubs",
+   "date": "2025-11-04",
+   "detail": "UBS Tokenize and distributor DigiFT completed an end-to-end production fund transaction for uMINT using the Chainlink Digital Transfer Agent standard. It shows fund orders, settlement and record updates can be automated across onchain and offchain systems.",
+   "headline": "UBS processes a live onchain subscription and redemption in uMINT using Chainlink's transfer agent standard",
+   "id": "ubs-dta-live-202511",
+   "partners": [
+    "DigiFT"
+   ],
+   "protocols": [
+    "Ethereum",
+    "Chainlink DTA"
+   ],
+   "region": "Global",
+   "sector": "Bank",
+   "solutions": [
+    "chainlink",
+    "ethereum"
+   ],
+   "sources": [
+    "https://www.ubs.com/global/fr/media/display-page-ndp/en-20251104-chainlink.html"
+   ],
+   "status": "live"
+  },
+  {
+   "blurb": "Largest US bank, about $4T in assets",
+   "company": "JPMorgan Chase",
+   "companyId": "jpmorgan",
+   "date": "2025-10-31",
+   "detail": "Kinexys Fund Flow records private-fund investor registers and transactions on Kinexys' permissioned chain and uses Kinexys Digital Payments to fund capital calls and distributions. The first transaction involved J.P. Morgan Private Bank, J.P. Morgan Asset Management and Citco, with a broader rollout planned for 2026.",
+   "headline": "JPMorgan launches Kinexys Fund Flow to tokenize private fund registers and capital calls",
+   "id": "jpmorgan-fund-flow-202510",
+   "partners": [
+    "Citco"
+   ],
+   "protocols": [
+    "Kinexys Digital Assets",
+    "Kinexys Digital Payments"
+   ],
+   "region": "US",
+   "sector": "Bank",
+   "solutions": [
+    "kinexys"
+   ],
+   "sources": [
+    "https://www.marketsmedia.com/kinexys-by-j-p-morgan-launches-private-fund-tokenization-platform"
+   ],
+   "status": "live"
+  },
+  {
+   "blurb": "Private markets manager, about $986B in assets under management and supervision",
+   "company": "Hamilton Lane",
+   "companyId": "hamilton-lane",
+   "date": "2025-10-15",
+   "detail": "KAIO tokenized access to Hamilton Lane's Senior Credit Opportunities Fund through an HL SCOPE Access feeder on the Sei Network, for institutional and accredited investors. It brings Hamilton Lane private credit to another chain alongside its Polygon feeders.",
+   "headline": "Hamilton Lane's senior private credit fund SCOPE goes onchain on Sei via KAIO",
+   "id": "hamilton-lane-scope-sei-202510",
+   "partners": [
+    "KAIO"
+   ],
+   "protocols": [
+    "Sei"
+   ],
+   "region": "US",
+   "sector": "Asset manager",
+   "solutions": [
+    "hamilton-lane"
+   ],
+   "sources": [
+    "https://www.hamiltonlane.com/en-us/news/kaio-tokenizes-private-credit-fund-sei-network"
+   ],
+   "status": "live"
+  },
+  {
+   "blurb": "Japan's largest banking group, about $2.7T in assets",
+   "company": "Mitsubishi UFJ Financial Group",
+   "companyId": "mufg",
+   "date": "2025-10-09",
+   "detail": "MUFG filed an amended registration for a subordinated Tier 2 bond issued as a security token on its Progmat platform, sold via Mitsubishi UFJ Morgan Stanley Securities. It would be the first public security-token bond from a Japanese bank, widening the investor base for bank capital.",
+   "headline": "MUFG files to issue Japan's first publicly offered security-token bond by a bank",
+   "id": "mufg-st-bond-202510",
+   "partners": [
+    "Progmat",
+    "Mitsubishi UFJ Morgan Stanley Securities"
+   ],
+   "protocols": [
+    "Progmat"
+   ],
+   "region": "Asia",
+   "sector": "Bank",
+   "solutions": [],
+   "sources": [
+    "https://www.mufg.jp/dam/pressrelease/2025/pdf/news-20251009-001_en.pdf"
+   ],
+   "status": "announced"
+  },
+  {
+   "blurb": "Global asset manager, about $1.6T in AUM",
+   "company": "Franklin Templeton",
+   "companyId": "franklin",
+   "date": "2025-09-24",
+   "detail": "Franklin extended Benji, the platform behind its tokenized funds, to BNB Chain to reach more institutional and retail investors in that ecosystem. It continued Franklin's chain-agnostic distribution strategy.",
+   "headline": "Franklin Templeton expands the Benji tokenization platform to BNB Chain",
+   "id": "franklin-benji-bnb-202509",
+   "partners": [],
+   "protocols": [
+    "BNB Chain"
+   ],
+   "region": "Global",
+   "sector": "Asset manager",
+   "solutions": [
+    "franklin"
+   ],
+   "sources": [
+    "https://thedefiant.io/news/tradfi-and-fintech/franklin-templeton-expands-benji-to-bnb-chain"
+   ],
+   "status": "live"
+  },
+  {
+   "blurb": "Alternative asset manager, about $785B in AUM",
+   "company": "Apollo Global Management",
+   "companyId": "apollo",
+   "date": "2025-09-16",
+   "detail": "Centrifuge and Plume launched ACRDX, a tokenized feeder into Apollo's Diversified Credit Fund, distributed through Plume's Nest Credit vaults and anchored by a $50M Grove allocation. It widened DeFi access to Apollo credit beyond Securitize.",
+   "headline": "A second tokenized Apollo credit feeder, ACRDX, launches on Plume via Centrifuge with $50M from Grove",
+   "id": "apollo-acrdx-plume-202509",
+   "partners": [
+    "Grove",
+    "Chronicle",
+    "Wormhole"
+   ],
+   "protocols": [
+    "Plume"
+   ],
+   "region": "US",
+   "sector": "Asset manager",
+   "solutions": [
+    "apollo",
+    "centrifuge",
+    "plume"
+   ],
+   "sources": [
+    "https://centrifuge.io/blog/acrdx-launch-on-centrifuge"
+   ],
+   "status": "live"
+  },
+  {
+   "blurb": "Owner of the London Stock Exchange and a top global data provider",
+   "company": "LSEG",
+   "companyId": "lseg",
+   "date": "2025-09-15",
+   "detail": "Built with Microsoft on Azure, DMI covers issuance, tokenization, distribution and settlement, starting with private funds, and completed a first deal in which Archax invested in MembersCap's reinsurance fund. It gives the London Stock Exchange owner a regulated venue for tokenized assets linked to its Workspace platform.",
+   "headline": "LSEG launches its Digital Markets Infrastructure for tokenized private funds",
+   "id": "lseg-dmi-202509",
+   "partners": [
+    "Microsoft",
+    "MembersCap"
+   ],
+   "protocols": [
+    "Microsoft Azure"
+   ],
+   "region": "UK",
+   "sector": "Market infrastructure",
+   "solutions": [
+    "archax"
+   ],
+   "sources": [
+    "https://www.fintechfutures.com/blockchain-crypto-digital-assets/lseg-launches-microsoft-powered-digital-markets-infrastructure-platform-for-private-funds"
+   ],
+   "status": "live"
+  },
+  {
+   "blurb": "ETF and tokenized fund issuer, about $177B in AUM",
+   "company": "WisdomTree",
+   "companyId": "wisdomtree",
+   "date": "2025-09-12",
+   "detail": "The WisdomTree Private Credit and Alternative Income Digital Fund tracks an index of listed private credit vehicles and is available via WisdomTree Prime and Connect from $25. It brings private-credit exposure to retail investors onchain.",
+   "headline": "WisdomTree launches a tokenized private credit fund (CRDT) on Ethereum and Stellar",
+   "id": "wisdomtree-private-credit-fund-202509",
+   "partners": [],
+   "protocols": [
+    "Ethereum",
+    "Stellar"
+   ],
+   "region": "US",
+   "sector": "Asset manager",
+   "solutions": [
+    "wisdomtree",
+    "ethereum",
+    "stellar"
+   ],
+   "sources": [
+    "https://www.fxstreet.com/cryptocurrencies/news/wisdomtree-launches-tokenized-private-credits-on-ethereum-and-stellar-202509122230"
+   ],
+   "status": "live"
+  },
+  {
+   "blurb": "One of the largest US asset managers, several trillion in AUM",
+   "company": "Fidelity Investments",
+   "companyId": "fidelity",
+   "date": "2025-09-10",
+   "detail": "Fidelity's tokenized Treasury money market fund token FDIT went live, with Ondo's OUSG holding over 99% of its assets at launch. It gives Fidelity a live onchain fund competing with BUIDL as a reserve asset for tokenized Treasury products.",
+   "headline": "Fidelity launches its Digital Interest Token (FDIT) with Ondo's OUSG as anchor investor",
+   "id": "fidelity-fdit-launch-202509",
+   "partners": [],
+   "protocols": [
+    "Ethereum"
+   ],
+   "region": "US",
+   "sector": "Asset manager",
+   "solutions": [
+    "fidelity",
+    "ondo",
+    "ethereum"
+   ],
+   "sources": [
+    "https://www.marketsmedia.com/fidelity-unveils-onchain-money-market-fund",
+    "https://thedefiant.io/fidelity-s-tokenized-fund-launch-marks-tipping-point-for-institutional-on-chain-adoption"
+   ],
+   "status": "live"
+  },
+  {
+   "blurb": "Southeast Asia's largest bank, about S$800B in assets",
+   "company": "DBS",
+   "companyId": "dbs",
+   "date": "2025-08-21",
+   "detail": "DBS began issuing tokenized cash-settled, crypto-linked participation notes on public Ethereum in US$1,000 units, sold to accredited and institutional investors including non-DBS clients through three third-party platforms. It opens bank-issued structured products to wider onchain distribution, with equity- and credit-linked notes to follow.",
+   "headline": "DBS tokenizes structured notes on Ethereum and distributes them via ADDX, DigiFT and HydraX",
+   "id": "dbs-structured-notes-202508",
+   "partners": [
+    "ADDX",
+    "DigiFT",
+    "HydraX"
+   ],
+   "protocols": [
+    "Ethereum"
+   ],
+   "region": "Asia",
+   "sector": "Bank",
+   "solutions": [
+    "ethereum"
+   ],
+   "sources": [
+    "https://www.dbs.com/newsroom/DBS_expands_blockchain_capabilities_by_tokenising_and_distributing_structured_notes"
+   ],
+   "status": "live"
+  },
+  {
+   "blurb": "World's largest custodian, about $58T in assets under custody/administration",
+   "company": "BNY",
+   "companyId": "bny",
+   "date": "2025-07-23",
+   "detail": "Institutional clients subscribing to MMFs via BNY's LiquidityDirect get mirror tokens of their shares recorded on Goldman's GS DAP, with BlackRock, Dreyfus, Federated Hermes, Fidelity and Goldman Sachs Asset Management in the launch. It is the first US use of this model, while BNY keeps the official books and records.",
+   "headline": "BNY and Goldman Sachs let LiquidityDirect clients hold tokenized money market fund shares",
+   "id": "bny-gs-mmf-202507",
+   "partners": [
+    "Goldman Sachs",
+    "Federated Hermes",
+    "Digital Asset"
+   ],
+   "protocols": [
+    "GS DAP",
+    "Canton"
+   ],
+   "region": "US",
+   "sector": "Bank",
+   "solutions": [
+    "bny",
+    "blackrock",
+    "fidelity"
+   ],
+   "sources": [
+    "https://www.bny.com/corporate/global/en/about-us/newsroom/company-news/bny-and-goldman-sachs-launch-tokenized-money-market-funds-solution.html"
+   ],
+   "status": "live"
+  },
+  {
+   "blurb": "US retail brokerage and crypto platform, S&P 500 member",
+   "company": "Robinhood",
+   "companyId": "robinhood",
+   "date": "2025-06-30",
+   "detail": "EU users can trade 200+ US stock and ETF tokens around the clock on weekdays, issued on Arbitrum, and Robinhood announced its own Arbitrum-based Layer 2 for tokenized assets. It brought tokenized equities to a mainstream retail brokerage.",
+   "headline": "Robinhood launches tokenized US stocks and ETFs for EU customers on Arbitrum",
+   "id": "robinhood-stock-tokens-eu-202506",
+   "partners": [
+    "Arbitrum"
+   ],
+   "protocols": [
+    "Arbitrum"
+   ],
+   "region": "US",
+   "sector": "Fintech",
+   "solutions": [
+    "robinhood",
+    "ethereum"
+   ],
+   "sources": [
+    "https://coindesk.com/business/2025/06/30/robinhood-pushes-deeper-into-crypto-with-own-blockchain-tokenized-stock-launch"
+   ],
+   "status": "live"
+  },
+  {
+   "blurb": "Global active asset manager, roughly $400B in AUM",
+   "company": "Janus Henderson",
+   "companyId": "janus-henderson",
+   "date": "2025-06-25",
+   "detail": "Grove, a Sky-ecosystem credit protocol, allocated $1B into the Janus Henderson Anemoy AAA CLO Fund (JAAA), issued by Anemoy on Centrifuge with Janus Henderson as sub-advisor. JAAA is now on eight chains with daily stablecoin subscriptions. It made JAAA one of the largest tokenized credit funds.",
+   "headline": "Janus Henderson's tokenized AAA CLO fund JAAA gets a $1B onchain allocation via Grove",
+   "id": "janus-henderson-jaaa-grove-202506",
+   "partners": [
+    "Anemoy",
+    "Grove",
+    "Sky"
+   ],
+   "protocols": [
+    "Ethereum",
+    "Avalanche",
+    "Solana",
+    "Base",
+    "Stellar",
+    "BNB Chain",
+    "Arbitrum"
+   ],
+   "region": "Global",
+   "sector": "Asset manager",
+   "solutions": [
+    "centrifuge",
+    "ethereum",
+    "avalanche",
+    "solana",
+    "stellar"
+   ],
+   "sources": [
+    "https://www.alternativeswatch.com/2025/06/25/new-defi-protocol-grove-provides-1bn-in-inflows-for-janus-henderson-onchain/",
+    "https://cryptobriefing.com/centrifuge-jaaa-tokenized-clo-fund/"
+   ],
+   "status": "live"
+  },
+  {
+   "blurb": "Largest US bank, about $4T in assets",
+   "company": "JPMorgan Chase",
+   "companyId": "jpmorgan",
+   "date": "2025-06-17",
+   "detail": "Kinexys began a proof of concept for a permissioned, deposit-backed USD token on Base, its first use of a public blockchain. It targets institutional clients wanting 24/7 onchain settlement backed by a bank balance sheet rather than a stablecoin reserve.",
+   "headline": "JPMorgan pilots JPMD, a USD deposit token for institutional clients, on Coinbase's Base network",
+   "id": "jpmorgan-jpmd-pilot-202506",
+   "partners": [],
+   "protocols": [
+    "Base",
+    "Ethereum"
+   ],
+   "region": "US",
+   "sector": "Bank",
+   "solutions": [
+    "kinexys",
+    "coinbase"
+   ],
+   "sources": [
+    "https://www.jpmorgan.com/payments/newsroom/kinexys-usd-digital-deposit-tokens"
+   ],
+   "status": "pilot"
+  },
+  {
+   "blurb": "UK-headquartered global bank, about $3T in assets",
+   "company": "HSBC",
+   "companyId": "hsbc",
+   "date": "2025-05-22",
+   "detail": "HSBC launched Hong Kong's first bank-led blockchain settlement service, letting corporate clients move HKD and USD between HSBC wallets instantly, with Ant International as first client via its Whale treasury platform. It is the first live pilot under the HKMA's DLT Supervisory Incubator and is aligned with Project Ensemble.",
+   "headline": "HSBC goes live with a Tokenised Deposit Service for corporates in Hong Kong",
+   "id": "hsbc-tds-hk-202505",
+   "partners": [
+    "Ant International",
+    "HKMA"
+   ],
+   "protocols": [],
+   "region": "Asia",
+   "sector": "Bank",
+   "solutions": [
+    "hk-tokenization"
+   ],
+   "sources": [
+    "https://www.about.hsbc.com.hk/news-and-media/hsbc-launches-tokenised-deposit-service-for-corporate-cash-management-in-hong-kong"
+   ],
+   "status": "live"
+  },
+  {
+   "blurb": "Alternative asset manager, about $785B in AUM",
+   "company": "Apollo Global Management",
+   "companyId": "apollo",
+   "date": "2025-05-21",
+   "detail": "ACRED was integrated into Solana lending venues Kamino Finance and Drift Institutional, letting holders use the tokenized credit fund as DeFi collateral. It moved a private-credit RWA from passive holding into leveraged onchain strategies.",
+   "headline": "Apollo's ACRED tokenized credit fund plugs into Solana DeFi via Kamino and Drift",
+   "id": "apollo-acred-solana-defi-202505",
+   "partners": [
+    "Kamino Finance",
+    "Drift"
+   ],
+   "protocols": [
+    "Solana"
+   ],
+   "region": "US",
+   "sector": "Asset manager",
+   "solutions": [
+    "apollo",
+    "securitize",
+    "solana"
+   ],
+   "sources": [
+    "https://thedefiant.io/news/defi/apollo-launches-785-billion-aum-tokenized-credit-fund-acred-on-solana-defi-drift-c7022e98"
+   ],
+   "status": "live"
+  },
+  {
+   "blurb": "Largest US bank, about $4T in assets",
+   "company": "JPMorgan Chase",
+   "companyId": "jpmorgan",
+   "date": "2025-05-14",
+   "detail": "Kinexys Digital Payments paid USD deposits for Ondo's tokenized US Treasury fund (OUSG) held on Ondo Chain's testnet, with Chainlink CCIP coordinating the two legs. It was the first time Kinexys settled beyond its own permissioned network, showing how bank cash rails can plug into public tokenized-asset markets.",
+   "headline": "JPMorgan's Kinexys settles a cross-chain test trade of Ondo's tokenized Treasury fund against bank deposits",
+   "id": "jpmorgan-ondo-dvp-202505",
+   "partners": [],
+   "protocols": [
+    "Kinexys Digital Payments",
+    "Ondo Chain",
+    "Chainlink CCIP"
+   ],
+   "region": "US",
+   "sector": "Bank",
+   "solutions": [
+    "kinexys",
+    "chainlink",
+    "ondo"
+   ],
+   "sources": [
+    "https://www.jpmorgan.com/payments/newsroom/kinexys-chainlink-ondo-tokenized-asset-test",
+    "https://www.theblock.co/post/354336/jpmorgan-chainlink-ondo-finance-crypto-partnership"
+   ],
+   "status": "pilot"
+  },
+  {
+   "blurb": "Global US bank, about $2.6T in assets",
+   "company": "Citigroup",
+   "companyId": "citi",
+   "date": "2025-05-06",
+   "detail": "Citi will act as digital custodian and tokenization agent while SDX's regulated DLT central securities depository issues, settles and holds tokenized shares of late-stage private companies. The aim is to give eligible investors worldwide access to private-market equity and help issuers manage employee and early-investor liquidity.",
+   "headline": "Citi and SIX Digital Exchange team up to tokenize pre-IPO private company shares",
+   "id": "citi-sdx-private-202505",
+   "partners": [
+    "SIX Digital Exchange"
+   ],
+   "protocols": [
+    "SDX DLT CSD"
+   ],
+   "region": "US",
+   "sector": "Bank",
+   "solutions": [
+    "swiss-dlt"
+   ],
+   "sources": [
+    "https://cointelegraph.com/news/citi-sdx-tokenize-private-markets"
+   ],
+   "status": "announced"
+  },
+  {
+   "blurb": "ETF and tokenized fund issuer, about $177B in AUM",
+   "company": "WisdomTree",
+   "companyId": "wisdomtree",
+   "date": "2025-04-03",
+   "detail": "WisdomTree's institutional portal now offers 13 tokenized funds, including WTGXX, on Ethereum, Arbitrum, Avalanche, Base and Optimism. Wallets are tagged with soulbound NFTs, enabling peer-to-peer transfers between approved holders.",
+   "headline": "WisdomTree Connect brings 13 tokenized funds to institutions on five chains",
+   "id": "wisdomtree-connect-multichain-202504",
+   "partners": [],
+   "protocols": [
+    "Ethereum",
+    "Arbitrum",
+    "Avalanche",
+    "Base",
+    "Optimism"
+   ],
+   "region": "US",
+   "sector": "Asset manager",
+   "solutions": [
+    "wisdomtree",
+    "ethereum",
+    "avalanche"
+   ],
+   "sources": [
+    "https://www.blockworks.com/news/wisdomtree-connect-expands-chain-base-tokenization"
+   ],
+   "status": "live"
+  },
+  {
+   "blurb": "World's largest asset manager, over $10T in AUM",
+   "company": "BlackRock",
+   "companyId": "blackrock",
+   "date": "2025-03-25",
+   "detail": "Securitize issued a BUIDL share class on Solana, the fund's seventh chain. BUIDL crossed $1B in mid-March 2025 and topped $1.7B after heavy inflows. It reflected demand for tokenized Treasuries as onchain collateral and reserves.",
+   "headline": "BlackRock adds a Solana share class to BUIDL as the fund passes $1.7B",
+   "id": "blackrock-buidl-solana-202503",
+   "partners": [
+    "Wormhole"
+   ],
+   "protocols": [
+    "Solana"
+   ],
+   "region": "Global",
+   "sector": "Asset manager",
+   "solutions": [
+    "blackrock",
+    "securitize",
+    "solana"
+   ],
+   "sources": [
+    "https://www.theblock.co/post/348048/blackrock-buidl-aptos-arbitrum-avalanche-optimism-polygon"
+   ],
+   "status": "live"
+  },
+  {
+   "blurb": "Cloud unit of Alphabet, a Fortune Global 500 tech giant",
+   "company": "Google Cloud",
+   "companyId": "google",
+   "date": "2025-03-25",
+   "detail": "CME completed first-phase integration and testing on Google Cloud Universal Ledger (GCUL), a permissioned programmable ledger for asset tokenization and wholesale payments. Market-participant testing followed, with services targeted for 2026. It marks a hyperscaler entering institutional tokenization infrastructure.",
+   "headline": "Google Cloud unveils Universal Ledger and pilots tokenization and wholesale payments with CME Group",
+   "id": "google-gcul-cme-202503",
+   "partners": [
+    "CME Group"
+   ],
+   "protocols": [
+    "Google Cloud Universal Ledger"
+   ],
+   "region": "US",
+   "sector": "Tech",
+   "solutions": [],
+   "sources": [
+    "https://www.crowdfundinsider.com/2025/03/237772-cme-group-to-introduce-tokenization-tech-to-enhance-capital-market-efficiency-via-google-clouds-universal-ledger/",
+    "https://mugglehead.com/google-cloud-unveils-universal-ledger-a-neutral-blockchain-for-global-finance/"
+   ],
+   "status": "pilot"
+  },
+  {
+   "blurb": "One of the largest US asset managers, several trillion in AUM",
+   "company": "Fidelity Investments",
+   "companyId": "fidelity",
+   "date": "2025-03-21",
+   "detail": "Fidelity's registration would record ownership of an onchain class of its Treasury Digital Fund (FYHXX) on Ethereum while keeping a reconciled book-entry record. Other public layer-1s may follow. It signalled Fidelity entering the tokenized MMF race against BlackRock and Franklin.",
+   "headline": "Fidelity files with the SEC to add an Ethereum OnChain share class to its Treasury Digital Fund",
+   "id": "fidelity-onchain-share-class-filing-202503",
+   "partners": [],
+   "protocols": [
+    "Ethereum"
+   ],
+   "region": "US",
+   "sector": "Asset manager",
+   "solutions": [
+    "fidelity",
+    "ethereum",
+    "sec"
+   ],
+   "sources": [
+    "https://decrypt.co/311369/fidelity-tokenized-us-treasury-fund"
+   ],
+   "status": "announced"
+  },
+  {
+   "blurb": "Belgium-based CSD/ICSD with about €40T in assets held",
+   "company": "Euroclear",
+   "companyId": "euroclear",
+   "date": "2025-02-24",
+   "detail": "Euroclear and Digital Asset launched phase one of an initiative to apply Euroclear's collateral management to tokenized assets on the Canton Global Collateral Network, including 24/7 crypto derivatives margining. It signals Europe's largest settlement house moving toward digital collateral.",
+   "headline": "Euroclear joins Digital Asset to pilot tokenized collateral mobility on Canton's Global Collateral Network",
+   "id": "euroclear-canton-collateral-202502",
+   "partners": [
+    "Digital Asset"
+   ],
+   "protocols": [
+    "Canton"
+   ],
+   "region": "Europe",
+   "sector": "Market infrastructure",
+   "solutions": [
+    "canton"
+   ],
+   "sources": [
+    "https://www.euroclear.com/newsandinsights/en/press/2025/mr-09-digital-asset-and-euroclear.html"
+   ],
+   "status": "pilot"
+  },
+  {
+   "blurb": "Global asset manager, about $1.6T in AUM",
+   "company": "Franklin Templeton",
+   "companyId": "franklin",
+   "date": "2025-02-12",
+   "detail": "The Franklin OnChain U.S. Government Money Fund (FOBXX, about $594M) became available on Solana via the Benji platform, adding to Ethereum, Polygon, Stellar, Arbitrum, Avalanche, Aptos and Base. Investors access it through the Benji app wallet. It put Franklin on Solana ahead of BlackRock's BUIDL.",
+   "headline": "Franklin Templeton brings its BENJI tokenized government money fund to Solana",
+   "id": "franklin-benji-solana-202502",
+   "partners": [],
+   "protocols": [
+    "Solana",
+    "Stellar",
+    "Ethereum",
+    "Polygon",
+    "Arbitrum",
+    "Avalanche",
+    "Aptos",
+    "Base"
+   ],
+   "region": "Global",
+   "sector": "Asset manager",
+   "solutions": [
+    "franklin",
+    "solana",
+    "stellar",
+    "ethereum",
+    "polygon",
+    "avalanche"
+   ],
+   "sources": [
+    "https://decrypt.co/305641/franklin-templeton-money-market-fund-solana"
+   ],
+   "status": "live"
+  },
+  {
+   "blurb": "Alternative asset manager, about $785B in AUM",
+   "company": "Apollo Global Management",
+   "companyId": "apollo",
+   "date": "2025-01-30",
+   "detail": "ACRED is a Securitize feeder into the Apollo Diversified Credit Fund, issued on Ethereum, Solana, Avalanche, Polygon, Aptos and Ink, with daily NAV redemptions for qualified investors. Securitize acts as transfer agent and administrator. It was the first major private-credit fund from a top alternatives manager tokenized at scale.",
+   "headline": "Apollo and Securitize launch ACRED, tokenized access to Apollo's diversified credit fund",
+   "id": "apollo-acred-launch-202501",
+   "partners": [
+    "Wormhole",
+    "Etherealize"
+   ],
+   "protocols": [
+    "Ethereum",
+    "Solana",
+    "Avalanche",
+    "Polygon",
+    "Aptos",
+    "Ink"
+   ],
+   "region": "US",
+   "sector": "Asset manager",
+   "solutions": [
+    "apollo",
+    "securitize",
+    "ethereum",
+    "solana",
+    "avalanche",
+    "polygon",
+    "coinbase",
+    "kraken"
+   ],
+   "sources": [
+    "https://www.nasdaq.com/press-release/apollo-and-securitize-announce-partnership-and-launch-tokenized-access-credit-fund"
+   ],
+   "status": "live"
+  },
+  {
+   "blurb": "UK asset manager (now aberdeen), several hundred billion pounds in assets",
+   "company": "abrdn",
+   "companyId": "abrdn",
+   "date": "2024-11-25",
+   "detail": "Archax issued tokenized access to part of abrdn's $3.8B US Dollar Liquidity Fund (Lux) on the XRP Ledger, the first tokenized MMF there. It extends abrdn's earlier tokenization work with Archax.",
+   "headline": "abrdn's US dollar liquidity fund is tokenized on the XRP Ledger via Archax and Ripple",
+   "id": "abrdn-xrpl-mmf-202411",
+   "partners": [
+    "Ripple"
+   ],
+   "protocols": [
+    "XRP Ledger"
+   ],
+   "region": "UK",
+   "sector": "Asset manager",
+   "solutions": [
+    "archax"
+   ],
+   "sources": [
+    "https://www.theblock.co/post/328142/ripple-announces-tokenized-money-market-fund-launching-on-xrp-ledger"
+   ],
+   "status": "live"
+  },
+  {
+   "blurb": "Global investment bank, about $1.8T in assets",
+   "company": "Goldman Sachs",
+   "companyId": "goldman",
+   "date": "2024-11-18",
+   "detail": "Goldman said it would separate GS DAP, its Digital Asset-based tokenization platform launched in 2022, into an independent business within 12 to 18 months, subject to approval, with Tradeweb as first strategic partner. Goldman argues a neutral, industry-owned network will scale faster than a single bank's platform; later reporting pointed to a mid-2026 target.",
+   "headline": "Goldman Sachs plans to spin out its GS DAP tokenization platform as an industry-owned company",
+   "id": "goldman-gsdap-spinout-202411",
+   "partners": [
+    "Tradeweb",
+    "Digital Asset"
+   ],
+   "protocols": [
+    "Canton",
+    "Daml"
+   ],
+   "region": "US",
+   "sector": "Bank",
+   "solutions": [],
+   "sources": [
+    "https://www.fintechfutures.com/fintech-innovation/goldman-sachs-to-spin-out-technology-platform-gs-dap-into-independent-business",
+    "https://www.marketsmedia.com/goldman-sachs-focuses-on-spinning-out-tokenization-platform/"
+   ],
+   "status": "announced"
+  },
+  {
+   "blurb": "World's largest asset manager, over $10T in AUM",
+   "company": "BlackRock",
+   "companyId": "blackrock",
+   "date": "2024-11-13",
+   "detail": "New BUIDL share classes went live on five more chains, taking the fund beyond Ethereum. At the time BUIDL held about $517M, the largest tokenized Treasury fund. The move let DeFi-native and institutional users hold it in their preferred ecosystems.",
+   "headline": "BlackRock extends BUIDL to Aptos, Arbitrum, Avalanche, Optimism and Polygon",
+   "id": "blackrock-buidl-multichain-202411",
+   "partners": [],
+   "protocols": [
+    "Aptos",
+    "Arbitrum",
+    "Avalanche",
+    "Optimism",
+    "Polygon"
+   ],
+   "region": "Global",
+   "sector": "Asset manager",
+   "solutions": [
+    "blackrock",
+    "securitize",
+    "avalanche",
+    "polygon"
+   ],
+   "sources": [
+    "https://www.theblock.co/post/326288/blackrock-buidl-aptos-arbitrum-avalanche-optimism-polygon"
+   ],
+   "status": "live"
+  },
+  {
+   "blurb": "Asset management arm of UBS, one of the largest global wealth and asset managers",
+   "company": "UBS Asset Management",
+   "companyId": "ubs-am",
+   "date": "2024-11-01",
+   "detail": "The UBS USD Money Market Investment Fund Token (uMINT) was launched from Singapore for institutional cash management, distributed via partners such as DigiFT. It came out of UBS Tokenize and its Project Guardian work.",
+   "headline": "UBS Asset Management launches uMINT, its first tokenized money market fund, on Ethereum",
+   "id": "ubs-am-umint-202411",
+   "partners": [
+    "DigiFT"
+   ],
+   "protocols": [
+    "Ethereum"
+   ],
+   "region": "Global",
+   "sector": "Asset manager",
+   "solutions": [
+    "ethereum",
+    "mas-guardian"
+   ],
+   "sources": [
+    "https://www.ubs.com/global/en/media/display-page-ndp/en-20241101-first-tokenized-investment-fund.html"
+   ],
+   "status": "live"
+  },
+  {
+   "blurb": "Largest Swiss bank, about $6.9T in invested assets",
+   "company": "UBS",
+   "companyId": "ubs",
+   "date": "2024-11-01",
+   "detail": "UBS launched the UBS USD Money Market Investment Fund Token (uMINT) on Ethereum, sold through authorized distributors such as DigiFT. It gives institutional investors an onchain cash-management product backed by conventional MMF holdings.",
+   "headline": "UBS Asset Management launches uMINT, its first tokenized money market fund, on Ethereum",
+   "id": "ubs-umint-202411",
+   "partners": [
+    "DigiFT"
+   ],
+   "protocols": [
+    "Ethereum"
+   ],
+   "region": "Global",
+   "sector": "Bank",
+   "solutions": [
+    "ethereum"
+   ],
+   "sources": [
+    "https://www.ubs.com/global/en/media/display-page-ndp/en-20241101-first-tokenized-investment-fund.html"
+   ],
+   "status": "live"
+  },
+  {
+   "blurb": "German industrial conglomerate, Fortune Global 500 member",
+   "company": "Siemens",
+   "companyId": "siemens",
+   "date": "2024-09-05",
+   "detail": "Siemens issued a one-year EUR 300M digital bond under Germany's eWpG on SWIAT's permissioned blockchain, settled in minutes in central bank money through the Bundesbank Trigger Solution, with Deutsche Bank as settlement agent. It is a leading corporate example of tokenized debt issuance in Europe.",
+   "headline": "Siemens issues a EUR 300M blockchain bond settled in central bank money via the Bundesbank Trigger",
+   "id": "siemens-digital-bond-trigger-202409",
+   "partners": [
+    "SWIAT",
+    "Deutsche Bundesbank",
+    "DekaBank",
+    "Deutsche Bank",
+    "LBBW"
+   ],
+   "protocols": [
+    "SWIAT",
+    "eWpG"
+   ],
+   "region": "Europe",
+   "sector": "Energy & industrial",
+   "solutions": [],
+   "sources": [
+    "https://marketsmedia.com/siemens-issues-digital-bond-settled-with-cbdc"
+   ],
+   "status": "live"
+  },
+  {
+   "blurb": "Private markets manager, about $986B in assets under management and supervision",
+   "company": "Hamilton Lane",
+   "companyId": "hamilton-lane",
+   "date": "2024-08-15",
+   "detail": "A Securitize feeder on Polygon gives qualified individuals access to Hamilton Lane's Secondary Fund VI with a $20,000 minimum instead of the usual $5M. It extended Hamilton Lane's series of tokenized private-markets feeders.",
+   "headline": "Hamilton Lane opens its $5.6B Secondary Fund VI to tokenized feeder investors on Securitize",
+   "id": "hamilton-lane-fund-vi-securitize-202408",
+   "partners": [],
+   "protocols": [
+    "Polygon"
+   ],
+   "region": "US",
+   "sector": "Asset manager",
+   "solutions": [
+    "hamilton-lane",
+    "securitize",
+    "polygon"
+   ],
+   "sources": [
+    "https://www.nasdaq.com/press-release/hamilton-lanes-56b-secondary-fund-vi-exclusively-available-securitize-platform-2024"
+   ],
+   "status": "live"
+  },
+  {
+   "blurb": "UK-headquartered global bank, about $3T in assets",
+   "company": "HSBC",
+   "companyId": "hsbc",
+   "date": "2024-03-27",
+   "detail": "The HSBC Gold Token, built on HSBC Orion, represents ownership of physical gold in HSBC's London vault and is sold via the bank's app and online banking. HSBC called it Hong Kong's first SFC-authorized retail product based on DLT, bringing tokenized commodities to mass-market customers.",
+   "headline": "HSBC launches a tokenized gold product for retail investors in Hong Kong",
+   "id": "hsbc-gold-token-202403",
+   "partners": [],
+   "protocols": [
+    "HSBC Orion"
+   ],
+   "region": "Asia",
+   "sector": "Bank",
+   "solutions": [
+    "hk-tokenization"
+   ],
+   "sources": [
+    "https://www.theblock.co/post/284936/hsbc-tokenized-gold-hong-kong"
+   ],
+   "status": "live"
+  },
+  {
+   "blurb": "World's largest asset manager, over $10T in AUM",
+   "company": "BlackRock",
+   "companyId": "blackrock",
+   "date": "2024-03-20",
+   "detail": "BlackRock USD Institutional Digital Liquidity Fund (BUIDL) issues tokens targeting $1 per share, backed by cash, T-bills and repos, with daily-accrued dividends paid as new tokens. It is sold to qualified investors via Securitize Markets ($5M minimum), with BNY as custodian/administrator and BlackRock taking a stake in Securitize. It became the reference product for tokenized Treasury funds.",
+   "headline": "BlackRock launches BUIDL, its first tokenized fund, on Ethereum with Securitize",
+   "id": "blackrock-buidl-launch-202403",
+   "partners": [
+    "BitGo"
+   ],
+   "protocols": [
+    "Ethereum"
+   ],
+   "region": "Global",
+   "sector": "Asset manager",
+   "solutions": [
+    "blackrock",
+    "securitize",
+    "bny",
+    "anchorage",
+    "coinbase",
+    "fireblocks",
+    "ethereum"
+   ],
+   "sources": [
+    "https://www.nasdaq.com/press-release/blackrock-launches-its-first-tokenized-fund-buidl-on-the-ethereum-network-2024-03-20"
+   ],
+   "status": "live"
+  },
+  {
+   "blurb": "UK-headquartered global bank, about $3T in assets",
+   "company": "HSBC",
+   "companyId": "hsbc",
+   "date": "2024-02-07",
+   "detail": "The Hong Kong government issued about HK$6B equivalent of two-year digital green bonds in HKD, RMB, USD and EUR on HSBC Orion, settled through the HKMA's CMU. It established HSBC's platform as the rails for sovereign tokenized issuance in Hong Kong.",
+   "headline": "HSBC Orion hosts Hong Kong's second multi-currency digital green bond, about HK$6B",
+   "id": "hsbc-hk-green-bond-202402",
+   "partners": [
+    "HKMA"
+   ],
+   "protocols": [
+    "HSBC Orion"
+   ],
+   "region": "Asia",
+   "sector": "Bank",
+   "solutions": [
+    "hk-tokenization"
+   ],
+   "sources": [
+    "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2024/02/20240207-6/"
+   ],
+   "status": "live"
+  }
+ ]
+}

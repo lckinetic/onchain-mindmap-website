@@ -1,0 +1,2310 @@
+{
+ "updated": "2026-11-02",
+ "initiatives": [
+  {
+   "addedAt": "2026-11-02T11:21:23.854Z",
+   "blurb": "Japan's second-largest banking group, about $2T in assets",
+   "company": "Sumitomo Mitsui Financial Group (SMBC)",
+   "companyId": "smbc",
+   "date": "2026-10-30",
+   "detail": "SMFG will take roughly a 5% stake in the SBI Holdings–Startale venture that plans JPYSC use cases in asset management and payments. JPYSC is a trust-type yen stablecoin issued by SBI Shinsei Trust Bank and distributed by SBI VC Trade, with about ¥20.8B outstanding at end-October. It ties a megabank to a non-bank yen stablecoin alongside its own joint megabank pilot.",
+   "headline": "SMFG to buy about 5% of SBI Startale Marketing to widen use of the JPYSC yen stablecoin",
+   "id": "smbc-sbi-startale-jpysc-stake-202610",
+   "partners": [
+    "SBI Holdings",
+    "Startale Group",
+    "SBI Shinsei Trust Bank"
+   ],
+   "protocols": [
+    "JPYSC"
+   ],
+   "region": "Asia",
+   "sector": "Bank",
+   "solutions": [],
+   "sources": [
+    "https://www.kucoin.com/news/flash/mitsui-sumitomo-fg-to-invest-5-in-sbi-startale-jv-to-expand-jpysc-stablecoin-use",
+    "https://github.com/deltaforesight/stablecoin-today/releases/tag/ep-2026-10-30"
+   ],
+   "status": "announced"
+  },
+  {
+   "addedAt": "2026-11-02T11:20:42.673Z",
+   "blurb": "Global ride-hailing and delivery platform, a Fortune Global 500 company",
+   "company": "Uber",
+   "companyId": "uber",
+   "date": "2026-10-30",
+   "detail": "Uber bought a tokenised Franklin Templeton money market fund with HSBC tokenised deposits and redeemed on a Sunday, settling on Canton Network to capture about 1.5 extra days of yield. Tradeweb and Fireblocks participated in roles not specified publicly. HSBC plans to widen access for US corporate clients and add more funds.",
+   "headline": "Uber uses HSBC tokenised deposits to hold a tokenised money market fund over a weekend",
+   "id": "uber-tokenized-cash-pilot-202610",
+   "partners": [
+    "HSBC",
+    "Franklin Templeton",
+    "Tradeweb"
+   ],
+   "protocols": [
+    "Canton Network"
+   ],
+   "region": "US",
+   "sector": "Tech",
+   "solutions": [
+    "fireblocks"
+   ],
+   "sources": [
+    "https://crypto.news/uber-hsbc-franklin-templeton-canton-weekend-yield/",
+    "https://coinalertnews.com/news/2026/10/30/uber-hsbc-blockchain-treasury-pilot"
+   ],
+   "status": "pilot"
+  },
+  {
+   "addedAt": "2026-11-02T11:21:13.000Z",
+   "blurb": "World's largest company by revenue. OnePay is its majority-owned consumer fintech",
+   "company": "Walmart (OnePay)",
+   "companyId": "walmart",
+   "date": "2026-10-30",
+   "detail": "Select US OnePay users can deposit USDC from 12 chains and get US dollars in checking, usually within moments and with no conversion fee at launch. Bridge handles deposit addresses, compliance and conversion, and Coastal Community Bank or Lead Bank provide the accounts. OnePay also plans to run a Tempo validator and work with Tempo on payouts and instant account funding.",
+   "headline": "OnePay opens USDC deposits that settle as dollars in OnePay Checking, using Bridge",
+   "id": "walmart-onepay-stablecoin-deposits-202610",
+   "partners": [
+    "Coastal Community Bank",
+    "Lead Bank"
+   ],
+   "protocols": [
+    "USDC",
+    "Tempo",
+    "Base",
+    "Solana",
+    "Ethereum"
+   ],
+   "region": "US",
+   "sector": "Retail & consumer",
+   "solutions": [
+    "bridge",
+    "stripe",
+    "tempo",
+    "circle"
+   ],
+   "sources": [
+    "https://www.onepay.com/newsroom/announcing-stablecoin-deposits",
+    "https://tempo.xyz/customer-stories/onepay/"
+   ],
+   "status": "live"
+  },
+  {
+   "addedAt": "2026-11-02T11:22:36.774Z",
+   "blurb": "World's largest asset manager, issuer of the BUIDL tokenized money market fund",
+   "company": "BlackRock",
+   "companyId": "blackrock",
+   "date": "2026-10-27",
+   "detail": "BlackRock Financial Management and BlackRock Japan signed an MOU with SBI Holdings and Startale Group to assess linking tokenized MMFs with JPYSC. JPYSC is issued by SBI Shinsei Trust Bank and distributed by SBI VC Trade under Japan's Payment Services Act stablecoin framework. No specific fund, blockchain or launch date has been announced.",
+   "headline": "BlackRock, SBI and Startale agree to explore pairing tokenized money market funds with yen stablecoin JPYSC",
+   "id": "blackrock-jpysc-tokenized-mmf-202610",
+   "partners": [
+    "SBI Holdings",
+    "Startale Group",
+    "SBI Shinsei Trust Bank",
+    "SBI VC Trade"
+   ],
+   "protocols": [
+    "JPYSC"
+   ],
+   "region": "Asia",
+   "sector": "Asset manager",
+   "solutions": [],
+   "sources": [
+    "https://crypto.news/blackrock-sbi-startale-tokenized-funds-jpysc",
+    "https://www.chainbits.com/press-releases/blackrock-sbi-holdings-and-startale-sign-landmark-mou-to-bridge-tokenized-money-market-funds-and-yen-stablecoin-jpysc"
+   ],
+   "status": "announced"
+  },
+  {
+   "addedAt": "2026-11-02T11:22:07.078Z",
+   "blurb": "World's largest custodian bank, about $63T in assets under custody/administration",
+   "company": "BNY",
+   "companyId": "bny",
+   "date": "2026-10-27",
+   "detail": "Eligible BNY clients can now custody and transfer RLUSD and XRP. Direct RLUSD minting and redemption through BNY is planned but awaits approvals, and a C2FO receivables-financing pilot on the XRP Ledger is exploratory.",
+   "headline": "BNY brings RLUSD and XRP onto its institutional custody platform, with direct mint and redeem planned",
+   "id": "bny-rlusd-custody-mint-202610",
+   "partners": [
+    "C2FO"
+   ],
+   "protocols": [
+    "XRP Ledger",
+    "Ethereum"
+   ],
+   "region": "US",
+   "sector": "Bank",
+   "solutions": [
+    "ripple"
+   ],
+   "sources": [
+    "https://www.stocktitan.net/news/BNY/ripple-expands-strategic-digital-assets-collaboration-with-bny-q9l8y1zpavvj.html"
+   ],
+   "status": "live"
+  },
+  {
+   "addedAt": "2026-11-02T11:22:47.204Z",
+   "blurb": "Europe's largest bank, about $3T in assets",
+   "company": "HSBC",
+   "companyId": "hsbc",
+   "date": "2026-10-23",
+   "detail": "RedCoin (RCHKD) is issued by The Hongkong and Shanghai Banking Corporation under HKMA stablecoin issuer licence FRS02, with safekeeping by HSBC Digital Assets Custody. The first phase covers wallet activation in PayMe, peer-to-peer transfers and payments at more than 100,000 merchants; HSBC says mobile banking access, tokenised HKD money-market fund subscriptions and later wholesale and institutional uses will follow. HSBC has not named the underlying blockchain.",
+   "headline": "HSBC goes live with RedCoin, a licensed HKD stablecoin, for 3.3M PayMe users",
+   "id": "hsbc-redcoin-launch-202610",
+   "partners": [
+    "PayMe by HSBC",
+    "HSBC Digital Assets Custody"
+   ],
+   "protocols": [],
+   "region": "Asia",
+   "sector": "Bank",
+   "solutions": [
+    "hk-stablecoin-ordinance"
+   ],
+   "sources": [
+    "https://www.about.hsbc.com.hk/news-and-media/hsbc-redcoin-launches-today",
+    "https://www.cryptotimes.io/2026/10/23/hsbc-launches-redcoin-stablecoin-for-3-3m-payme-users/"
+   ],
+   "status": "live"
+  },
+  {
+   "addedAt": "2026-11-02T11:22:54.926Z",
+   "blurb": "Largest cross-border remittance network, about 400,000 retail locations",
+   "company": "Western Union",
+   "companyId": "western-union",
+   "date": "2026-10-21",
+   "detail": "Noah will build the infrastructure behind Receiver Redirect, bridging cash and bank transfers with on-chain delivery in USDPT, the Anchorage-issued dollar stablecoin on Solana. The companies cite reach across 200+ countries and 60+ currencies but have not given a launch date.",
+   "headline": "Western Union taps Noah to deliver transfers as USDPT into recipients' digital wallets",
+   "id": "western-union-noah-receiver-redirect-202610",
+   "partners": [
+    "Noah"
+   ],
+   "protocols": [
+    "Solana",
+    "USDPT"
+   ],
+   "region": "Global",
+   "sector": "Payments",
+   "solutions": [
+    "anchorage",
+    "solana",
+    "western-union"
+   ],
+   "sources": [
+    "https://tradersunion.com/news/cryptocurrency-news/show/3910096-western-union-to-launchnoah/"
+   ],
+   "status": "announced"
+  },
+  {
+   "addedAt": "2026-11-02T11:22:42.844Z",
+   "blurb": "Second-largest global card network, accepted at 150M+ merchants",
+   "company": "Mastercard",
+   "companyId": "mastercard",
+   "date": "2026-10-20",
+   "detail": "In a pilot with Cloudflare, AIsa and agency Hype, an agent made nine payments to two services under one business budget with no separate accounts or API keys. Coinbase Developer Platform funds the agent wallet, Base settles on-chain, and BVNK settles both sides in fiat or stablecoins through the Global Money Platform. Developers can now get early-access APIs, a sandbox and documentation.",
+   "headline": "Mastercard opens early access to Agent Pay for Machines, using x402 with settlement on Base",
+   "id": "mastercard-agent-pay-machines-202610",
+   "partners": [
+    "Cloudflare",
+    "AIsa",
+    "Hype",
+    "Ant International",
+    "Amazon Bedrock AgentCore"
+   ],
+   "protocols": [
+    "x402",
+    "Base"
+   ],
+   "region": "Global",
+   "sector": "Payments",
+   "solutions": [
+    "mastercard",
+    "bvnk",
+    "coinbase-cdp",
+    "base"
+   ],
+   "sources": [
+    "https://www.mastercard.com/us/en/news-and-trends/press/2026/october/Mastercard-Agent-Pay-for-Machines-in-action.html",
+    "https://coinmarketcap.com/academy/article/mastercard-agent-pay-machines-early-access"
+   ],
+   "status": "pilot"
+  },
+  {
+   "addedAt": "2026-10-20T12:38:22.398Z",
+   "blurb": "Largest US bank, about $4T in assets",
+   "company": "JPMorgan Chase",
+   "companyId": "jpmorgan",
+   "date": "2026-10-19",
+   "detail": "Institutional clients can now hold and transfer JPMD on Ethereum as well as Base, moving it peer to peer across EVM networks. Kinexys reports over $4T in cumulative transactions and about $7B a day on average. The announcement does not update the planned Canton deployment.",
+   "headline": "JPMorgan takes its JPMD deposit token live on Ethereum mainnet alongside Base",
+   "id": "jpmorgan-jpmd-ethereum-202610",
+   "partners": [
+    "Kinexys"
+   ],
+   "protocols": [
+    "Ethereum",
+    "Base"
+   ],
+   "region": "US",
+   "sector": "Bank",
+   "solutions": [
+    "jpmorgan",
+    "ethereum",
+    "base"
+   ],
+   "sources": [
+    "https://www.jpmorgan.com/payments/newsroom/jpm-coin-live-on-ethereum",
+    "https://www.ledgerinsights.com/jpm-coin-arrives-on-ethereum/"
+   ],
+   "status": "live"
+  },
+  {
+   "addedAt": "2026-10-20T09:41:11.593Z",
+   "blurb": "World's largest card network, Fortune 500",
+   "company": "Visa",
+   "companyId": "visa",
+   "date": "2026-10-19",
+   "detail": "A Visa credential sits behind participating wallet apps, and Mesh converts crypto or stablecoins at the point of payment so merchants need no checkout changes. Mesh says participating platforms, devices and timing will be announced later.",
+   "headline": "Visa partners with Mesh so wallet users can spend stablecoin balances at Visa merchants with no card to carry",
+   "id": "visa-mesh-wallet-spend-202610",
+   "partners": [
+    "Mesh"
+   ],
+   "protocols": [],
+   "region": "Global",
+   "sector": "Payments",
+   "solutions": [
+    "visa"
+   ],
+   "sources": [
+    "https://www.meshpay.com/press-releases/mesh-visa-partnership",
+    "https://www.theblock.co/news/business/2026-10-19-mesh-visa-partner-spend-crypto-stablecoins-421058"
+   ],
+   "status": "announced"
+  },
+  {
+   "addedAt": "2026-10-20T08:46:54.412Z",
+   "blurb": "Japan's largest banking group, about $2.7T in assets",
+   "company": "Mitsubishi UFJ Financial Group (MUFG)",
+   "companyId": "mufg",
+   "date": "2026-10-16",
+   "detail": "Mizuho, MUFG and SMBC jointly issued a yen stablecoin as trust receivable rights, with Mitsubishi UFJ Trust as agent trustee, and used it for transfers between Mitsubishi Corporation's offices in July 2026. The banks say the multi-issuer model proved workable but AML/CFT work remains; live use is targeted by March 2027.",
+   "headline": "Japan's three megabanks complete a joint yen stablecoin pilot for corporate cross-border payments",
+   "id": "mufg-megabank-yen-poc-complete-202610",
+   "partners": [
+    "Mizuho",
+    "SMBC",
+    "Mitsubishi UFJ Trust and Banking",
+    "Mitsubishi Corporation",
+    "TISI"
+   ],
+   "protocols": [
+    "Payment Services Act trust-type stablecoin"
+   ],
+   "region": "Asia",
+   "sector": "Bank",
+   "solutions": [],
+   "sources": [
+    "https://www.tr.mufg.jp/english/pressreleases/pdf/20261016_1.pdf",
+    "https://thepaypers.com/crypto-web3-and-cbdc/news/mizuho-mufg-and-smbc-complete-joint-yen-stablecoin-pilot"
+   ],
+   "status": "pilot"
+  },
+  {
+   "addedAt": "2026-10-20T08:36:21.701Z",
+   "blurb": "World's largest card network by transaction volume and a Fortune 500 company",
+   "company": "Visa",
+   "companyId": "visa",
+   "date": "2026-10-16",
+   "detail": "Businesses building card programmes can fund Visa cards from stablecoin balances through StraitsX, with cardholders using standard Visa credentials at existing merchants. The expansion builds on StraitsX's Asian card programmes and remains subject to regulatory, compliance and Visa requirements in each market.",
+   "headline": "Visa partners with StraitsX to take stablecoin-backed card issuing to 100+ markets",
+   "id": "visa-straitsx-cards-202610",
+   "partners": [
+    "StraitsX"
+   ],
+   "protocols": [
+    "XSGD",
+    "XUSD"
+   ],
+   "region": "Asia",
+   "sector": "Payments",
+   "solutions": [
+    "visa"
+   ],
+   "sources": [
+    "https://www.theasianbanker.com/press-releases/straitsx-partners-visa-to-expand-its-reach-to-over-100-markets-globally-on-stablecoin-backed-card-programmes",
+    "https://thepaypers.com/crypto-web3-and-cbdc/news/straitsx-and-visa-expand-stablecoin-card-issuing-to-100-markets"
+   ],
+   "status": "announced"
+  },
+  {
+   "addedAt": "2026-11-02T11:22:57.653Z",
+   "blurb": "Second-largest global card network, accepted at 150M+ merchants",
+   "company": "Mastercard",
+   "companyId": "mastercard",
+   "date": "2026-10-15",
+   "detail": "The platform centres on a multi-currency account that holds fiat and stablecoins together, with real-time conversion, stablecoin-linked cards issued in 130+ countries and payouts via Mastercard Move. It is available through BVNK now, with Nuvei and Marqeta among the first integrators; agentic commerce and tokenized-deposit support are planned.",
+   "headline": "Mastercard and BVNK launch the Global Money Platform, a single API for fiat and stablecoin accounts, cards and payouts",
+   "id": "mastercard-global-money-platform-202610",
+   "partners": [
+    "Nuvei",
+    "Marqeta",
+    "Ontop",
+    "Bolt Group",
+    "Almond FinTech"
+   ],
+   "protocols": [],
+   "region": "Global",
+   "sector": "Payments",
+   "solutions": [
+    "bvnk",
+    "mastercard"
+   ],
+   "sources": [
+    "https://www.mastercard.com/global/en/news-and-trends/press/2026/october/mastercard-and-bvnk-launch-global-money-platform-to-power-a-mult.html"
+   ],
+   "status": "live"
+  },
+  {
+   "blurb": "World's largest card network, accepted at 175M+ merchant locations",
+   "company": "Visa",
+   "companyId": "visa",
+   "date": "2026-10-15",
+   "detail": "After a pilot that began in September 2025 with USDC and EURC, businesses can now fund Visa Direct payouts in USDC around the clock, including when banking windows are closed. Inyo Global is the first processor to offer it, reaching 180+ payout countries. It removes the weekend and holiday funding gap for global payouts.",
+   "headline": "Visa Direct takes USDC prefunding of cross-border payouts into commercial production via Inyo Global",
+   "id": "visa-direct-usdc-prefunding-202610",
+   "partners": [
+    "Inyo Global"
+   ],
+   "protocols": [],
+   "region": "Global",
+   "sector": "Payments",
+   "solutions": [
+    "visa",
+    "circle"
+   ],
+   "sources": [
+    "https://theblock.co/news/business/2026-10-16-visa-direct-moves-usdc-prefunding-into-commercial-production-with-inyo-global-418802"
+   ],
+   "status": "live"
+  },
+  {
+   "addedAt": "2026-10-20T09:41:21.330Z",
+   "blurb": "Global 500 electronics maker, largest Android phone vendor",
+   "company": "Samsung Electronics",
+   "companyId": "samsung",
+   "date": "2026-10-07",
+   "detail": "USDC is the default stablecoin; transfers to external wallets carry no Samsung fee, while bank payouts in local currency carry variable fees. Bastion runs the infrastructure with Coinbase Prime as sub-custodian, and in-store or online stablecoin spending is flagged as a possible later step.",
+   "headline": "Samsung Wallet to let US Galaxy users buy and send USDC and pay out to banks in 60+ countries from late October",
+   "id": "samsung-wallet-usdc-launch-202610",
+   "partners": [
+    "Bastion"
+   ],
+   "protocols": [
+    "USDC",
+    "Solana",
+    "Sui"
+   ],
+   "region": "US",
+   "sector": "Tech",
+   "solutions": [
+    "coinbase-cdp",
+    "circle"
+   ],
+   "sources": [
+    "https://news.samsung.com/us/samsung-wallet-bring-stablecoin-access-eligible-galaxy-users-us/"
+   ],
+   "status": "announced"
+  },
+  {
+   "addedAt": "2026-10-20T08:46:41.674Z",
+   "blurb": "Fortune 500 payments and core-banking processor serving about 10,000 FIs and 6M merchants",
+   "company": "Fiserv",
+   "companyId": "fiserv",
+   "date": "2026-10-01",
+   "detail": "Roughrider Coin, a dollar stablecoin on Solana, lets 90+ North Dakota banks and credit unions move money bank-to-bank through Fiserv's Commercial Center. VersaBank issues it and manages reserves, Fireblocks supplies tokenization and custody infrastructure, and Fiserv runs the platform. Fiserv says the same platform will support stablecoin cards, cross-border payments and tokenized deposits.",
+   "headline": "Fiserv's digital asset platform goes live, with Bank of North Dakota's Roughrider Coin as the first deployment",
+   "id": "fiserv-digital-asset-platform-live-202610",
+   "partners": [
+    "VersaBank",
+    "Bank of North Dakota"
+   ],
+   "protocols": [
+    "Solana"
+   ],
+   "region": "US",
+   "sector": "Payments",
+   "solutions": [
+    "fireblocks",
+    "solana"
+   ],
+   "sources": [
+    "https://investors.fiserv.com/news-releases/news-release-details/fiserv-digital-asset-platform-goes-live-financial-institution"
+   ],
+   "status": "live"
+  },
+  {
+   "blurb": "Global US bank, about $2.6T in assets",
+   "company": "Citi",
+   "companyId": "citi",
+   "date": "2026-09-30",
+   "detail": "Citi Token Services went live in Japan (USD) and the UAE (USD and EUR), bringing the network to seven markets. Clients move funds around the clock between Citi locations through existing banking channels without wallets, and the platform already processes billions of dollars.",
+   "headline": "Citi extends its 24/7 tokenized-deposit network to Japan and the UAE",
+   "id": "citi-token-services-japan-uae-202609",
+   "partners": [],
+   "protocols": [
+    "Private permissioned blockchain"
+   ],
+   "region": "Global",
+   "sector": "Bank",
+   "solutions": [],
+   "sources": [
+    "https://www.crowdfundinsider.com/?p=314361"
+   ],
+   "status": "live"
+  },
+  {
+   "addedAt": "2026-10-20T08:46:04.680Z",
+   "blurb": "One of the UK's largest banking groups, with about 26M customers",
+   "company": "Lloyds Banking Group",
+   "companyId": "lloyds",
+   "date": "2026-09-30",
+   "detail": "Lloyds bought USDC through Archax, booked it via its Jersey Corporate Markets branch and transferred it to Visa in the US, with funds arriving in under an hour, weekends included. Lloyds ran its own Canton node while Visa settled on a separate public blockchain. It was the first stablecoin settlement trial between Visa and a major UK bank.",
+   "headline": "Lloyds settles $750K of Visa obligations in USDC across Canton and a public chain in a week-long pilot",
+   "id": "lloyds-visa-usdc-settlement-pilot-202609",
+   "partners": [
+    "Archax"
+   ],
+   "protocols": [
+    "Canton Network",
+    "USDC"
+   ],
+   "region": "UK",
+   "sector": "Bank",
+   "solutions": [
+    "visa",
+    "circle"
+   ],
+   "sources": [
+    "https://www.lloydsbankinggroup.com/media/press-releases/2026/lloyds-banking-group/lloyds-and-visa-test-round-the-clock-cross-border-settlement-using-stablecoins.html"
+   ],
+   "status": "pilot"
+  },
+  {
+   "addedAt": "2026-10-21T08:54:21.194Z",
+   "blurb": "Global US bank, about $2.6T in assets",
+   "company": "Citi",
+   "companyId": "citi",
+   "date": "2026-09-28",
+   "detail": "Coinbase Virtual Accounts run on Citi's Virtual Account Wallet (Citi Services BaaS) and convert incoming fiat to stablecoins. Spring by Citi lets Citi's institutional clients accept stablecoins at checkout, with Coinbase Payments handling the onchain leg and Citi converting to fiat as bank of record. Both start in the US, and the companies say more capabilities will follow.",
+   "headline": "Citi and Coinbase expand their tie-up: Citi powers Coinbase Virtual Accounts, and Spring by Citi merchants can take stablecoins",
+   "id": "citi-coinbase-virtual-accounts-202609",
+   "partners": [
+    "Coinbase"
+   ],
+   "protocols": [],
+   "region": "US",
+   "sector": "Bank",
+   "solutions": [
+    "coinbase-cdp"
+   ],
+   "sources": [
+    "https://www.citigroup.com/global/news/press-release/2026/citi-coinbase-expand-collaboration-connect-digital-fiat-payments-corporations-consumers"
+   ],
+   "status": "live"
+  },
+  {
+   "blurb": "Latin America's largest digital bank, over 100M customers",
+   "company": "Nubank",
+   "companyId": "nubank",
+   "date": "2026-09-10",
+   "detail": "Nu Global converts local deposits into Circle's USDC and EURC, with fee-free transfers across 35+ countries and a virtual Mastercard for spending. It is one of the largest consumer bank deployments of stablecoins as account infrastructure.",
+   "headline": "Nubank launches Nu Global, a multi-currency account running on USDC and EURC",
+   "id": "nubank-nu-global-202609",
+   "partners": [
+    "Lead Bank"
+   ],
+   "protocols": [],
+   "region": "Global",
+   "sector": "Bank",
+   "solutions": [
+    "nubank",
+    "circle",
+    "mastercard"
+   ],
+   "sources": [
+    "https://cryptobriefing.com/nu-global-circle-usdc-eurc-integration/"
+   ],
+   "status": "live"
+  },
+  {
+   "blurb": "Fifth-largest US bank, about $680B in assets",
+   "company": "U.S. Bancorp",
+   "companyId": "us-bancorp",
+   "date": "2026-09-09",
+   "detail": "U.S. Bank moved funds between its North American and European entities using its proprietary USBDC token on Stellar, also testing mint, redeem, freeze and clawback. Treasury, liquidity and collateral use cases are next.",
+   "headline": "U.S. Bank completes a live cross-border payment with its USBDC stablecoin",
+   "id": "us-bancorp-usbdc-cross-border-202609",
+   "partners": [
+    "PwC"
+   ],
+   "protocols": [
+    "Stellar"
+   ],
+   "region": "US",
+   "sector": "Bank",
+   "solutions": [
+    "stellar"
+   ],
+   "sources": [
+    "https://cointelegraph.com/news/us-bank-launches-usbdc-stablecoin-with-live-cross-border-payment"
+   ],
+   "status": "pilot"
+  },
+  {
+   "blurb": "Second-largest US bank, about $3.3T in assets",
+   "company": "Bank of America",
+   "companyId": "bank-of-america",
+   "date": "2026-09-01",
+   "detail": "Twenty-one institutions including Bank of America, Citi, Goldman Sachs, Wells Fargo, Deutsche Bank, UBS, Santander, MUFG and BBVA will form a company in H2 2026 to issue a 1:1 reserve-backed dollar stablecoin, with euro next. It targets launch in H1 2027 under the GENIUS Act and MiCA.",
+   "headline": "21 global banks led by Bank of America, Citi and Goldman commit to a joint USD stablecoin issuer",
+   "id": "bank-of-america-21-bank-stablecoin-jv-202609",
+   "partners": [
+    "Citi",
+    "Goldman Sachs",
+    "Wells Fargo",
+    "Deutsche Bank",
+    "UBS",
+    "Santander",
+    "MUFG",
+    "BBVA",
+    "Capital One",
+    "PNC",
+    "TD Bank",
+    "Lloyds Banking Group"
+   ],
+   "protocols": [],
+   "region": "Global",
+   "sector": "Bank",
+   "solutions": [
+    "genius-act",
+    "mica"
+   ],
+   "sources": [
+    "https://www.bbva.com/en/innovation/group-of-leading-international-financial-institutions-to-establish-stablecoin-enterprise/",
+    "https://itbrief.co.uk/story/21-banks-back-usd-stablecoin-venture-for-global-use"
+   ],
+   "status": "announced"
+  },
+  {
+   "addedAt": "2026-10-21T08:54:17.535Z",
+   "blurb": "Bank-owned cooperative that runs the main interbank messaging network, linking more than 11,000 institutions",
+   "company": "Swift",
+   "companyId": "swift",
+   "date": "2026-08-20",
+   "detail": "Swift said in July 2026 that its shared ledger, built on the Ethereum-compatible Besu framework, was ready for initial use, with 17 banks on six continents preparing pilots. HSBC and Standard Chartered made the first live cross-border transaction in August, recording obligations as tokenized deposits on their own books while the ledger matched and netted them before settlement through existing systems.",
+   "headline": "Swift's blockchain shared ledger carries its first live tokenized-deposit payment between HSBC and Standard Chartered",
+   "id": "swift-shared-ledger-tokenized-deposits-202608",
+   "partners": [
+    "HSBC",
+    "Standard Chartered",
+    "Citi",
+    "UBS"
+   ],
+   "protocols": [
+    "Hyperledger Besu (EVM)"
+   ],
+   "region": "Global",
+   "sector": "Market infrastructure",
+   "solutions": [],
+   "sources": [
+    "https://www.about.hsbc.com.hk/news-and-media/hsbc-and-standard-chartered-execute-first-live-tokenised-deposit-transaction-on-swifts-blockchain",
+    "https://www.theblock.co/post/407687/swift-launches-blockchain-ledger-for-tokenized-deposit-pilot-with-17-banks"
+   ],
+   "status": "pilot"
+  },
+  {
+   "blurb": "UK-headquartered emerging-markets bank, about $850B in assets",
+   "company": "Standard Chartered",
+   "companyId": "standard-chartered",
+   "date": "2026-08-12",
+   "detail": "Phase one of HKDAP opened in beta for distributors and professional investors, with OSL and HashKey Exchange offering conversion to and from fiat. Retail access is targeted from late 2026, making it one of Hong Kong's first licensed stablecoins in circulation.",
+   "headline": "Anchorpoint starts distributing its HKDAP Hong Kong dollar stablecoin to institutions and professional investors",
+   "id": "standard-chartered-hkdap-launch-202608",
+   "partners": [
+    "Animoca Brands",
+    "HKT",
+    "OSL",
+    "HashKey Exchange"
+   ],
+   "protocols": [
+    "Ethereum"
+   ],
+   "region": "Asia",
+   "sector": "Bank",
+   "solutions": [
+    "hk-stablecoin-ordinance",
+    "ethereum"
+   ],
+   "sources": [
+    "https://www.thestandard.com.hk/finance/article/339750/Anchorpoint-Financial-rolls-out-HKD-backed-stablecoin-to-distributors-pro-investors",
+    "https://stablecoininsider.org/hkdap-hong-kong-first-regulated-stablecoin-launch/"
+   ],
+   "status": "pilot"
+  },
+  {
+   "blurb": "Largest cross-border remittance network, about 400,000 retail locations",
+   "company": "Western Union",
+   "companyId": "western-union",
+   "date": "2026-08-05",
+   "detail": "Built with Rain, Stablecard lets remittance recipients hold USDPT in a wallet and spend it with a Visa card, including via Apple Pay and Google Pay, in 37 markets with 60+ targeted by year-end. Users can also move USDPT to external wallets and exchanges. It gives receivers a dollar store of value instead of weakening local currencies.",
+   "headline": "Western Union rolls out Stablecard, a USDPT wallet plus Visa card, in 37 markets",
+   "id": "westernunion-stablecard-202608",
+   "partners": [],
+   "protocols": [
+    "Solana"
+   ],
+   "region": "Global",
+   "sector": "Payments",
+   "solutions": [
+    "western-union",
+    "rain",
+    "visa",
+    "anchorage",
+    "solana"
+   ],
+   "sources": [
+    "https://cfotech.co.uk/story/western-union-launches-stablecard-with-rain-in-37-markets"
+   ],
+   "status": "live"
+  },
+  {
+   "blurb": "Fourth-largest US bank, about $1.9T in assets",
+   "company": "Wells Fargo",
+   "companyId": "wells-fargo",
+   "date": "2026-08-04",
+   "detail": "Wells Fargo said it will launch tokenized deposits on its proprietary blockchain this fall for select corporate and commercial clients, with always-on settlement and conditional payments. A wider rollout across clients, countries and currencies is planned through 2027.",
+   "headline": "Wells Fargo plans tokenized deposits for corporate clients starting with USD-GBP transfers",
+   "id": "wells-fargo-tokenized-deposits-202608",
+   "partners": [],
+   "protocols": [
+    "Proprietary blockchain"
+   ],
+   "region": "US",
+   "sector": "Bank",
+   "solutions": [],
+   "sources": [
+    "https://newsroom.wf.com/news-releases/news-details/2026/Wells-Fargo-to-Launch-Tokenized-Deposits-for-Corporate-and-Commercial-Clients/"
+   ],
+   "status": "announced"
+  },
+  {
+   "blurb": "Global 500 electronics maker, largest Android phone vendor",
+   "company": "Samsung Electronics",
+   "companyId": "samsung",
+   "date": "2026-07-22",
+   "detail": "At Galaxy Unpacked, Samsung said its wallet would expand into stablecoins, without naming tokens, partners or timing. It builds on an October 2025 Coinbase tie-up letting US Galaxy users buy crypto inside Samsung Wallet. A native stablecoin wallet on Galaxy phones could reach tens of millions of users.",
+   "headline": "Samsung says Samsung Wallet will get native stablecoin support",
+   "id": "samsung-wallet-stablecoins-202607",
+   "partners": [],
+   "protocols": [],
+   "region": "Asia",
+   "sector": "Tech",
+   "solutions": [
+    "coinbase-cdp"
+   ],
+   "sources": [
+    "https://cointelegraph.com/news/samsung-wallet-stablecoin-support-galaxy-unpacked",
+    "https://www.sammobile.com/news/samsung-confirms-stablecoin-support-is-coming-to-samsung-wallet/"
+   ],
+   "status": "announced"
+  },
+  {
+   "blurb": "Global 500 Japanese electronics and entertainment group (PlayStation, Crunchyroll)",
+   "company": "Sony",
+   "companyId": "sony",
+   "date": "2026-07-06",
+   "detail": "Sony Bank's new US trust bank, Connectia Trust, received conditional OCC approval and $40M of planned capital to issue a dollar stablecoin, with Bastion handling issuance, reserves and custody. Operations are expected in 2027, aimed at PlayStation and Crunchyroll purchases to cut card fees. Sony first applied in October 2025.",
+   "headline": "Sony Bank wins conditional OCC approval for Connectia Trust to issue a US dollar stablecoin",
+   "id": "sony-connectia-occ-202607",
+   "partners": [
+    "Bastion",
+    "OCC"
+   ],
+   "protocols": [],
+   "region": "Asia",
+   "sector": "Tech",
+   "solutions": [
+    "genius-act"
+   ],
+   "sources": [
+    "https://decrypt.co/373109/sony-bank-clears-occ-hurdle-for-dollar-stablecoin",
+    "https://cointelegraph.com/news/sony-playstation-stablecoin-payments-2026-launch"
+   ],
+   "status": "announced"
+  },
+  {
+   "blurb": "UK-headquartered emerging-markets bank, about $850B in assets",
+   "company": "Standard Chartered",
+   "companyId": "standard-chartered",
+   "date": "2026-07-02",
+   "detail": "With Circle, Standard Chartered became the first G-SIB to offer integrated USDC minting and redemption, initially for eligible clients of its DIFC branch in Dubai. Clients do not need a Circle account; uses start with onchain settlement and treasury, with payments and more markets to follow.",
+   "headline": "Standard Chartered lets institutional clients mint and redeem USDC directly through the bank",
+   "id": "standard-chartered-usdc-minting-202607",
+   "partners": [],
+   "protocols": [],
+   "region": "Middle East",
+   "sector": "Bank",
+   "solutions": [
+    "circle"
+   ],
+   "sources": [
+    "https://www.sc.com/EN/press-release/standard-chartered-and-circle-launch-first-g-sib-led-integrated-access-to-usdc-minting-and-redemption/",
+    "https://www.circle.com/pressroom/standard-chartered-and-circle-launch-launch-first-g-sib-led-integrated-access-to-usdc-minting-and-redemption"
+   ],
+   "status": "live"
+  },
+  {
+   "blurb": "US payments network owned by seven large banks, about $1T a year in transfers",
+   "company": "Zelle (Early Warning Services)",
+   "companyId": "zelle",
+   "date": "2026-06-11",
+   "detail": "Early Warning Services, owned by Bank of America, JPMorgan, Wells Fargo and four other banks, announced ZelleUSD (ZLUSD) to power Zelle transfers outside the US. More details and a cross-border launch are planned for later in 2026.",
+   "headline": "Bank-owned Zelle unveils ZelleUSD, a dollar stablecoin for international payments",
+   "id": "zelle-zelleusd-202606",
+   "partners": [
+    "Bank of America",
+    "JPMorgan Chase",
+    "Wells Fargo",
+    "Capital One",
+    "PNC",
+    "Truist",
+    "U.S. Bank"
+   ],
+   "protocols": [],
+   "region": "US",
+   "sector": "Payments",
+   "solutions": [],
+   "sources": [
+    "https://www.zelle.com/press-releases/zelle-heads-to-india-unveils-zelleusdsm-stablecoin-other-markets",
+    "https://www.pymnts.com/news/cross-border-payments/2026/zelle-readies-stablecoin-for-first-cross-border-push/"
+   ],
+   "status": "announced"
+  },
+  {
+   "blurb": "Japan's largest banking group, about $2.7T in assets",
+   "company": "Mitsubishi UFJ Financial Group (MUFG)",
+   "companyId": "mufg",
+   "date": "2026-06-10",
+   "detail": "MUFG, SMBC and Mizuho signed an MoU to design infrastructure, system and governance for a jointly issued trust-type stablecoin. Live transactions are targeted within fiscal 2026, and other institutions may join.",
+   "headline": "Japan's three megabanks form a council to issue a joint stablecoin by March 2027",
+   "id": "mufg-megabank-stablecoin-council-202606",
+   "partners": [
+    "SMBC",
+    "Mizuho"
+   ],
+   "protocols": [],
+   "region": "Asia",
+   "sector": "Bank",
+   "solutions": [],
+   "sources": [
+    "https://www.fintechfutures.com/blockchain-crypto-digital-assets/mufg-smbc-and-mizuho-to-launch-joint-stablecoin",
+    "https://decrypt.co/370615/japans-largest-banks-plan-joint-stablecoin-launch-by-march-2027"
+   ],
+   "status": "announced"
+  },
+  {
+   "addedAt": "2026-10-21T08:53:16.164Z",
+   "blurb": "Bank-owned US payments operator behind RTP and CHIPS, owned by about 25 of the largest US banks",
+   "company": "The Clearing House",
+   "companyId": "the-clearing-house",
+   "date": "2026-06-05",
+   "detail": "The initiative would clear and settle tokenized deposits between banks 24/7 on-chain, with a connectivity layer to RTP and CHIPS so funds can move between on-chain and traditional bank money. Named supporters include Bank of America, BNY, Citi, HSBC, J.P. Morgan Payments, PNC, Santander, TD, Truist, U.S. Bank and Wells Fargo. No chain or launch date has been set.",
+   "headline": "The Clearing House and 17 large US banks plan a shared on-chain network for interbank tokenized-deposit settlement",
+   "id": "the-clearing-house-onchain-money-202606",
+   "partners": [
+    "Bank of America",
+    "BNY",
+    "Citi",
+    "HSBC",
+    "J.P. Morgan Payments",
+    "PNC",
+    "Santander",
+    "TD Bank",
+    "Truist",
+    "U.S. Bank",
+    "Wells Fargo"
+   ],
+   "protocols": [],
+   "region": "US",
+   "sector": "Market infrastructure",
+   "solutions": [],
+   "sources": [
+    "https://www.theclearinghouse.org/payment-systems/Articles/2026/06/Major-Financial-Institutions-Unveil-Bank-Led-On-Chain-Money-Initiative"
+   ],
+   "status": "announced"
+  },
+  {
+   "blurb": "Second-largest global card network, accepted at 150M+ merchants",
+   "company": "Mastercard",
+   "companyId": "mastercard",
+   "date": "2026-06-03",
+   "detail": "Network participants can settle in USDC, PYUSD, USDG, USDP, RLUSD or SoFiUSD on Arbitrum, Base, Canton, Ethereum, Polygon, Solana, Tempo or XRPL. Cross River, Lead Bank, Nuvei, CBW Bank and ARQ are among the first in the US and LatAm. It turns stablecoin settlement from a regional pilot into a network-wide option.",
+   "headline": "Mastercard offers issuers and acquirers stablecoin settlement in six stablecoins across eight chains",
+   "id": "mastercard-stablecoin-settlement-8-chains-202606",
+   "partners": [
+    "Cross River Bank",
+    "Lead Bank",
+    "Nuvei",
+    "CBW Bank",
+    "ARQ",
+    "SoFi"
+   ],
+   "protocols": [
+    "Arbitrum",
+    "Base",
+    "Canton",
+    "Ethereum",
+    "Polygon",
+    "Solana",
+    "Tempo",
+    "XRPL"
+   ],
+   "region": "Global",
+   "sector": "Payments",
+   "solutions": [
+    "mastercard",
+    "circle",
+    "paxos",
+    "paypal",
+    "ripple",
+    "base",
+    "ethereum",
+    "solana",
+    "tempo"
+   ],
+   "sources": [
+    "https://www.mastercard.com/us/en/news-and-trends/press/2026/june/mastercard-expands-settlement-capabilities-to-include-stablecoin.html"
+   ],
+   "status": "live"
+  },
+  {
+   "blurb": "US payments group behind Square and Cash App, about 60M Cash App users",
+   "company": "Block (Cash App)",
+   "companyId": "block",
+   "date": "2026-05-27",
+   "detail": "Customers can send and receive USDC over Solana, Ethereum, Polygon and Arbitrum, with incoming stablecoins auto-converted to dollars in their balance. Transfers are fee-free for a launch period; New York residents are excluded. It connects one of the largest US consumer payment apps to onchain dollars.",
+   "headline": "Cash App lets all eligible US users send and receive USDC on four chains",
+   "id": "block-cashapp-usdc-202605",
+   "partners": [],
+   "protocols": [
+    "Solana",
+    "Ethereum",
+    "Polygon",
+    "Arbitrum"
+   ],
+   "region": "US",
+   "sector": "Fintech",
+   "solutions": [
+    "circle",
+    "solana",
+    "ethereum"
+   ],
+   "sources": [
+    "https://cash.app/press/cash-app-stablecoins-all-customers",
+    "https://www.theblock.co/post/402784/cash-app-lets-users-send-usdc-stablecoins-on-chains-like-solana-and-ethereum"
+   ],
+   "status": "live"
+  },
+  {
+   "blurb": "Largest cross-border remittance network, about 400,000 retail locations",
+   "company": "Western Union",
+   "companyId": "western-union",
+   "date": "2026-05-04",
+   "detail": "First announced in October 2025, USDPT went live as the settlement asset for Western Union's cross-border network, starting in the Philippines and Bolivia. Anchorage Digital Bank issues it and Fireblocks supplies wallet and settlement infrastructure. It is the first stablecoin issued by a major legacy remittance company.",
+   "headline": "Western Union launches USDPT, its own Anchorage-issued dollar stablecoin on Solana",
+   "id": "westernunion-usdpt-launch-202605",
+   "partners": [],
+   "protocols": [
+    "Solana"
+   ],
+   "region": "Global",
+   "sector": "Payments",
+   "solutions": [
+    "western-union",
+    "anchorage",
+    "fireblocks",
+    "solana",
+    "genius-act"
+   ],
+   "sources": [
+    "https://theblock.co/post/399890/western-union-launches-usdpt-stablecoin-anchorage-solana",
+    "https://blockworks.com/news/western-union-solana-stablecoin"
+   ],
+   "status": "live"
+  },
+  {
+   "blurb": "Global 500 social media group (Facebook, Instagram, WhatsApp)",
+   "company": "Meta",
+   "companyId": "meta",
+   "date": "2026-04-30",
+   "detail": "Selected creators in Colombia and the Philippines can link a third-party wallet and receive payouts in USDC, with more markets planned. Stripe separately announced creator payouts to Link wallets with Meta. It is Meta's first live stablecoin product since abandoning Libra/Diem in 2022.",
+   "headline": "Meta starts paying select Facebook and Instagram creators in USDC on Solana and Polygon",
+   "id": "meta-usdc-creator-payouts-202604",
+   "partners": [],
+   "protocols": [
+    "Solana",
+    "Polygon"
+   ],
+   "region": "Global",
+   "sector": "Tech",
+   "solutions": [
+    "circle",
+    "solana",
+    "stripe"
+   ],
+   "sources": [
+    "https://cointelegraph.com/news/meta-re-enters-stablecoin-market-rolls-out-usdc-payouts-for-select-creators",
+    "https://www.createwith.com/tool/stripe/updates/stripe-partners-with-meta-and-tempo-for-stablecoin-link-wallet-payouts"
+   ],
+   "status": "pilot"
+  },
+  {
+   "blurb": "World's largest card network, accepted at 175M+ merchant locations",
+   "company": "Visa",
+   "companyId": "visa",
+   "date": "2026-04-29",
+   "detail": "Visa's stablecoin settlement program grew from four chains (Avalanche, Ethereum, Solana, Stellar) to nine. The annualized settlement run rate reached $7 billion, up 50% quarter on quarter. Supporting payment-specific chains like Arc and Tempo signals Visa wants to stay neutral across stablecoin rails.",
+   "headline": "Visa adds Arc, Base, Canton, Polygon and Tempo to its stablecoin settlement, hitting a $7B run rate",
+   "id": "visa-settlement-nine-chains-202604",
+   "partners": [],
+   "protocols": [
+    "Arc",
+    "Base",
+    "Canton",
+    "Polygon",
+    "Tempo",
+    "Avalanche",
+    "Ethereum",
+    "Solana",
+    "Stellar"
+   ],
+   "region": "Global",
+   "sector": "Payments",
+   "solutions": [
+    "visa",
+    "arc",
+    "base",
+    "tempo",
+    "ethereum",
+    "solana",
+    "stellar",
+    "circle"
+   ],
+   "sources": [
+    "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22336.html",
+    "https://www.theblock.co/amp/post/399405/visa-stablecoin-settlement-hits-7-billion-run-rate-pilot-expands-nine-blockchains"
+   ],
+   "status": "live"
+  },
+  {
+   "blurb": "Europe's largest bank, about $3T in assets",
+   "company": "HSBC",
+   "companyId": "hsbc",
+   "date": "2026-04-13",
+   "detail": "Eligible US corporate and institutional clients can now move funds 24/7 onchain between treasury centres and subsidiaries, domestically and cross-border. The service already runs in Hong Kong, Singapore, Luxembourg and the UK across five currencies.",
+   "headline": "HSBC brings its Tokenized Deposit Service to US corporate clients",
+   "id": "hsbc-tds-us-202604",
+   "partners": [],
+   "protocols": [],
+   "region": "US",
+   "sector": "Bank",
+   "solutions": [],
+   "sources": [
+    "https://www.about.us.hsbc.com/newsroom/press-releases/hsbc-expands-tokenized-deposit-service-to-the-united-states"
+   ],
+   "status": "live"
+  },
+  {
+   "blurb": "Europe's largest bank, about $3T in assets",
+   "company": "HSBC",
+   "companyId": "hsbc",
+   "date": "2026-04-10",
+   "detail": "HSBC was one of the first two licensees under Hong Kong's Stablecoins Ordinance. It plans to roll out a non-interest-bearing HKD stablecoin in the second half of 2026 via PayMe and mobile banking, starting with P2P and merchant payments, making it one of the first global banks to issue a retail stablecoin.",
+   "headline": "HSBC wins a Hong Kong stablecoin licence and plans an HKD stablecoin in its PayMe app",
+   "id": "hsbc-hkd-stablecoin-licence-202604",
+   "partners": [
+    "PayMe"
+   ],
+   "protocols": [],
+   "region": "Asia",
+   "sector": "Bank",
+   "solutions": [
+    "hk-stablecoin-ordinance"
+   ],
+   "sources": [
+    "https://finance.yahoo.com/markets/crypto/articles/hong-kong-grants-stablecoin-licences-150356366.html"
+   ],
+   "status": "announced"
+  },
+  {
+   "blurb": "UK-headquartered emerging-markets bank, about $850B in assets",
+   "company": "Standard Chartered",
+   "companyId": "standard-chartered",
+   "date": "2026-04-10",
+   "detail": "The HKMA granted Anchorpoint one of its first two issuer licences under the Stablecoins Ordinance. It plans HKDAP, a Hong Kong dollar stablecoin, to be issued in phases from Q2 2026 through authorised distributors on a B2B2C model.",
+   "headline": "Standard Chartered-backed Anchorpoint wins one of Hong Kong's first stablecoin issuer licences",
+   "id": "standard-chartered-anchorpoint-licence-202604",
+   "partners": [
+    "Animoca Brands",
+    "HKT"
+   ],
+   "protocols": [],
+   "region": "Asia",
+   "sector": "Bank",
+   "solutions": [
+    "hk-stablecoin-ordinance"
+   ],
+   "sources": [
+    "https://www.sc.com/en/press-release/standard-chartered-backed-anchorpoint-granted-stablecoin-issuer-licence-by-the-hong-kong-monetary-authority/"
+   ],
+   "status": "announced"
+  },
+  {
+   "blurb": "Largest private online PSP, over $1T in payment volume in 2024",
+   "company": "Stripe",
+   "companyId": "stripe",
+   "date": "2026-03-18",
+   "detail": "Tempo activated its payments-focused mainnet and released the Machine Payments Protocol (MPP), co-developed with Stripe, for agents to request, authorize and settle payments. Visa extended MPP to cards, and design partners include Mastercard, Shopify, Revolut and Anthropic. It went live after a December 2025 public testnet.",
+   "headline": "Tempo mainnet goes live with a Stripe co-built protocol for AI-agent payments",
+   "id": "stripe-tempo-mainnet-202603",
+   "partners": [
+    "Paradigm",
+    "Anthropic",
+    "OpenAI",
+    "DoorDash",
+    "Lightspark"
+   ],
+   "protocols": [
+    "Tempo",
+    "Machine Payments Protocol"
+   ],
+   "region": "Global",
+   "sector": "Payments",
+   "solutions": [
+    "stripe",
+    "tempo",
+    "visa",
+    "mastercard",
+    "shopify",
+    "revolut"
+   ],
+   "sources": [
+    "https://www.theblock.co/post/394131/tempo-mainnet-goes-live-with-machine-payments-protocol-for-agents",
+    "https://decrypt.co/351661/stripes-tempo-payments-blockchain-opens-public-mastercard-ubs-onboard"
+   ],
+   "status": "live"
+  },
+  {
+   "blurb": "Second-largest global card network, accepted at 150M+ merchants",
+   "company": "Mastercard",
+   "companyId": "mastercard",
+   "date": "2026-03-17",
+   "detail": "Mastercard signed a definitive deal for BVNK, which runs stablecoin payment rails in 130+ countries, at up to $1.8 billion including $300 million in earnouts. The deal closed on August 3, 2026, ahead of schedule. It gives Mastercard in-house stablecoin orchestration to offer banks and fintechs alongside its card rails.",
+   "headline": "Mastercard agrees to buy stablecoin infrastructure firm BVNK for up to $1.8B, closing in August 2026",
+   "id": "mastercard-bvnk-acquisition-202603",
+   "partners": [],
+   "protocols": [],
+   "region": "Global",
+   "sector": "Payments",
+   "solutions": [
+    "mastercard",
+    "bvnk"
+   ],
+   "sources": [
+    "https://www.mastercard.com/am/en/news-and-trends/press/2026/march/Mastercard-to-acquire-BVNK-to-connect-on-chain-payments-and-fiat-rails.html",
+    "https://coin360.com/news/mastercard-bvnk-stablecoin-acquisition"
+   ],
+   "status": "live"
+  },
+  {
+   "blurb": "Global digital wallet and online checkout giant (PayPal, Venmo)",
+   "company": "PayPal",
+   "companyId": "paypal",
+   "date": "2026-03-17",
+   "detail": "PayPal extended in-account PYUSD to 70 markets, including Colombia, Peru, Costa Rica and Singapore (business accounts only), with holder rewards in most new markets. PYUSD supply had grown about fourfold since August 2025 to roughly $4.1 billion. It is PayPal's biggest step to make PYUSD a global consumer balance.",
+   "headline": "PayPal opens PYUSD to users in 70 markets as supply passes $4B",
+   "id": "paypal-pyusd-70-markets-202603",
+   "partners": [],
+   "protocols": [
+    "Ethereum",
+    "Solana",
+    "Arbitrum",
+    "LayerZero"
+   ],
+   "region": "US",
+   "sector": "Payments",
+   "solutions": [
+    "paypal",
+    "paxos",
+    "layerzero"
+   ],
+   "sources": [
+    "https://www.theblock.co/post/393911/paypal-expands-pyusd-stablecoin-access-to-70-markets",
+    "https://fortune.com/2026/03/17/paypal-expands-pyusd-stablecoin-access-to-68-more-countries"
+   ],
+   "status": "live"
+  },
+  {
+   "blurb": "World's largest card network, accepted at 175M+ merchant locations",
+   "company": "Visa",
+   "companyId": "visa",
+   "date": "2026-03-03",
+   "detail": "Bridge-powered stablecoin cards were live in 18 countries, with a plan to reach more than 100 across Europe, APAC, Africa and the Middle East by end-2026. Card transactions can settle onchain with Visa via Lead Bank, and wallets such as Phantom and MetaMask use the cards. It is the largest planned footprint for stablecoin card issuance so far.",
+   "headline": "Visa and Bridge expand stablecoin-linked cards from 18 live markets toward 100+ countries",
+   "id": "visa-bridge-cards-100-countries-202603",
+   "partners": [
+    "Lead Bank",
+    "Phantom",
+    "MetaMask"
+   ],
+   "protocols": [],
+   "region": "Global",
+   "sector": "Payments",
+   "solutions": [
+    "visa",
+    "bridge",
+    "stripe"
+   ],
+   "sources": [
+    "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22206.html"
+   ],
+   "status": "live"
+  },
+  {
+   "blurb": "Largest private online PSP, over $1T in payment volume in 2024",
+   "company": "Stripe",
+   "companyId": "stripe",
+   "date": "2026-02-19",
+   "detail": "The OCC conditionally approved Bridge to form a federally chartered national trust bank. Once final, it could provide custody, stablecoin issuance and reserve management under federal supervision. It moves Stripe's stablecoin stack inside the US bank regulatory perimeter after the GENIUS Act.",
+   "headline": "Stripe's Bridge wins conditional OCC approval for a national trust bank charter",
+   "id": "stripe-bridge-occ-charter-202602",
+   "partners": [
+    "OCC"
+   ],
+   "protocols": [],
+   "region": "Global",
+   "sector": "Payments",
+   "solutions": [
+    "stripe",
+    "bridge",
+    "genius-act"
+   ],
+   "sources": [
+    "https://www.fintechfutures.com/blockchain-crypto-digital-assets/bridge-secures-conditional-occ-approval-for-national-trust-bank-charter"
+   ],
+   "status": "announced"
+  },
+  {
+   "blurb": "French universal bank, about €1.5T in assets",
+   "company": "Société Générale",
+   "companyId": "societe-generale",
+   "date": "2026-02-18",
+   "detail": "Société Générale's digital-asset arm deployed EURCV on the XRP Ledger, its third chain after Ethereum and Solana, using Ripple Custody for issuance and reserves. Integration with Ripple's payments network is planned, broadening a bank-issued euro token into cross-border payment flows.",
+   "headline": "SG-FORGE brings its EURCV euro stablecoin to the XRP Ledger",
+   "id": "societe-generale-eurcv-xrpl-202602",
+   "partners": [],
+   "protocols": [
+    "XRP Ledger"
+   ],
+   "region": "Europe",
+   "sector": "Bank",
+   "solutions": [
+    "sg-forge",
+    "ripple",
+    "mica"
+   ],
+   "sources": [
+    "https://www.mexc.com/news/752494"
+   ],
+   "status": "live"
+  },
+  {
+   "blurb": "Spanish banking group, about €800B in assets",
+   "company": "BBVA",
+   "companyId": "bbva",
+   "date": "2026-02-04",
+   "detail": "BBVA became the twelfth bank in Qivalis, joining CaixaBank as its second Spanish member. The consortium is awaiting Dutch EMI authorisation, targeting a H2 2026 launch.",
+   "headline": "BBVA joins the Qivalis euro stablecoin consortium",
+   "id": "bbva-qivalis-202602",
+   "partners": [
+    "CaixaBank",
+    "ING"
+   ],
+   "protocols": [],
+   "region": "Europe",
+   "sector": "Bank",
+   "solutions": [
+    "qivalis",
+    "mica"
+   ],
+   "sources": [
+    "https://qivalis.eu/media/pages/news/bbva-joins-qivalis-banking-consortium-to-advance-launch-of-regulated-euro-stablecoin/f32ad6a3ce-1783350779/20260204_press-release_qivalis_bbva-joining.pdf"
+   ],
+   "status": "announced"
+  },
+  {
+   "blurb": "Major US custody bank, about $49T in assets under custody/administration",
+   "company": "State Street",
+   "companyId": "state-street",
+   "date": "2026-01-15",
+   "detail": "State Street's platform offers wallets, custody and cash functions across private and public permissioned chains. The bank named tokenized deposits and stablecoins among the cash products it plans to build on it.",
+   "headline": "State Street launches a digital asset platform as groundwork for tokenized deposits and stablecoins",
+   "id": "state-street-digital-asset-platform-202601",
+   "partners": [],
+   "protocols": [],
+   "region": "US",
+   "sector": "Bank",
+   "solutions": [],
+   "sources": [
+    "https://investors.statestreet.com/investor-news-events/press-releases/news-details/2026/State-Street-Launches-Digital-Asset-Platform-to-Power-Tokenized-Finance/"
+   ],
+   "status": "live"
+  },
+  {
+   "blurb": "World's largest custodian bank, about $55T in assets under custody/administration",
+   "company": "BNY",
+   "companyId": "bny",
+   "date": "2026-01-09",
+   "detail": "BNY enabled onchain representations of client deposit balances on its digital assets platform, for banks and crypto-native firms. It plans to add rules-based, near real-time cash movements to support programmable cash in market infrastructure.",
+   "headline": "BNY starts mirroring client deposits onchain as its first step into tokenized deposits",
+   "id": "bny-tokenized-deposits-202601",
+   "partners": [],
+   "protocols": [],
+   "region": "US",
+   "sector": "Bank",
+   "solutions": [],
+   "sources": [
+    "https://pymnts.com/blockchain/2026/bny-enables-tokenized-deposits-financial-institutions-digital-native-companies",
+    "https://www.bloomberg.com/news/articles/2026-01-09/bny-launches-tokenized-deposits-in-digital-assets-expansion"
+   ],
+   "status": "live"
+  },
+  {
+   "blurb": "Largest US bank, about $4T in assets",
+   "company": "JPMorgan Chase",
+   "companyId": "jpmorgan",
+   "date": "2026-01-07",
+   "detail": "Kinexys said JPMD will be issued directly on Canton, the privacy-configurable chain built by Digital Asset, as its second public-network deployment after Base. A phased rollout is planned through 2026, extending bank deposit tokens into the network many institutions use for tokenized assets.",
+   "headline": "JPMorgan plans to issue JPM Coin natively on the Canton Network",
+   "id": "jpmorgan-jpmd-canton-202601",
+   "partners": [
+    "Digital Asset",
+    "Kinexys"
+   ],
+   "protocols": [
+    "Canton"
+   ],
+   "region": "US",
+   "sector": "Bank",
+   "solutions": [
+    "jpmorgan"
+   ],
+   "sources": [
+    "https://www.theblock.co/post/384575/jpmorgan-jpm-coin-canton",
+    "https://www.canton.network/news/j.p.-morgans-deposit-token-to-be-issued-natively-on-canton-network"
+   ],
+   "status": "announced"
+  },
+  {
+   "blurb": "World's largest card network, accepted at 175M+ merchant locations",
+   "company": "Visa",
+   "companyId": "visa",
+   "date": "2025-12-16",
+   "detail": "US financial institutions can now settle Visa obligations in Circle's USDC over Solana instead of only via fiat wires. Cross River Bank and Lead Bank were the first participants, with further expansion promised through 2026. It brings Visa's stablecoin settlement, previously tested abroad, to its home market.",
+   "headline": "Visa opens USDC-on-Solana settlement to US banks, starting with Cross River and Lead Bank",
+   "id": "visa-us-usdc-settlement-202512",
+   "partners": [
+    "Cross River Bank",
+    "Lead Bank"
+   ],
+   "protocols": [
+    "Solana"
+   ],
+   "region": "Global",
+   "sector": "Payments",
+   "solutions": [
+    "visa",
+    "circle",
+    "solana"
+   ],
+   "sources": [
+    "https://www.theblock.co/amp/post/382721/visa-launches-stablecoin-settlement-us-circle-usdc-solana"
+   ],
+   "status": "live"
+  },
+  {
+   "blurb": "Eurozone's largest bank, about €2.7T in assets",
+   "company": "BNP Paribas",
+   "companyId": "bnp-paribas",
+   "date": "2025-12-02",
+   "detail": "BNP Paribas became the tenth bank in Qivalis, which named its leadership and confirmed plans to apply to De Nederlandsche Bank for an EMI licence. The issuer aims to launch in the second half of 2026 and run as a cost-covering utility.",
+   "headline": "BNP Paribas joins Qivalis as the euro stablecoin venture sets a H2 2026 launch target",
+   "id": "bnp-paribas-qivalis-202512",
+   "partners": [
+    "ING",
+    "UniCredit"
+   ],
+   "protocols": [],
+   "region": "Europe",
+   "sector": "Bank",
+   "solutions": [
+    "qivalis",
+    "mica"
+   ],
+   "sources": [
+    "https://www.ledgerinsights.com/bnp-paribas-joins-10-eu-bank-stablecoin-qivalis-to-launch-h2-2026-after-licensing/",
+    "https://cdn-group.bnpparibas.com/uploads/file/20251202_PR_BNP Paribas joins European consortium to launch euro-backed stablecoin.pdf"
+   ],
+   "status": "announced"
+  },
+  {
+   "blurb": "Large Swedish BNPL and payments provider, licensed bank",
+   "company": "Klarna",
+   "companyId": "klarna",
+   "date": "2025-11-25",
+   "detail": "KlarnaUSD is built on Bridge's Open Issuance and runs on Tempo, launched on testnet with mainnet slated for 2026. Klarna is the first bank to issue a stablecoin on Tempo, aiming to cut cross-border payment costs. It shows a large consumer fintech choosing a branded stablecoin over third-party tokens.",
+   "headline": "Klarna announces KlarnaUSD, issued via Bridge on Stripe's Tempo chain",
+   "id": "klarna-klarnausd-202511",
+   "partners": [],
+   "protocols": [
+    "Tempo"
+   ],
+   "region": "Europe",
+   "sector": "Fintech",
+   "solutions": [
+    "bridge",
+    "stripe",
+    "tempo"
+   ],
+   "sources": [
+    "https://www.businesswire.com/news/home/20251125977023/en/Klarna-Launches-KlarnaUSD-as-Stablecoin-Transactions-Hit-$27-Trillion-Annually",
+    "https://www.theblock.co/post/380365/bnpl-firm-klarna-announces-usd-stablecoin-on-stripe-paradigms-tempo-blockchain-to-cut-payment-costs"
+   ],
+   "status": "pilot"
+  },
+  {
+   "blurb": "Fifth-largest US bank, about $680B in assets",
+   "company": "U.S. Bancorp",
+   "companyId": "us-bancorp",
+   "date": "2025-11-25",
+   "detail": "The fifth-largest US bank began testing custom stablecoin issuance on Stellar, citing the chain's freeze and clawback controls. The pilot followed the October 2025 creation of a digital assets unit covering stablecoins, custody and tokenized payments.",
+   "headline": "U.S. Bank pilots issuing its own stablecoin on Stellar",
+   "id": "us-bancorp-stellar-stablecoin-pilot-202511",
+   "partners": [],
+   "protocols": [
+    "Stellar"
+   ],
+   "region": "US",
+   "sector": "Bank",
+   "solutions": [
+    "stellar"
+   ],
+   "sources": [
+    "https://www.theblock.co/post/380437/americas-fifth-largest-bank-us-bancorp-tests-stablecoin-on-stellar",
+    "https://www.americanbanker.com/payments/news/u-s-bank-partners-with-stellar-to-test-stablecoin"
+   ],
+   "status": "pilot"
+  },
+  {
+   "blurb": "World's largest custodian bank, about $55T in assets under custody/administration",
+   "company": "BNY",
+   "companyId": "bny",
+   "date": "2025-11-13",
+   "detail": "The BNY Dreyfus Stablecoin Reserves Fund (BSRXX) is a government money market fund for US stablecoin issuers and institutions, with Anchorage Digital as first investor. It packages reserve management for issuers needing GENIUS Act-compliant backing.",
+   "headline": "BNY launches a money market fund built to hold GENIUS Act stablecoin reserves",
+   "id": "bny-stablecoin-reserves-fund-202511",
+   "partners": [],
+   "protocols": [],
+   "region": "US",
+   "sector": "Bank",
+   "solutions": [
+    "anchorage",
+    "genius-act"
+   ],
+   "sources": [
+    "https://www.bny.com/corporate/global/en/about-us/newsroom/press-release/bny-launches-stablecoin-reserves-fund-expanding-bnys-leadership-digital-assets-130451.html"
+   ],
+   "status": "live"
+  },
+  {
+   "blurb": "Largest US bank, about $4T in assets",
+   "company": "JPMorgan Chase",
+   "companyId": "jpmorgan",
+   "date": "2025-11-12",
+   "detail": "After a five-month pilot, JPMorgan rolled out JPMD to institutional clients for 24/7, near-instant USD settlement on Base. B2C2, Coinbase and Mastercard ran test transactions, and the bank said more chains would follow, making it the most prominent bank deposit token on a public L2.",
+   "headline": "JPMorgan opens its JPM Coin (JPMD) deposit token on Base to institutional clients",
+   "id": "jpmorgan-jpmd-base-launch-202511",
+   "partners": [
+    "Coinbase",
+    "B2C2",
+    "Kinexys"
+   ],
+   "protocols": [
+    "Base",
+    "Ethereum"
+   ],
+   "region": "US",
+   "sector": "Bank",
+   "solutions": [
+    "jpmorgan",
+    "base",
+    "mastercard"
+   ],
+   "sources": [
+    "https://www.theblock.co/post/378493/jpmorgan-deposit-token-jpm-coin"
+   ],
+   "status": "live"
+  },
+  {
+   "blurb": "World's largest card network, accepted at 175M+ merchant locations",
+   "company": "Visa",
+   "companyId": "visa",
+   "date": "2025-11-12",
+   "detail": "Announced at Web Summit, the pilot lets businesses fund payouts in fiat while recipients opt to receive USD stablecoins such as USDC. It targets creators, freelancers and marketplaces, with broader rollout planned for the second half of 2026. It extends Visa's push-payments rail directly into stablecoin wallets.",
+   "headline": "Visa Direct pilots paying creators and gig workers in USDC while businesses fund in fiat",
+   "id": "visa-direct-stablecoin-payouts-202511",
+   "partners": [],
+   "protocols": [],
+   "region": "Global",
+   "sector": "Payments",
+   "solutions": [
+    "visa",
+    "circle"
+   ],
+   "sources": [
+    "https://corporate.visa.com/en/sites/visa-perspectives/newsroom/visa-direct-stablecoin-payouts.html"
+   ],
+   "status": "pilot"
+  },
+  {
+   "blurb": "Japan's largest banking group, about $2.7T in assets",
+   "company": "Mitsubishi UFJ Financial Group (MUFG)",
+   "companyId": "mufg",
+   "date": "2025-11-07",
+   "detail": "Japan's FSA approved a proof-of-concept in which the three megabanks jointly issue a trust-type stablecoin on Progmat's infrastructure via Mitsubishi UFJ Trust. The test covers payments between Mitsubishi Corporation's Japanese and overseas entities.",
+   "headline": "MUFG, SMBC and Mizuho win FSA backing to jointly test a stablecoin for corporate payments",
+   "id": "mufg-megabank-stablecoin-poc-202511",
+   "partners": [
+    "SMBC",
+    "Mizuho",
+    "Progmat",
+    "Mitsubishi Corporation"
+   ],
+   "protocols": [],
+   "region": "Asia",
+   "sector": "Bank",
+   "solutions": [],
+   "sources": [
+    "https://www.tr.mufg.jp/english/pressreleases/pdf/20251107_1.pdf"
+   ],
+   "status": "pilot"
+  },
+  {
+   "blurb": "Second-largest global card network, accepted at 150M+ merchants",
+   "company": "Mastercard",
+   "companyId": "mastercard",
+   "date": "2025-10-29",
+   "detail": "Fortune reported Mastercard was in advanced talks to buy Zerohash, which holds US money-transmitter licenses and a BitLicense. By January 2026 Zerohash said it would stay independent, and talks shifted to a possible strategic investment. Mastercard then turned to BVNK.",
+   "headline": "Mastercard's reported $1.5-2B bid for stablecoin infrastructure firm Zerohash falls through",
+   "id": "mastercard-zerohash-talks-202510",
+   "partners": [],
+   "protocols": [],
+   "region": "Global",
+   "sector": "Payments",
+   "solutions": [
+    "mastercard",
+    "zerohash"
+   ],
+   "sources": [
+    "https://www.paymentsjournal.com/mastercard-nears-zerohash-acquisition-to-expand-stablecoin-reach/",
+    "https://paymentexpert.com/2026/01/21/mastercard-zerohas-investment-reports/"
+   ],
+   "status": "paused"
+  },
+  {
+   "blurb": "Global US bank, about $2.6T in assets",
+   "company": "Citi",
+   "companyId": "citi",
+   "date": "2025-10-27",
+   "detail": "Citi and Coinbase said they will work on digital-asset payment options, starting with fiat-to-onchain stablecoin payout methods for Citi's institutional clients. The bank framed it as part of its 'network of networks' payments strategy, connecting a top-tier correspondent bank to crypto-native rails.",
+   "headline": "Citi teams up with Coinbase to explore stablecoin payouts for institutional clients",
+   "id": "citi-coinbase-stablecoin-payouts-202510",
+   "partners": [
+    "Coinbase"
+   ],
+   "protocols": [],
+   "region": "US",
+   "sector": "Bank",
+   "solutions": [
+    "coinbase-cdp"
+   ],
+   "sources": [
+    "https://theblock.co/news/business/2025-10-27-coinbase-and-citi-to-explore-digital-payments-including-stablecoin-payouts-for-banks-institutional-clients-376329"
+   ],
+   "status": "announced"
+  },
+  {
+   "blurb": "Second-largest US bank, about $3.3T in assets",
+   "company": "Bank of America",
+   "companyId": "bank-of-america",
+   "date": "2025-10-13",
+   "detail": "Ten banks including Bank of America, Citi, Goldman Sachs, Deutsche Bank, Santander, BNP Paribas, Barclays, MUFG, TD and UBS began jointly exploring 1:1 reserve-backed digital money on public blockchains. They said they were in dialogue with regulators.",
+   "headline": "Bank of America, Citi, Goldman and seven other global banks explore a joint G7-currency stablecoin",
+   "id": "bank-of-america-g7-bank-consortium-202510",
+   "partners": [
+    "Citi",
+    "Goldman Sachs",
+    "Deutsche Bank",
+    "Santander",
+    "BNP Paribas",
+    "Barclays",
+    "MUFG",
+    "TD Bank",
+    "UBS"
+   ],
+   "protocols": [],
+   "region": "Global",
+   "sector": "Bank",
+   "solutions": [],
+   "sources": [
+    "https://www.bankingexchange.com/news-feed/item/10436-global-banks-explore-g7-backed-digital-currency",
+    "https://www.thebigwhale.io/article/stablecoins-santander-takes-the-reins-of-a-mega-consortium"
+   ],
+   "status": "announced"
+  },
+  {
+   "blurb": "Largest private online PSP, over $1T in payment volume in 2024",
+   "company": "Stripe",
+   "companyId": "stripe",
+   "date": "2025-09-30",
+   "detail": "Unveiled at Stripe Tour New York, Open Issuance lets companies mint and burn branded stablecoins and choose their reserve mix, with treasuries managed by BlackRock, Fidelity and Superstate and cash at Lead Bank. Phantom's CASH was first, with MetaMask's mUSD and Hyperliquid's USDH to follow. Stripe also added recurring stablecoin payments.",
+   "headline": "Stripe's Bridge launches Open Issuance so any business can mint its own stablecoin",
+   "id": "stripe-open-issuance-202509",
+   "partners": [
+    "BlackRock",
+    "Fidelity Investments",
+    "Superstate",
+    "Lead Bank",
+    "Phantom",
+    "MetaMask"
+   ],
+   "protocols": [],
+   "region": "Global",
+   "sector": "Payments",
+   "solutions": [
+    "stripe",
+    "bridge"
+   ],
+   "sources": [
+    "https://stripe.com/newsroom/news/tour-newyork-2025"
+   ],
+   "status": "live"
+  },
+  {
+   "blurb": "Global US bank, about $2.6T in assets",
+   "company": "Citi",
+   "companyId": "citi",
+   "date": "2025-09-29",
+   "detail": "Citi connected Citi Token Services, its permissioned-blockchain deposit token service, to its 24/7 USD Clearing network for institutional clients in the US and UK. Clients can make multibank instant cross-border payments and move liquidity outside banking hours, showing how banks are wiring tokenized cash into existing clearing rails.",
+   "headline": "Citi links its tokenized-deposit platform to 24/7 USD Clearing for round-the-clock cross-border payments",
+   "id": "citi-token-services-usd-clearing-202509",
+   "partners": [],
+   "protocols": [
+    "Private permissioned blockchain"
+   ],
+   "region": "US",
+   "sector": "Bank",
+   "solutions": [],
+   "sources": [
+    "https://www.citigroup.com/global/news/press-release/2025/citi-integrates-citi-token-services-with-24-7-usd-clearing-real-time-cross-border-payments-liquidity-management"
+   ],
+   "status": "live"
+  },
+  {
+   "blurb": "Largest Dutch bank, about €1T in assets",
+   "company": "ING",
+   "companyId": "ing",
+   "date": "2025-09-25",
+   "detail": "Nine banks including ING, UniCredit, CaixaBank, Danske Bank, KBC, SEB and Raiffeisen Bank International set up an Amsterdam-based issuer, later named Qivalis, to seek a Dutch e-money licence. The euro token targets 24/7 cross-border payments and settlement of digital assets as a European answer to dollar stablecoins.",
+   "headline": "ING, UniCredit and seven other European banks form a consortium for a MiCA-compliant euro stablecoin",
+   "id": "ing-qivalis-consortium-202509",
+   "partners": [
+    "UniCredit",
+    "CaixaBank",
+    "Danske Bank",
+    "KBC",
+    "SEB",
+    "Raiffeisen Bank International",
+    "DekaBank",
+    "Banca Sella"
+   ],
+   "protocols": [],
+   "region": "Europe",
+   "sector": "Bank",
+   "solutions": [
+    "qivalis",
+    "mica"
+   ],
+   "sources": [
+    "https://newsroom.kbc.com/qivalis-joint-venture-of-a-european-banking-consortium-to-launch-euro-stablecoin-in-the-second-half-of-2026",
+    "https://www.theblock.co/post/391770/european-bank-consortium-targets-2026-launch-for-euro-backed-stablecoin-report"
+   ],
+   "status": "announced"
+  },
+  {
+   "blurb": "Global remittance network present in about 200 countries",
+   "company": "MoneyGram",
+   "companyId": "moneygram",
+   "date": "2025-09-17",
+   "detail": "The app lets Colombians receive and hold USDC on Stellar in a self-custody wallet from Crossmint and cash out to pesos at MoneyGram agents. Colombia was picked as the launch market after sharp peso weakness. It reworks a cash remittance brand around a stablecoin balance.",
+   "headline": "MoneyGram launches a USDC-based app in Colombia for receiving and holding dollars",
+   "id": "moneygram-colombia-app-202509",
+   "partners": [
+    "Crossmint"
+   ],
+   "protocols": [
+    "Stellar"
+   ],
+   "region": "LatAm",
+   "sector": "Payments",
+   "solutions": [
+    "moneygram",
+    "circle",
+    "stellar"
+   ],
+   "sources": [
+    "https://cointelegraph.com/news/moneygram-app-launch-colombia-stablecoin-savings",
+    "https://blockworks.com/news/moneygram-stablecoin-app-colombia"
+   ],
+   "status": "live"
+  },
+  {
+   "blurb": "Alphabet unit, Global 500 tech giant (Search, Cloud, Google Pay)",
+   "company": "Google",
+   "companyId": "google",
+   "date": "2025-09-16",
+   "detail": "Google's Agent Payments Protocol (AP2) covers cards, bank transfers and stablecoins, and an x402 extension built with Coinbase adds onchain stablecoin payments between agents. The Ethereum Foundation backed the effort. It makes stablecoins a first-class option in big-tech agentic commerce standards.",
+   "headline": "Google releases an open protocol for AI-agent payments that supports stablecoins via x402",
+   "id": "google-ap2-x402-202509",
+   "partners": [
+    "Ethereum Foundation"
+   ],
+   "protocols": [
+    "AP2",
+    "x402",
+    "Ethereum"
+   ],
+   "region": "Global",
+   "sector": "Tech",
+   "solutions": [
+    "coinbase-cdp",
+    "ethereum"
+   ],
+   "sources": [
+    "https://decrypt.co/339752/google-reveals-ai-agent-payments-protocol-coinbase-ethereum-foundation"
+   ],
+   "status": "live"
+  },
+  {
+   "blurb": "Largest private online PSP, over $1T in payment volume in 2024",
+   "company": "Stripe",
+   "companyId": "stripe",
+   "date": "2025-09",
+   "detail": "Tempo is an independent payments-focused chain incubated by Stripe and Paradigm, with design partners including Visa, Shopify, Deutsche Bank, Standard Chartered, OpenAI and Revolut. Target uses include payouts, remittances, tokenized deposits and agentic payments. It marks a PSP building its own settlement chain rather than relying on general-purpose ones.",
+   "headline": "Stripe and Paradigm unveil Tempo, a layer-1 blockchain built for stablecoin payments",
+   "id": "stripe-tempo-announce-202509",
+   "partners": [
+    "Paradigm",
+    "Deutsche Bank",
+    "Standard Chartered",
+    "OpenAI",
+    "Anthropic"
+   ],
+   "protocols": [
+    "Tempo"
+   ],
+   "region": "Global",
+   "sector": "Payments",
+   "solutions": [
+    "stripe",
+    "tempo",
+    "visa",
+    "shopify",
+    "revolut",
+    "nubank"
+   ],
+   "sources": [
+    "https://tech.eu/2025/09/05/stripe-teams-up-with-paradigm-on-blockchain-geared-for-stablecoin-payments/"
+   ],
+   "status": "announced"
+  },
+  {
+   "blurb": "Second-largest global card network, accepted at 150M+ merchants",
+   "company": "Mastercard",
+   "companyId": "mastercard",
+   "date": "2025-08-26",
+   "detail": "Through an expanded Circle partnership, acquirers in EEMEA can receive settlement in USDC or EURC for the first time, starting with Arab Financial Services and Eazy Financial Services. It builds on earlier USDC card settlement with Bybit and S1LKPAY. It brings stablecoin settlement to the acquiring side of Mastercard's network.",
+   "headline": "Mastercard lets acquirers in Eastern Europe, Middle East and Africa settle in USDC and EURC",
+   "id": "mastercard-circle-eemea-settlement-202508",
+   "partners": [
+    "Arab Financial Services",
+    "Eazy Financial Services"
+   ],
+   "protocols": [],
+   "region": "Global",
+   "sector": "Payments",
+   "solutions": [
+    "mastercard",
+    "circle"
+   ],
+   "sources": [
+    "https://www.mastercard.com/news/eemea/en/newsroom/press-releases/en/2025-1/august/mastercard-expands-partnership-with-circle-to-transform-digital-settlement-for-merchants-and-acquirers-in-region"
+   ],
+   "status": "live"
+  },
+  {
+   "blurb": "UK-headquartered emerging-markets bank, about $850B in assets",
+   "company": "Standard Chartered",
+   "companyId": "standard-chartered",
+   "date": "2025-08-08",
+   "detail": "The bank, Animoca Brands and telecom operator HKT set up Anchorpoint Financial and notified the HKMA of their intent to apply when the Stablecoins Ordinance took effect on 1 August 2025. The partners had been in the HKMA's issuer sandbox since 2024.",
+   "headline": "Standard Chartered forms Anchorpoint with Animoca Brands and HKT to seek a Hong Kong stablecoin licence",
+   "id": "standard-chartered-anchorpoint-jv-202508",
+   "partners": [
+    "Animoca Brands",
+    "HKT"
+   ],
+   "protocols": [],
+   "region": "Asia",
+   "sector": "Bank",
+   "solutions": [
+    "hk-stablecoin-ordinance"
+   ],
+   "sources": [
+    "https://www.animocabrands.com/joint-venture-anchorpoint-licensed-stablecoin",
+    "https://www.theblock.co/post/366116/animoca-brands-jv-standard-chartered-hkt"
+   ],
+   "status": "announced"
+  },
+  {
+   "blurb": "Germany's largest bank, about €1.3T in assets",
+   "company": "Deutsche Bank",
+   "companyId": "deutsche-bank",
+   "date": "2025-07-31",
+   "detail": "AllUnity, a joint venture of DWS, Galaxy and Flow Traders, received a BaFin e-money licence in July 2025 and launched EURAU, a MiCA-compliant euro token. Bullish EU was the first venue to list it, giving Germany's largest banking group a foothold in euro stablecoins.",
+   "headline": "Deutsche Bank's DWS-backed AllUnity launches the EURAU euro stablecoin",
+   "id": "deutsche-bank-allunity-eurau-202507",
+   "partners": [
+    "DWS",
+    "Galaxy",
+    "Flow Traders",
+    "AllUnity",
+    "Bullish"
+   ],
+   "protocols": [],
+   "region": "Europe",
+   "sector": "Bank",
+   "solutions": [
+    "mica"
+   ],
+   "sources": [
+    "https://www.ledgerinsights.com/deutsche-bank-linked-stablecoin-eurau-goes-live/",
+    "https://www.fintechfutures.com/blockchain-crypto-digital-assets/allunity-lands-emi-licence-from-bafin"
+   ],
+   "status": "live"
+  },
+  {
+   "blurb": "Major US banking and payments technology provider",
+   "company": "FIS",
+   "companyId": "fis",
+   "date": "2025-07-29",
+   "detail": "FIS will let US financial institutions send domestic and cross-border USDC payments, combining its real-time payments and fraud tools with Circle's infrastructure. The Money Movement Hub is the first FIS product to integrate Circle. It gives FIS's bank clients regulated stablecoin rails right after the GENIUS Act passed.",
+   "headline": "FIS partners with Circle so US banks can offer USDC payments through its Money Movement Hub",
+   "id": "fis-circle-usdc-202507",
+   "partners": [],
+   "protocols": [],
+   "region": "US",
+   "sector": "Payments",
+   "solutions": [
+    "circle",
+    "genius-act"
+   ],
+   "sources": [
+    "https://www.treasury-management.com/news/fis-partners-with-circle-to-unlock-stablecoin-money-movement-functionality-for-financial-institution-customers",
+    "https://www.bloomberg.com/news/articles/2025-07-28/fis-partners-with-circle-to-offer-bank-stablecoin-payments"
+   ],
+   "status": "announced"
+  },
+  {
+   "blurb": "Global 500 Chinese e-commerce and retail group",
+   "company": "JD.com",
+   "companyId": "jd",
+   "date": "2025-07-29",
+   "detail": "JD's Jingdong Coinlink tested HKD and other fiat stablecoins in the HKMA sandbox and registered the JCOIN and JOYCOIN names ahead of Hong Kong's stablecoin ordinance. In October 2025, Chinese regulators reportedly told JD and Ant to suspend their Hong Kong stablecoin plans. It showed mainland politics capping big-tech issuance.",
+   "headline": "JD.com readies Hong Kong stablecoins (JCOIN/JOYCOIN) but halts after Beijing steps in",
+   "id": "jd-hk-stablecoin-202507",
+   "partners": [
+    "HKMA"
+   ],
+   "protocols": [],
+   "region": "Asia",
+   "sector": "Retail & consumer",
+   "solutions": [
+    "hk-stablecoin-ordinance"
+   ],
+   "sources": [
+    "https://www.thestandard.com.hk/innovation/article/307770/JDcom-registers-JCOIN-JOYCOIN-ahead-of-HK-stablecoin-ruling",
+    "https://decrypt.co/344925/beijing-halts-tech-giants-stablecoin-ambitions-in-hong-kong"
+   ],
+   "status": "paused"
+  },
+  {
+   "blurb": "Global digital wallet and online checkout giant (PayPal, Venmo)",
+   "company": "PayPal",
+   "companyId": "paypal",
+   "date": "2025-07-28",
+   "detail": "US merchants can opt in to Pay with Crypto: shoppers pay from their own wallets, PayPal swaps the crypto into PYUSD and then into dollars for the merchant. Fees start at 0.99%, below average card costs. It makes PYUSD the settlement asset behind PayPal's crypto acceptance.",
+   "headline": "PayPal lets US merchants accept 100+ cryptocurrencies, settling via PYUSD into dollars",
+   "id": "paypal-pay-with-crypto-202507",
+   "partners": [
+    "Uniswap"
+   ],
+   "protocols": [],
+   "region": "US",
+   "sector": "Payments",
+   "solutions": [
+    "paypal",
+    "paxos",
+    "coinbase-cdp"
+   ],
+   "sources": [
+    "https://fortune.com/crypto/2025/07/28/paypal-100-cryptocurrencies-accept-merchants-bitcoin-ethereum",
+    "https://www.bloomberg.com/news/articles/2025-07-28/paypal-to-roll-out-pay-with-crypto-feature-for-merchants"
+   ],
+   "status": "live"
+  },
+  {
+   "blurb": "World's largest custodian bank, about $55T in assets under custody/administration",
+   "company": "BNY",
+   "companyId": "bny",
+   "date": "2025-07-09",
+   "detail": "Ripple picked BNY to hold RLUSD's reserve assets and provide transaction banking for conversions. It deepened BNY's role as the go-to custodian for regulated stablecoin reserves, alongside its custody of USDC reserves and SG-FORGE's USDCV.",
+   "headline": "BNY becomes primary custodian of reserves for Ripple's RLUSD stablecoin",
+   "id": "bny-rlusd-reserves-custody-202507",
+   "partners": [],
+   "protocols": [],
+   "region": "US",
+   "sector": "Bank",
+   "solutions": [
+    "ripple"
+   ],
+   "sources": [
+    "https://www.bny.com/corporate/global/en/about-us/newsroom/press-release/ripple-selects-bny-to-custody-ripple-usd-reserves.html"
+   ],
+   "status": "live"
+  },
+  {
+   "blurb": "Second-largest global card network, accepted at 150M+ merchants",
+   "company": "Mastercard",
+   "companyId": "mastercard",
+   "date": "2025-06-24",
+   "detail": "Mastercard became a member of the USDG consortium and said it would support PayPal's PYUSD and Fiserv's FIUSD alongside USDC. With Fiserv it plans FIUSD on/off-ramps, merchant settlement, stablecoin-linked cards and a link to its Multi-Token Network. It widens the set of regulated stablecoins usable across 150M+ merchants.",
+   "headline": "Mastercard joins Paxos's Global Dollar Network and adds PYUSD and FIUSD across its card and settlement products",
+   "id": "mastercard-fiusd-gdn-202506",
+   "partners": [
+    "Fiserv",
+    "Global Dollar Network"
+   ],
+   "protocols": [
+    "Multi-Token Network"
+   ],
+   "region": "Global",
+   "sector": "Payments",
+   "solutions": [
+    "mastercard",
+    "paxos",
+    "paypal",
+    "circle"
+   ],
+   "sources": [
+    "https://www.mastercard.com/rs/sr/news-and-trends/press/2025/june/mastercard-fiserv-stablecoin-adoption.html",
+    "https://www.fortune.com/crypto/2025/06/24/mastercard-usdg-stablecoin-pyusd-fiused-paypal-fiserv"
+   ],
+   "status": "announced"
+  },
+  {
+   "blurb": "Largest US bank, about $4T in assets",
+   "company": "JPMorgan Chase",
+   "companyId": "jpmorgan",
+   "date": "2025-06-17",
+   "detail": "Kinexys by J.P. Morgan began testing JPMD, a token representing dollar deposits at the bank, with a first transfer from a Chase wallet on Base. It is limited to institutional clients and pitched as a bank-issued alternative to stablecoins; it was Kinexys' first deployment on a public chain.",
+   "headline": "JPMorgan pilots JPMD, a permissioned USD deposit token, on Coinbase's Base network",
+   "id": "jpmorgan-jpmd-pilot-202506",
+   "partners": [
+    "Coinbase",
+    "Kinexys"
+   ],
+   "protocols": [
+    "Base",
+    "Ethereum"
+   ],
+   "region": "US",
+   "sector": "Bank",
+   "solutions": [
+    "jpmorgan",
+    "base"
+   ],
+   "sources": [
+    "https://www.theblock.co/post/358624/jpmorgan-to-launch-deposit-token-jpmd-on-base-in-pilot-involving-coinbase"
+   ],
+   "status": "pilot"
+  },
+  {
+   "blurb": "Operator of Alipay, among the world's largest payment platforms",
+   "company": "Ant Group",
+   "companyId": "ant-group",
+   "date": "2025-06-13",
+   "detail": "Ant's international arm prepared licence applications to issue stablecoins and was reported to be in talks to use USDC on its Whale treasury platform. In October 2025 Beijing reportedly told Ant to suspend its Hong Kong stablecoin plans. Alipay's parent was the largest Chinese payments player eyeing stablecoins.",
+   "headline": "Ant International plans stablecoin licence bids in Hong Kong, Singapore and Luxembourg, then stands down",
+   "id": "ant-stablecoin-licences-202506",
+   "partners": [],
+   "protocols": [],
+   "region": "Asia",
+   "sector": "Payments",
+   "solutions": [
+    "hk-stablecoin-ordinance",
+    "circle"
+   ],
+   "sources": [
+    "https://technode.global/2025/06/13/ant-groups-unit-to-seek-stablecoin-permits-in-hong-kong-singapore-report/",
+    "https://www.ledgerinsights.com/jack-ma-founded-ant-intl-plans-to-add-circles-usdc-to-treasury-platform-report/",
+    "https://decrypt.co/344925/beijing-halts-tech-giants-stablecoin-ambitions-in-hong-kong"
+   ],
+   "status": "paused"
+  },
+  {
+   "blurb": "Leading global e-commerce platform for millions of merchants",
+   "company": "Shopify",
+   "companyId": "shopify",
+   "date": "2025-06-12",
+   "detail": "In early access, Shopify merchants can take USDC from shoppers worldwide through Shop Pay or guest checkout, settling in local currency by default or in USDC on request. Coinbase and Shopify built an authorize-now, capture-later smart contract. It puts stablecoin checkout inside a mainstream commerce platform.",
+   "headline": "Shopify starts letting merchants accept USDC on Base via Stripe and Coinbase",
+   "id": "shopify-usdc-base-202506",
+   "partners": [],
+   "protocols": [
+    "Base"
+   ],
+   "region": "Global",
+   "sector": "Retail & consumer",
+   "solutions": [
+    "shopify",
+    "stripe",
+    "coinbase-cdp",
+    "base",
+    "circle"
+   ],
+   "sources": [
+    "https://www.shopify.com/news/stablecoins-on-shopify",
+    "https://www.theblock.co/post/357967/shopify-coinbase-stripe-usdc"
+   ],
+   "status": "pilot"
+  },
+  {
+   "blurb": "French universal bank, about €1.5T in assets",
+   "company": "Société Générale",
+   "companyId": "societe-generale",
+   "date": "2025-06-10",
+   "detail": "SG-FORGE added USD CoinVertible, an e-money token, to its euro EURCV, with BNY as reserve custodian and trading from July 2025. It gives a major EU bank a regulated dollar stablecoin for institutional and crypto-market use outside the US.",
+   "headline": "Société Générale's SG-FORGE launches a MiCA-compliant dollar stablecoin, USDCV, on Ethereum and Solana",
+   "id": "societe-generale-usdcv-202506",
+   "partners": [
+    "BNY",
+    "Bullish"
+   ],
+   "protocols": [
+    "Ethereum",
+    "Solana"
+   ],
+   "region": "Europe",
+   "sector": "Bank",
+   "solutions": [
+    "sg-forge",
+    "mica",
+    "ethereum",
+    "solana"
+   ],
+   "sources": [
+    "https://www.sgforge.com/usd-stablecoin-bny-custodian/",
+    "https://www.theblock.co/post/357577/societe-generale-stablecoin-ethereum-solana"
+   ],
+   "status": "live"
+  },
+  {
+   "blurb": "Fortune 500 payments and core-banking processor serving about 10,000 FIs and 6M merchants",
+   "company": "Fiserv",
+   "companyId": "fiserv",
+   "date": "2025-06",
+   "detail": "Fiserv announced FIUSD, issued with Paxos and Circle infrastructure on Solana, offered to clients at no extra cost and running on its Finxact core. Integration into its banking and merchant products was targeted for end-2025, with Mastercard committing to support it. It gives community and regional banks a turnkey stablecoin.",
+   "headline": "Fiserv unveils FIUSD, a bank-friendly stablecoin on Solana for its 10,000 client institutions",
+   "id": "fiserv-fiusd-202506",
+   "partners": [
+    "Finxact"
+   ],
+   "protocols": [
+    "Solana"
+   ],
+   "region": "US",
+   "sector": "Payments",
+   "solutions": [
+    "paxos",
+    "circle",
+    "solana",
+    "mastercard"
+   ],
+   "sources": [
+    "https://www.fintechfutures.com/blockchain-crypto-digital-assets/fiserv-debuts-fiusd-stablecoin-on-solana-backed-by-paxos-and-circle/",
+    "https://www.theblock.co/post/359195/fiserv-stablecoin-solana"
+   ],
+   "status": "announced"
+  },
+  {
+   "blurb": "One of the world's largest merchant acquirers, payouts in 135 fiat currencies",
+   "company": "Worldpay",
+   "companyId": "worldpay",
+   "date": "2025-05-27",
+   "detail": "Worldpay clients can pay contractors, creators and sellers in stablecoins through their existing payouts integration, without holding crypto themselves. Stablecoins became the first digital asset option alongside 135 fiat currencies, with a pilot from H2 2025. It plugs stablecoin payouts into one of the largest acquirers.",
+   "headline": "Worldpay adds stablecoin payouts to 180+ markets via BVNK for US and European clients",
+   "id": "worldpay-bvnk-payouts-202505",
+   "partners": [],
+   "protocols": [],
+   "region": "Global",
+   "sector": "Payments",
+   "solutions": [
+    "worldpay",
+    "bvnk"
+   ],
+   "sources": [
+    "https://www.worldpay.com/en/news/worldpay-enable-stablecoin-payouts-global-businesses"
+   ],
+   "status": "pilot"
+  },
+  {
+   "blurb": "Europe's largest bank, about $3T in assets",
+   "company": "HSBC",
+   "companyId": "hsbc",
+   "date": "2025-05-22",
+   "detail": "HSBC's Tokenised Deposit Service lets corporate clients move HKD and USD between their HSBC wallets in real time, 24/7. Ant International was the first client, and it was the first live pilot under the HKMA's DLT supervisory incubator.",
+   "headline": "HSBC launches a tokenised deposit service for corporate treasury payments in Hong Kong",
+   "id": "hsbc-tds-hong-kong-202505",
+   "partners": [
+    "Ant International"
+   ],
+   "protocols": [],
+   "region": "Asia",
+   "sector": "Bank",
+   "solutions": [],
+   "sources": [
+    "https://www.about.hsbc.com.hk/news-and-media/hsbc-launches-tokenised-deposit-service-for-corporate-cash-management-in-hong-kong"
+   ],
+   "status": "live"
+  },
+  {
+   "blurb": "Largest private online PSP, over $1T in payment volume in 2024",
+   "company": "Stripe",
+   "companyId": "stripe",
+   "date": "2025-05-07",
+   "detail": "Built on Bridge, the accounts let businesses, mostly in emerging markets with volatile currencies, hold dollar stablecoins, receive funds by bank or crypto transfer and pay out globally. Bridge runs separately but powers the product. It brings dollar access to firms outside the US banking system.",
+   "headline": "Stripe launches stablecoin financial accounts for businesses in 101 countries",
+   "id": "stripe-stablecoin-accounts-202505",
+   "partners": [],
+   "protocols": [],
+   "region": "Global",
+   "sector": "Payments",
+   "solutions": [
+    "stripe",
+    "bridge"
+   ],
+   "sources": [
+    "https://stripe.com/au/blog/introducing-stablecoin-financial-accounts",
+    "https://www.ledgerinsights.com/stripe-rolls-out-stablecoin-accounts-in-101-countries-as-bridge-launches-usdb/"
+   ],
+   "status": "live"
+  },
+  {
+   "blurb": "World's largest card network, accepted at 175M+ merchant locations",
+   "company": "Visa",
+   "companyId": "visa",
+   "date": "2025-04-30",
+   "detail": "Developers can give users Visa cards that spend from a stablecoin balance, with Bridge converting to fiat so merchants are paid in local currency. Rollout began in six Latin American markets with Lead Bank as issuing partner. It turns stablecoin balances into everyday spending power on Visa's acceptance network.",
+   "headline": "Visa and Stripe's Bridge let fintechs issue stablecoin-linked Visa cards through one API",
+   "id": "visa-bridge-cards-202504",
+   "partners": [
+    "Lead Bank"
+   ],
+   "protocols": [],
+   "region": "Global",
+   "sector": "Payments",
+   "solutions": [
+    "visa",
+    "bridge",
+    "stripe"
+   ],
+   "sources": [
+    "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.21371.html"
+   ],
+   "status": "live"
+  },
+  {
+   "blurb": "Japan's second-largest banking group, about $2T in assets",
+   "company": "Sumitomo Mitsui Financial Group (SMBC)",
+   "companyId": "smbc",
+   "date": "2025-04-02",
+   "detail": "Sumitomo Mitsui Financial Group and SMBC agreed to design issuance and circulation of stablecoins in Japan and abroad, including settlement of tokenized bonds and real estate. It signals Japanese megabanks moving beyond pilots under the 2023 Payment Services Act.",
+   "headline": "SMBC signs an MoU with Ava Labs, Fireblocks and TIS to commercialise stablecoins",
+   "id": "smbc-stablecoin-mou-202504",
+   "partners": [
+    "Ava Labs",
+    "TIS"
+   ],
+   "protocols": [
+    "Avalanche"
+   ],
+   "region": "Asia",
+   "sector": "Bank",
+   "solutions": [
+    "fireblocks"
+   ],
+   "sources": [
+    "https://www.smfg.co.jp/news_e/pdf/e20250402_01.pdf"
+   ],
+   "status": "announced"
+  },
+  {
+   "blurb": "Largest private online PSP, over $1T in payment volume in 2024",
+   "company": "Stripe",
+   "companyId": "stripe",
+   "date": "2025-02-04",
+   "detail": "Stripe completed its largest acquisition, buying Bridge, whose APIs let businesses accept, hold and move stablecoins without touching tokens directly. The deal, announced in October 2024, closed after regulatory review. Bridge became the engine of Stripe's stablecoin accounts, cards and issuance products.",
+   "headline": "Stripe closes its $1.1B purchase of stablecoin orchestrator Bridge",
+   "id": "stripe-bridge-acquisition-202502",
+   "partners": [],
+   "protocols": [],
+   "region": "Global",
+   "sector": "Payments",
+   "solutions": [
+    "stripe",
+    "bridge"
+   ],
+   "sources": [
+    "https://www.nbcnewyork.com/news/business/money-report/stripe-closes-1-1-billion-bridge-deal-prepares-for-aggressive-stablecoin-push/6135508/"
+   ],
+   "status": "live"
+  },
+  {
+   "blurb": "Latin America's largest digital bank, over 100M customers",
+   "company": "Nubank",
+   "companyId": "nubank",
+   "date": "2025-01-14",
+   "detail": "Nubank made a fixed 4% annual reward on USDC balances available to all Nubank Cripto users, after a pilot. About 30% of its crypto customers already held USDC, showing retail demand for digital dollars in Latin America.",
+   "headline": "Nubank opens USDC rewards to all of its crypto customers in Brazil",
+   "id": "nubank-usdc-rewards-202501",
+   "partners": [],
+   "protocols": [],
+   "region": "LatAm",
+   "sector": "Bank",
+   "solutions": [
+    "nubank",
+    "circle"
+   ],
+   "sources": [
+    "https://nu.com/en/newsroom/consumers/nubank-expands-usdc-rewards-program-to-all-customers"
+   ],
+   "status": "live"
+  },
+  {
+   "blurb": "Spanish banking group, about €800B in assets",
+   "company": "BBVA",
+   "companyId": "bbva",
+   "date": "2024-10-03",
+   "detail": "BBVA said it was in a sandbox with Visa's tokenized asset platform and aimed for a live pilot of a bank-issued, likely euro-based token in 2025. It was one of the first public bank-and-network stablecoin collaborations in Europe.",
+   "headline": "BBVA tests issuing its own stablecoin on Visa's tokenized asset platform",
+   "id": "bbva-visa-vtap-stablecoin-202410",
+   "partners": [],
+   "protocols": [],
+   "region": "Europe",
+   "sector": "Bank",
+   "solutions": [
+    "visa"
+   ],
+   "sources": [
+    "https://fortune.com/crypto/2024/10/03/bbva-plans-to-launch-stablecoin-in-2025-with-support-from-visa"
+   ],
+   "status": "pilot"
+  },
+  {
+   "blurb": "World's largest card network, accepted at 175M+ merchant locations",
+   "company": "Visa",
+   "companyId": "visa",
+   "date": "2024-10-03",
+   "detail": "Visa introduced the Visa Tokenized Asset Platform (VTAP) so banks can issue, transfer and redeem fiat-backed tokens such as stablecoins and deposit tokens. BBVA tested it in a sandbox and targeted a live Ethereum pilot in 2025. It positions Visa as an issuance-infrastructure vendor, not just a card rail.",
+   "headline": "Visa launches a platform for banks to mint their own fiat-backed tokens, with BBVA as first user",
+   "id": "visa-vtap-202410",
+   "partners": [
+    "BBVA"
+   ],
+   "protocols": [
+    "Ethereum"
+   ],
+   "region": "Global",
+   "sector": "Payments",
+   "solutions": [
+    "visa",
+    "ethereum"
+   ],
+   "sources": [
+    "https://www.businesswire.com/news/home/20241003550660/en/Visa-Introduces-the-Visa-Tokenized-Asset-Platform"
+   ],
+   "status": "pilot"
+  },
+  {
+   "blurb": "Global digital wallet and online checkout giant (PayPal, Venmo)",
+   "company": "PayPal",
+   "companyId": "paypal",
+   "date": "2024-05-29",
+   "detail": "Announced at Consensus 2024, PYUSD expanded from Ethereum to Solana, issued by Paxos. PayPal and Venmo users can move PYUSD to external Solana wallets, and Phantom and Crypto.com support it. It was PYUSD's first multi-chain step toward payments use.",
+   "headline": "PayPal brings its PYUSD stablecoin to Solana for cheaper, faster transfers",
+   "id": "paypal-pyusd-solana-202405",
+   "partners": [
+    "Phantom",
+    "Crypto.com"
+   ],
+   "protocols": [
+    "Solana",
+    "Ethereum"
+   ],
+   "region": "US",
+   "sector": "Payments",
+   "solutions": [
+    "paypal",
+    "paxos",
+    "solana",
+    "ethereum"
+   ],
+   "sources": [
+    "https://paymentexpert.com/2024/05/30/paypals-pyusd-stablecoin-launches-on-the-solana-blockchain"
+   ],
+   "status": "live"
+  }
+ ]
+}

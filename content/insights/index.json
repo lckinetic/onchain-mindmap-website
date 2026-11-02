@@ -1,0 +1,34 @@
+{
+ "articles": [
+  {
+   "slug": "first-article",
+   "title": "[Your first article title]",
+   "summary": "[A two-line summary of the argument and the evidence from the atlas behind it.]",
+   "topic": "Stablecoins",
+   "date": "",
+   "readMinutes": 0,
+   "featured": true,
+   "status": "coming-soon"
+  },
+  {
+   "slug": "second-article",
+   "title": "[Article title]",
+   "summary": "[One-sentence summary.]",
+   "topic": "Tokenization",
+   "date": "",
+   "readMinutes": 0,
+   "featured": false,
+   "status": "coming-soon"
+  },
+  {
+   "slug": "third-article",
+   "title": "[Article title]",
+   "summary": "[One-sentence summary.]",
+   "topic": "Corporate Adoption",
+   "date": "",
+   "readMinutes": 0,
+   "featured": false,
+   "status": "coming-soon"
+  }
+ ]
+}

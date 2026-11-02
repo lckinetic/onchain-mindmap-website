@@ -1,0 +1,51 @@
+{
+ "name": "Onchain Mindmap",
+ "tagline": "A field guide to onchain finance",
+ "author": "Leona Chen",
+ "contact": {
+  "label": "Contact",
+  "linkedin": "https://www.linkedin.com/in/leona-chen-ba128725/",
+  "email": ""
+ },
+ "nav": [
+  {
+   "label": "Stablecoins",
+   "href": "atlas.html#stablecoins"
+  },
+  {
+   "label": "Tokenization",
+   "href": "atlas.html#tokenization"
+  },
+  {
+   "label": "AI in finance",
+   "href": "atlas.html#ai"
+  },
+  {
+   "label": "Corporate Adoption",
+   "href": "adoption.html"
+  },
+  {
+   "label": "Insights",
+   "href": "insights.html"
+  }
+ ],
+ "home": {
+  "eyebrow": "A field guide to onchain finance",
+  "headline": "Who is building onchain finance, and how the pieces fit.",
+  "lede": "Three living maps of onchain and AI-driven finance: stablecoins, tokenization and AI across finance, payments and crypto. Every major provider, chain, API and regulator, with the products they ship and the companies adopting them.",
+  "adoptionIntro": "What the world's largest banks, asset managers, payment networks and tech companies have actually launched, piloted or announced.",
+  "insightsIntro": "Short, sourced pieces on what the data shows."
+ },
+ "insights": {
+  "heading": "Analysis from the atlas",
+  "intro": "Short, sourced pieces on what the data shows: who is winning which layer, where integrations break, and what the latest corporate moves mean."
+ },
+ "footerNote": "Sources are linked on every entry. Not investment advice.",
+ "authorPhoto": "assets/img/profile.jpg",
+ "authorPhotoSmall": "assets/img/profile-sm.jpg",
+ "about": {
+  "heading": "About the curator",
+  "role": "Digital nerd",
+  "bio": ""
+ }
+}

@@ -1,0 +1,264 @@
+{
+ "slug": "tokenization",
+ "title": "Tokenization Atlas",
+ "navLabel": "Tokenization",
+ "tagline": "Tokenized real-world asset ecosystem map",
+ "intro": "Who is putting real-world assets onchain, the platforms and ledgers they use, and where those tokens are custodied, priced and traded.",
+ "initiativesHeading": "How the world’s largest companies are tokenizing assets",
+ "layers": [
+  {
+   "id": "assets",
+   "name": "Asset issuers & managers",
+   "short": "Assets",
+   "description": "The firms whose assets go on-chain: fund managers tokenizing treasuries and money market funds, private credit and private markets funds, banks issuing deposit tokens, and issuers of tokenized commodities and stocks. They decide the legal wrapper and who may hold the token.",
+   "watch": [
+    "Tokenized AUM by product and month-on-month growth",
+    "Legal structure: fund share class, SPV, or direct registration",
+    "Eligibility: qualified purchasers only, or retail access",
+    "Use of tokens as collateral and in DeFi"
+   ]
+  },
+  {
+   "id": "platforms",
+   "name": "Tokenization platforms",
+   "short": "Platforms",
+   "description": "The issuance layer: platforms and digital transfer agents that structure the token, handle investor onboarding and the register, and enforce transfer rules on-chain. Most asset managers rent this layer rather than build it.",
+   "watch": [
+    "Transfer-agent and broker-dealer licences",
+    "Token standards for permissioned transfers (ERC-3643, ERC-1400)",
+    "Multi-chain issuance and cross-chain transfer",
+    "Secondary trading and redemption mechanics"
+   ]
+  },
+  {
+   "id": "chains",
+   "name": "Chains & ledgers",
+   "short": "Chains",
+   "description": "Where tokenized assets live. Public chains hold most tokenized value; permissioned and institutional networks focus on privacy, settlement finality and bank participation.",
+   "watch": [
+    "Share of tokenized RWA value per chain",
+    "Privacy and permissioning for institutions",
+    "Interoperability between public and private networks",
+    "Settlement in tokenized cash or stablecoins"
+   ]
+  },
+  {
+   "id": "infra",
+   "name": "Custody, data & market infra",
+   "short": "Infra",
+   "description": "The plumbing that makes tokenized assets usable by institutions: custodians, oracles that publish NAV and reserves, interoperability, and incumbent market infrastructure such as CSDs and DTCC moving on-chain.",
+   "watch": [
+    "Qualified custody for tokenized securities",
+    "NAV, proof-of-reserve and corporate-action data on-chain",
+    "Cross-chain messaging for regulated assets",
+    "Incumbent CSDs and DTCC tokenization services"
+   ]
+  },
+  {
+   "id": "distribution",
+   "name": "Distribution & markets",
+   "short": "Distribution",
+   "description": "Where investors actually buy, trade or use tokenized assets: brokers and apps offering tokenized stocks, exchanges and ATSs, and DeFi venues that accept tokenized treasuries as collateral.",
+   "watch": [
+    "Retail access to tokenized stocks by region",
+    "24/7 trading and settlement with stablecoins",
+    "Tokenized treasuries accepted as collateral",
+    "On/off-ramps and stablecoin settlement for tokenized products"
+   ]
+  },
+  {
+   "id": "regulation",
+   "name": "Regulation",
+   "short": "Regulation",
+   "description": "Regimes that decide whether a tokenized asset is a security, who may issue and trade it, and how records of ownership are recognised. Sandboxes and pilots are moving into permanent rules.",
+   "watch": [
+    "SEC treatment of tokenized securities and exemptions",
+    "EU DLT Pilot Regime review and expansion",
+    "UK Digital Securities Sandbox progress",
+    "Asian frameworks: MAS Project Guardian, Hong Kong Ensemble"
+   ]
+  }
+ ],
+ "groups": {
+  "assets": {
+   "rules": [
+    {
+     "match": "deposit|bank",
+     "group": "Tokenized deposits"
+    },
+    {
+     "match": "gold|commodit",
+     "group": "Commodities"
+    },
+    {
+     "match": "credit|loan|heloc|private|lending",
+     "group": "Private credit & markets"
+    },
+    {
+     "match": "money market|treasur|mmf|fund",
+     "group": "Treasuries & money funds"
+    },
+    {
+     "match": "stock|equit",
+     "group": "Tokenized equities"
+    },
+    {
+     "match": ".",
+     "group": "Multi-asset issuers"
+    }
+   ],
+   "order": [
+    "Treasuries & money funds",
+    "Private credit & markets",
+    "Tokenized equities",
+    "Tokenized deposits",
+    "Commodities",
+    "Multi-asset issuers"
+   ]
+  },
+  "platforms": {
+   "rules": [
+    {
+     "match": "equity issuer|stock",
+     "group": "Tokenized equity issuers"
+    },
+    {
+     "match": "exchange|venue|mtf",
+     "group": "Regulated venues"
+    },
+    {
+     "match": "repo|collateral",
+     "group": "Repo & collateral"
+    },
+    {
+     "match": "protocol|onchain|defi",
+     "group": "Onchain issuance protocols"
+    },
+    {
+     "match": ".",
+     "group": "Platforms & transfer agents"
+    }
+   ],
+   "order": [
+    "Platforms & transfer agents",
+    "Onchain issuance protocols",
+    "Tokenized equity issuers",
+    "Regulated venues",
+    "Repo & collateral"
+   ]
+  },
+  "chains": {
+   "rules": [
+    {
+     "match": "permission|institution|privacy|private|canton|subnet",
+     "group": "Institutional & permissioned"
+    },
+    {
+     "match": "rwa-special|specialized|rwa-focused",
+     "group": "RWA-specific chains"
+    },
+    {
+     "match": ".",
+     "group": "Public chains"
+    }
+   ],
+   "order": [
+    "Public chains",
+    "Institutional & permissioned",
+    "RWA-specific chains"
+   ]
+  },
+  "infra": {
+   "rules": [
+    {
+     "match": "oracle|interop",
+     "group": "Oracles & interoperability"
+    },
+    {
+     "match": "custod|wallet",
+     "group": "Custody & wallets"
+    },
+    {
+     "match": "settle|clearing|csd|post-trade|market infra",
+     "group": "Market infrastructure"
+    },
+    {
+     "match": ".",
+     "group": "Tokenization tooling"
+    }
+   ],
+   "order": [
+    "Custody & wallets",
+    "Oracles & interoperability",
+    "Market infrastructure",
+    "Tokenization tooling"
+   ]
+  },
+  "distribution": {
+   "rules": [
+    {
+     "match": "defi|lending",
+     "group": "DeFi venues"
+    },
+    {
+     "match": "exchange|venue|ats|marketplace",
+     "group": "Exchanges & ATSs"
+    },
+    {
+     "match": ".",
+     "group": "Brokers & apps"
+    }
+   ],
+   "order": [
+    "Brokers & apps",
+    "Exchanges & ATSs",
+    "DeFi venues"
+   ]
+  },
+  "regulation": {
+   "rules": [
+    {
+     "match": ".",
+     "group": "Regimes & programmes"
+    }
+   ],
+   "order": [
+    "Regimes & programmes"
+   ]
+  }
+ },
+ "filter": {
+  "label": "Asset class",
+  "field": "assetClasses",
+  "options": [
+   [
+    "treasuries",
+    "Treasuries & MMFs"
+   ],
+   [
+    "equities",
+    "Equities"
+   ],
+   [
+    "credit",
+    "Private credit"
+   ],
+   [
+    "funds",
+    "Funds"
+   ],
+   [
+    "deposits",
+    "Deposits"
+   ],
+   [
+    "realestate",
+    "Real estate"
+   ],
+   [
+    "commodities",
+    "Commodities"
+   ]
+  ]
+ }
+}

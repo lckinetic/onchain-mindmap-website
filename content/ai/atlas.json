@@ -1,0 +1,242 @@
+{
+ "slug": "ai",
+ "title": "AI in Finance Atlas",
+ "navLabel": "AI in finance",
+ "tagline": "AI across finance, payments & crypto",
+ "intro": "The models, risk engines, copilots and agent payment rails behind AI in financial services, and the rules that govern them.",
+ "initiativesHeading": "How the world’s largest companies are using AI in finance",
+ "layers": [
+  {
+   "id": "models",
+   "name": "Models & AI platforms",
+   "short": "Models",
+   "description": "The foundation-model labs and cloud AI platforms that banks, fintechs and crypto firms build on. Most financial institutions access models through a cloud platform with enterprise controls rather than directly, and model choice is increasingly a procurement and risk decision.",
+   "watch": [
+    "Enterprise and financial-services deals with model labs",
+    "Data residency, private deployment and audit controls",
+    "Model pricing, rate limits and deprecation schedules",
+    "Finance-specific models, agents and connectors"
+   ]
+  },
+  {
+   "id": "risk",
+   "name": "Risk, fraud & compliance AI",
+   "short": "Risk",
+   "description": "AI that decides whether money should move: fraud scoring, AML and transaction monitoring, identity and KYC, credit underwriting and compliance automation. It is the most mature use of AI in finance and the most scrutinised by supervisors.",
+   "watch": [
+    "Fraud and scam losses, especially authorised push payment fraud",
+    "Explainability and model risk management expectations",
+    "Consolidation: networks and PSPs buying fraud-AI vendors",
+    "Agent-initiated transactions changing fraud signals"
+   ]
+  },
+  {
+   "id": "markets",
+   "name": "Investment, research & banking copilots",
+   "short": "Copilots",
+   "description": "AI assistants and agents for analysts, bankers, advisers and finance teams: research and diligence search, document drafting, data terminals with AI, and firm-wide LLM platforms inside banks.",
+   "watch": [
+    "Firm-wide assistant rollouts and measured productivity gains",
+    "Licensing of premium data and news for AI use",
+    "Agentic workflows replacing analyst tasks",
+    "Client-facing advice and suitability rules"
+   ]
+  },
+  {
+   "id": "payments",
+   "name": "Agentic commerce & payments",
+   "short": "Agent payments",
+   "description": "The rails that let AI agents shop and pay on a user's behalf: card-network agent programmes with agentic tokens, checkout protocols between AI apps and merchants, and PSP toolkits. The open questions are identity, consent, liability and disputes when an agent pays.",
+   "watch": [
+    "Agent identity and verifiable user consent",
+    "Tokenised credentials scoped to an agent",
+    "Checkout protocols between AI apps and merchants",
+    "Dispute and chargeback rules for agent purchases"
+   ]
+  },
+  {
+   "id": "crypto",
+   "name": "AI × crypto",
+   "short": "AI × crypto",
+   "description": "Where AI agents meet onchain money: HTTP-native stablecoin payments for agents, agent wallets with spending policies, onchain agent platforms and decentralised AI networks, plus AI used in crypto compliance and security.",
+   "watch": [
+    "x402 and other machine-to-machine payment standards",
+    "Agent wallets: custody, spending limits and key management",
+    "Volume that is real usage versus incentives",
+    "AI in blockchain analytics, AML and smart-contract security"
+   ]
+  },
+  {
+   "id": "regulation",
+   "name": "Regulation & supervision",
+   "short": "Regulation",
+   "description": "Rules and supervisory guidance that govern AI in financial services: risk-based AI laws, model risk management, consumer protection and fair lending, and sandboxes where firms test AI with supervisors.",
+   "watch": [
+    "EU AI Act obligations for high-risk uses such as credit scoring",
+    "Supervisory statements on generative AI and agents",
+    "Fair lending, explainability and adverse-action notices",
+    "AI sandboxes and live testing programmes"
+   ]
+  }
+ ],
+ "groups": {
+  "models": {
+   "rules": [
+    {
+     "match": "cloud|platform|marketplace",
+     "group": "Cloud AI platforms"
+    },
+    {
+     "match": "open",
+     "group": "Open-weight models"
+    },
+    {
+     "match": ".",
+     "group": "Frontier model labs"
+    }
+   ],
+   "order": [
+    "Frontier model labs",
+    "Open-weight models",
+    "Cloud AI platforms"
+   ]
+  },
+  "risk": {
+   "rules": [
+    {
+     "match": "identity|kyc|onboarding",
+     "group": "Identity & KYC"
+    },
+    {
+     "match": "fraud|scam|payment risk",
+     "group": "Fraud & scams"
+    },
+    {
+     "match": "aml|financial crime|transaction monitor",
+     "group": "AML & financial crime"
+    },
+    {
+     "match": "credit|underwrit|lending",
+     "group": "Credit & underwriting"
+    },
+    {
+     "match": ".",
+     "group": "Compliance automation"
+    }
+   ],
+   "order": [
+    "Fraud & scams",
+    "AML & financial crime",
+    "Identity & KYC",
+    "Credit & underwriting",
+    "Compliance automation"
+   ]
+  },
+  "markets": {
+   "rules": [
+    {
+     "match": "data|terminal|exchange|market infra",
+     "group": "Data & terminals"
+    },
+    {
+     "match": "research|search|diligence|intelligence",
+     "group": "Research & diligence"
+    },
+    {
+     "match": ".",
+     "group": "Analyst & banking copilots"
+    }
+   ],
+   "order": [
+    "Data & terminals",
+    "Research & diligence",
+    "Analyst & banking copilots"
+   ]
+  },
+  "payments": {
+   "rules": [
+    {
+     "match": "card network",
+     "group": "Card network programmes"
+    },
+    {
+     "match": "identity",
+     "group": "Agent identity"
+    },
+    {
+     "match": "protocol|standard",
+     "group": "Agent payment protocols"
+    },
+    {
+     "match": ".",
+     "group": "PSPs & wallets"
+    }
+   ],
+   "order": [
+    "Card network programmes",
+    "Agent payment protocols",
+    "PSPs & wallets",
+    "Agent identity"
+   ]
+  },
+  "crypto": {
+   "rules": [
+    {
+     "match": "wallet",
+     "group": "Agent wallets"
+    },
+    {
+     "match": "payment|x402|rail",
+     "group": "Agent payment rails"
+    },
+    {
+     "match": "analytic|security|compliance|forensic",
+     "group": "Crypto risk & analytics"
+    },
+    {
+     "match": ".",
+     "group": "Decentralised AI & agent networks"
+    }
+   ],
+   "order": [
+    "Agent payment rails",
+    "Agent wallets",
+    "Decentralised AI & agent networks",
+    "Crypto risk & analytics"
+   ]
+  },
+  "regulation": {
+   "rules": [
+    {
+     "match": ".",
+     "group": "Rules & guidance"
+    }
+   ],
+   "order": [
+    "Rules & guidance"
+   ]
+  }
+ },
+ "filter": {
+  "label": "Type",
+  "field": "kind",
+  "options": [
+   [
+    "company",
+    "Companies"
+   ],
+   [
+    "protocol",
+    "Protocols"
+   ],
+   [
+    "institution",
+    "Institutions"
+   ],
+   [
+    "regulation",
+    "Regulation"
+   ]
+  ]
+ }
+}

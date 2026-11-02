@@ -1,0 +1,99 @@
+/* ============================================================
+   DESIGN TOKENS — change the look of the whole site here.
+   Every colour, font, radius and width the site uses comes from
+   these variables. Edit a value, save, and reload.
+   The light theme is first; the dark theme below overrides it
+   for visitors whose device is set to dark mode.
+   ============================================================ */
+
+@import url("https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap");
+
+:root {
+  /* Fonts */
+  --font-display: "Familjen Grotesk", "Helvetica Neue", Arial, sans-serif;
+  --font-body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+
+  /* Surfaces and text */
+  --color-page: #F4F6F9;        /* page background */
+  --color-dot: #D5DBE4;         /* dot-grid texture on the page background */
+  --color-surface: #FFFFFF;     /* cards, header, panels */
+  --color-surface-2: #F5F6F3;   /* tiles, code chips */
+  --color-ink: #111B29;         /* main text, dark buttons, footer */
+  --color-ink-2: #3D4858;       /* body copy on light surfaces */
+  --color-muted: #556070;       /* secondary text, labels */
+  --color-line: #D9DDE2;        /* borders */
+  --color-line-strong: #C5CCD4; /* input borders, hover borders */
+  --color-footer-bg: #111B29;
+  --color-footer-text: #C9D1DC;
+  --color-footer-heading: #FFFFFF;
+
+  /* Brand accent (links, highlights, active nav) */
+  --color-accent: #2747D0;
+  --color-accent-soft: #E5EBFB;
+  --color-on-accent: #FFFFFF;
+
+  /* Status colours used on corporate initiatives */
+  --color-live: #1E7A4D;
+  --color-pilot: #9A5B12;
+  --color-announced: #2747D0;
+  --color-paused: #6B7686;
+
+  /* Layer colours, in layer order (1 = first layer of each atlas) */
+  --layer-1: #0E6B52;
+  --layer-2: #6B48C2;
+  --layer-3: #2367D1;
+  --layer-4: #C86A1E;
+  --layer-5: #BC3A64;
+  --layer-6: #5F6B7A;
+
+  /* Shape and layout */
+  --radius-s: 6px;
+  --radius-m: 10px;
+  --radius-l: 14px;
+  --page-width: 1240px;
+  --page-width-wide: 1400px;
+  --shadow-panel: 0 18px 50px rgba(17, 27, 41, 0.16);
+
+  /* Type scale */
+  --text-hero: clamp(38px, 5.2vw, 60px);
+  --text-h1: clamp(32px, 4vw, 46px);
+  --text-h2: clamp(26px, 3vw, 34px);
+  --text-h3: 21px;
+  --text-body: 16px;
+  --text-small: 13px;
+
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-page: #0E141B;
+    --color-dot: #1C2733;
+    --color-surface: #151E28;
+    --color-surface-2: #1B2632;
+    --color-ink: #E7ECF2;
+    --color-ink-2: #BAC4D0;
+    --color-muted: #94A1B1;
+    --color-line: #26323F;
+    --color-line-strong: #3A4858;
+    --color-footer-bg: #090E13;
+    --color-footer-text: #94A1B1;
+    --color-footer-heading: #E7ECF2;
+    --color-accent: #8EA4FF;
+    --color-accent-soft: #1E2A4A;
+    --color-on-accent: #0E141B;
+    --color-live: #4FCB8C;
+    --color-pilot: #E8B65A;
+    --color-announced: #8EA4FF;
+    --color-paused: #94A1B1;
+    --layer-1: #3FC59C;
+    --layer-2: #A88BF0;
+    --layer-3: #6BA2FF;
+    --layer-4: #F0A25C;
+    --layer-5: #F07AA0;
+    --layer-6: #A3AEBB;
+    --shadow-panel: 0 18px 50px rgba(0, 0, 0, 0.5);
+    color-scheme: dark;
+  }
+}
