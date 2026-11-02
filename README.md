@@ -1,6 +1,6 @@
 # Onchain Mindmap: website package
 
-A static website with three content areas: the **Stablecoins** and **Tokenization** atlases, **Corporate Adoption**, and **Insights**. There is no build step and no server code. Any static host can serve it.
+A static website with three content areas: the **Stablecoins** and **Tokenization** atlases, **Institution Adoption**, and **Insights**. There is no build step and no server code. Any static host can serve it.
 
 Content and design live in separate places, so you can change one without touching the other.
 
@@ -48,7 +48,7 @@ The nav link and Insights page reappear on their own. Any other articles still m
 ## Change the design
 
 - **Quick changes:** edit `assets/css/tokens.css`. Every colour, font, radius and width is a named variable with a comment, covering both light and dark mode.
-- **Bigger redesigns:** use the **Onchain Mindmap website** canvas in Claude Design. It has artboards for Home, Atlas, Corporate Adoption and Insights. Make your changes there, then ask Claude to "apply the canvas design to the website package"; it will update `tokens.css` and `site.css` to match.
+- **Bigger redesigns:** use the **Onchain Mindmap website** canvas in Claude Design. It has artboards for Home, Atlas, Institution Adoption and Insights. Make your changes there, then ask Claude to "apply the canvas design to the website package"; it will update `tokens.css` and `site.css` to match.
 
 ## Preview on your computer
 

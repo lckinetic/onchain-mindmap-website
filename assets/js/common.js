@@ -62,7 +62,7 @@ const Site = (() => {
       const c = site.contact || {};
       const links = [safeUrl(c.linkedin) && `<a href="${esc(c.linkedin)}" rel="noopener">LinkedIn</a>`, c.email && `<a href="mailto:${esc(c.email)}">${esc(c.email)}</a>`].filter(Boolean).join("");
       footer.className = "site-footer";
-      footer.innerHTML = `<div class="wrap"><b>${esc(site.name)}</b><span class="footer-author">${site.authorPhotoSmall ? `<img src="${esc(site.authorPhotoSmall)}" alt="" width="28" height="28">` : ""}Researched and curated by ${esc(site.author || "")}</span><span>${esc(site.footerNote || "")}</span>${links ? `<span class="footer-contact">${links}</span>` : ""}</div>`;
+      footer.innerHTML = `<div class="wrap"><b>${esc(site.name)}</b><span class="footer-author">${site.authorPhotoSmall ? `<img src="${esc(site.authorPhotoSmall)}" alt="" width="28" height="28">` : ""}Research, curated and maintained daily by ${esc(site.author || "")}</span><span>${esc(site.footerNote || "")}</span>${links ? `<span class="footer-contact">${links}</span>` : ""}</div>`;
     }
     return site;
   }

@@ -116,7 +116,7 @@
     S.sel = id;
     const L = S.A.cfg.layers.find(l => l.id === p.layer) || {};
     const nInit = initiativesFor(id).length;
-    const tabs = [["overview", "Overview"], ["uses", "Use cases"], ["api", "API"], ["links", "Connections"], ["adoption", `Corporate adoption${nInit ? " · " + nInit : ""}`], ["news", "Latest"]];
+    const tabs = [["overview", "Overview"], ["uses", "Use cases"], ["api", "API"], ["links", "Connections"], ["adoption", `Institution adoption${nInit ? " · " + nInit : ""}`], ["news", "Latest"]];
     if (!tabs.some(t => t[0] === S.tab)) S.tab = "overview";
     panel.innerHTML = `<div class="panel-head" style="--lc:${S.A.color(p.layer)}">
         <div class="panel-top"><div><div class="eyebrow" style="color:var(--lc)">${esc(L.name || "")}</div><h2>${esc(p.name)}</h2></div><button class="panel-close" aria-label="Close">×</button></div>
@@ -167,7 +167,7 @@
       h = out.length || inc.length ? `${out.length ? `<h3>${esc(p.name)} →</h3>${out.map(c => row(c.id, c.relation)).join("")}` : ""}${inc.length ? `<h3>→ ${esc(p.name)}</h3>${inc.map(o => row(o.id, (o.connections.find(c => c.id === p.id) || {}).relation)).join("")}` : ""}` : `<div class="empty">No connections recorded yet.</div>`;
     } else if (k === "adoption") {
       const ms = initiativesFor(p.id);
-      h = ms.length ? `<p class="muted" style="margin-bottom:12px">Corporate initiatives that use ${esc(p.name)}, newest first.</p>${ms.map(m => `<div class="card" style="padding:12px 14px;margin-bottom:8px;display:grid;gap:4px"><span class="mono muted" style="font-size:12px">${esc(fmtDate(m.date))} · <span class="status ${esc(m.status)}">${esc(m.status)}</span></span><b>${esc(m.company)}</b><span>${esc(m.headline)}</span></div>`).join("")}<p><a class="link-more" href="adoption.html?atlas=${S.slug}">Open Corporate Adoption →</a></p>` : `<div class="empty">No corporate initiatives linked yet.</div>`;
+      h = ms.length ? `<p class="muted" style="margin-bottom:12px">Corporate initiatives that use ${esc(p.name)}, newest first.</p>${ms.map(m => `<div class="card" style="padding:12px 14px;margin-bottom:8px;display:grid;gap:4px"><span class="mono muted" style="font-size:12px">${esc(fmtDate(m.date))} · <span class="status ${esc(m.status)}">${esc(m.status)}</span></span><b>${esc(m.company)}</b><span>${esc(m.headline)}</span></div>`).join("")}<p><a class="link-more" href="adoption.html?atlas=${S.slug}">Open Institution Adoption →</a></p>` : `<div class="empty">No corporate initiatives linked yet.</div>`;
     } else if (k === "news") {
       h = (p.latest || []).length ? `<ul class="news">${[...p.latest].sort((a, b) => (b.date || "").localeCompare(a.date || "")).map(n => `<li><time>${esc(n.date)}</time><span>${safeUrl(n.url) ? `<a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.headline)}</a>` : esc(n.headline)}</span></li>`).join("")}</ul>` : `<div class="empty">Nothing recorded yet.</div>`;
     }

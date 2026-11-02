@@ -60,7 +60,7 @@
       </div>
     </section>
     <section class="wrap section section-last">
-      <div class="section-head"><h2>Corporate Adoption</h2><a class="link-more" href="adoption.html">See all ${totalInits} initiatives →</a></div>
+      <div class="section-head"><h2>Institution Adoption</h2><a class="link-more" href="adoption.html">See all ${totalInits} initiatives →</a></div>
       <p class="section-intro">${esc(h.adoptionIntro || "")}</p>
       <div class="card feed">${latest.map(m => `<a class="feed-row" href="adoption.html?atlas=${m._a.slug}&q=${encodeURIComponent(m.company)}"><time>${esc(fmtDate(m.date))}</time><span><b>${esc(m.company)}</b> · ${esc(m.headline)}</span><span class="status ${esc(m.status)}">${esc(LABEL[m.status] || m.status)}</span></a>`).join("")}</div>
     </section>

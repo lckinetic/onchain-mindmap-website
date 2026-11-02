@@ -1,4 +1,4 @@
-/* Corporate Adoption: timeline of big-company initiatives, by date or by company, with search and filters. */
+/* Institution Adoption: timeline of big-company initiatives, by date or by company, with search and filters. */
 (async () => {
   const { esc, safeUrl, fmtDate, hostOf } = Site;
   await Site.chrome("adoption");
@@ -53,7 +53,7 @@
     }
     root.innerHTML = `
       <section class="wrap wrap-narrow page-head adoption-head">
-        <div class="eyebrow">Corporate Adoption</div>
+        <div class="eyebrow">Institution Adoption</div>
         <h1>${esc(A.cfg.initiativesHeading)}</h1>
         <p class="lede">What the Fortune Global 500 and the world's largest banks, asset managers and payment firms have launched, piloted or announced since January 2024, and which providers they built on.</p>
         <div class="toolbar" style="margin-top:8px">
