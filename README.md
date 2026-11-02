@@ -36,14 +36,14 @@ Claude pulls the live data, regenerates `content/stablecoins/*.json`, `content/t
 
 Write the body with simple formatting: `## Heading`, `**bold**`, `- bullet`, `[link](url)`, `> quote`. The site turns it into a formatted page, so readers never see these symbols. An article shows as "Coming soon" until its `status` is `"published"`.
 
-**Insights is hidden until your first article is published.** While no article has `"status": "published"`, the site hides the Insights nav link and the home-page Insights section, and anyone who opens `insights.html` is sent to the home page. This is handled in `assets/js/common.js`, `assets/js/home.js` and `assets/js/insights.js`.
+**Insights is hidden until your first article is published.** While no article has `"status": "published"`, the site hides the Insights nav link, and anyone who opens `insights.html` is sent to the home page. This is handled in `assets/js/common.js` and `assets/js/insights.js`. The home page has no Insights section.
 
 To bring it back:
 1. Write your article in `content/insights/articles/<slug>.md`.
 2. In `content/insights/index.json`, set that article's `"status"` to `"published"` (and fill in its `date` and `readMinutes`).
 3. Commit and push (see "Publish with GitHub Pages" below).
 
-The nav link, home-page section and Insights page all reappear on their own. Any other articles still marked `"coming-soon"` show there as "Coming soon" cards, so replace or remove the placeholder entries if you don't want them shown.
+The nav link and Insights page reappear on their own. Any other articles still marked `"coming-soon"` show there as "Coming soon" cards, so replace or remove the placeholder entries if you don't want them shown.
 
 ## Change the design
 

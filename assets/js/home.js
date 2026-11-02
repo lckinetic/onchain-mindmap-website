@@ -1,11 +1,11 @@
-/* Home page: hero, stack illustration, headline numbers, atlas cards, latest corporate initiatives, insights, about. */
+/* Home page: hero, stack illustration, headline numbers, atlas cards, latest corporate initiatives, about. */
 (async () => {
   const { esc, fmtDate, hasApi } = Site;
   const site = await Site.chrome("home");
   const root = document.getElementById("home");
-  let S, T, AI, insights;
+  let S, T, AI;
   try {
-    [S, T, AI, insights] = await Promise.all([Site.atlas("stablecoins"), Site.atlas("tokenization"), Site.atlas("ai"), Site.json("content/insights/index.json")]);
+    [S, T, AI] = await Promise.all([Site.atlas("stablecoins"), Site.atlas("tokenization"), Site.atlas("ai")]);
   } catch (e) { Site.fail(root, e); return; }
   Site.setUpdated(S.updated);
   const h = site.home || {};
@@ -21,8 +21,6 @@
   const totalPlayers = ALL.reduce((n, A) => n + A.players.length, 0);
   const totalInits = ALL.reduce((n, A) => n + A.initiatives.length, 0);
   const totalApi = ALL.reduce((n, A) => n + A.players.filter(hasApi).length, 0);
-  const arts = (insights.articles || []);
-  const showInsights = arts.some(a => a.status === "published");
 
   // Atlas cards: "N players · N layers (or asset classes) · N initiatives", a short blurb, chips and a named CTA.
   const atlasCard = (A, name, chips, count, cta) => `<a class="card atlas-card" href="atlas.html#${A.slug}">
@@ -61,15 +59,11 @@
         ${atlasCard(AI, "AI in finance, payments & crypto", AI.cfg.layers.map(l => l.short), `${AI.cfg.layers.length} layers`, "Open the AI atlas")}
       </div>
     </section>
-    <section class="wrap section${showInsights ? "" : " section-last"}">
+    <section class="wrap section section-last">
       <div class="section-head"><h2>Corporate Adoption</h2><a class="link-more" href="adoption.html">See all ${totalInits} initiatives →</a></div>
       <p class="section-intro">${esc(h.adoptionIntro || "")}</p>
       <div class="card feed">${latest.map(m => `<a class="feed-row" href="adoption.html?atlas=${m._a.slug}&q=${encodeURIComponent(m.company)}"><time>${esc(fmtDate(m.date))}</time><span><b>${esc(m.company)}</b> · ${esc(m.headline)}</span><span class="status ${esc(m.status)}">${esc(LABEL[m.status] || m.status)}</span></a>`).join("")}</div>
     </section>
-    ${showInsights ? `<section class="wrap section section-last">
-      <div class="section-head"><h2>Insights</h2><a class="link-more" href="insights.html">All insights →</a></div>
-      <div class="insight-grid">${arts.slice(0, 3).map(a => Insights.card(a)).join("")}</div>
-    </section>` : ""}
     ${site.about ? `<section class="wrap section about-section" aria-labelledby="about-h">
       <div class="card about">
         ${site.authorPhoto ? `<img class="about-photo" src="${esc(site.authorPhoto)}" alt="Portrait of ${esc(site.author || "")}" width="160" height="160">` : ""}
