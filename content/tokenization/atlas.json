@@ -4,6 +4,7 @@
  "navLabel": "Tokenization",
  "tagline": "Tokenized real-world asset ecosystem map",
  "intro": "Who is putting real-world assets onchain, the platforms and ledgers they use, and where those tokens are custodied, priced and traded.",
+ "cardIntro": "Fund managers putting treasuries and credit onchain, tokenization platforms and transfer agents, custody and market infrastructure, and the venues that distribute them.",
  "initiativesHeading": "How the world’s largest companies are tokenizing assets",
  "layers": [
   {

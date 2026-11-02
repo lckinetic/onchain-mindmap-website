@@ -45,12 +45,14 @@ const Site = (() => {
   async function chrome(active) {
     const site = await json("content/site.json").catch(() => ({ name: "Onchain Mindmap", nav: [] }));
     document.title = document.title ? `${document.title} · ${site.name}` : site.name;
+    // Insights stays hidden (nav link and home section) until at least one article is published.
+    const nav = (await hasInsights()) ? (site.nav || []) : (site.nav || []).filter(n => !/^insights\.html/.test(n.href));
     const header = document.querySelector("[data-site-header]");
     if (header) {
       header.className = "site-header";
       header.innerHTML = `<div class="wrap ${active === "atlas" ? "wrap-wide" : ""}">
         <a class="brand" href="index.html"><svg viewBox="0 0 26 26" aria-hidden="true"><circle class="brand-ring" cx="13" cy="13" r="11"></circle><circle class="brand-dot" cx="13" cy="13" r="4"></circle><path class="brand-ring" d="M13 2v7M13 17v7M2 13h7M17 13h7"></path></svg>${esc(site.name)}</a>
-        <nav class="site-nav" aria-label="Main">${(site.nav || []).map(n => `<a href="${esc(n.href)}" data-nav="${esc(n.href)}">${esc(n.label)}</a>`).join("")}</nav>
+        <nav class="site-nav" aria-label="Main">${nav.map(n => `<a href="${esc(n.href)}" data-nav="${esc(n.href)}">${esc(n.label)}</a>`).join("")}</nav>
         <span class="header-meta" data-updated></span></div>`;
       markNav();
       addEventListener("hashchange", markNav);
@@ -64,6 +66,10 @@ const Site = (() => {
     }
     return site;
   }
+  async function hasInsights() {
+    const data = await json("content/insights/index.json").catch(() => ({}));
+    return (data.articles || []).some(a => a.status === "published");
+  }
   function markNav() {
     const here = location.pathname.split("/").pop() || "index.html";
     const hash = location.hash.replace("#", "") || params().get("atlas") || "";
@@ -76,5 +82,5 @@ const Site = (() => {
   function setUpdated(d) { const el = document.querySelector("[data-updated]"); if (el && d) el.textContent = `Updated ${fmtDate(d)}`; }
   function fail(el, err) { el.innerHTML = `<div class="empty"><b>Content didn't load</b><span>${esc(err.message)}. If you opened the file directly, run a local server (see README).</span></div>`; }
 
-  return { json, esc, safeUrl, fmtDate, params, hostOf, atlas, ATLASES, LABELS, hasApi, chrome, setUpdated, markNav, fail };
+  return { json, esc, hasInsights, safeUrl, fmtDate, params, hostOf, atlas, ATLASES, LABELS, hasApi, chrome, setUpdated, markNav, fail };
 })();

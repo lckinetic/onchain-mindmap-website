@@ -1,4 +1,4 @@
-/* Home page: hero, stack illustration, headline numbers, atlas cards, latest corporate initiatives, insights. */
+/* Home page: hero, stack illustration, headline numbers, atlas cards, latest corporate initiatives, insights, about. */
 (async () => {
   const { esc, fmtDate, hasApi } = Site;
   const site = await Site.chrome("home");
@@ -16,18 +16,20 @@
   const reg = S.cfg.layers.find(l => l.id === "regulation");
   const adoption = id => S.initiatives.filter(m => (m.solutions || []).includes(id)).length;
   const topNames = lid => S.players.filter(p => p.layer === lid).sort((a, b) => adoption(b.id) - adoption(a.id) || a.name.localeCompare(b.name)).slice(0, 3).map(p => p.name.replace(/\s*\(.*\)/, "")).join(" · ");
-  const latest = [...S.initiatives.map(m => ({ ...m, _a: S })), ...T.initiatives.map(m => ({ ...m, _a: T })), ...AI.initiatives.map(m => ({ ...m, _a: AI }))].sort((a, b) => String(b.date).localeCompare(String(a.date))).slice(0, 5);
+  const latest = [...S.initiatives.map(m => ({ ...m, _a: S })), ...T.initiatives.map(m => ({ ...m, _a: T })), ...AI.initiatives.map(m => ({ ...m, _a: AI }))].sort((a, b) => String(b.date).localeCompare(String(a.date))).slice(0, 4);
   const ALL = [S, T, AI];
   const totalPlayers = ALL.reduce((n, A) => n + A.players.length, 0);
   const totalInits = ALL.reduce((n, A) => n + A.initiatives.length, 0);
   const totalApi = ALL.reduce((n, A) => n + A.players.filter(hasApi).length, 0);
-  const arts = insights.articles || [];
+  const arts = (insights.articles || []);
+  const showInsights = arts.some(a => a.status === "published");
 
-  const atlasCard = (A, name, chips) => `<a class="card atlas-card" href="atlas.html#${A.slug}">
-      <div class="mono muted" style="font-size:12px">${A.players.length} players · ${A.cfg.layers.length} layers · ${A.initiatives.length} corporate initiatives</div>
-      <h3>${esc(name)}</h3><p>${esc(A.cfg.intro || "")}</p>
+  // Atlas cards: "N players · N layers (or asset classes) · N initiatives", a short blurb, chips and a named CTA.
+  const atlasCard = (A, name, chips, count, cta) => `<a class="card atlas-card" href="atlas.html#${A.slug}">
+      <div class="mono muted" style="font-size:12px">${A.players.length} players · ${count} · ${A.initiatives.length} initiatives</div>
+      <h3>${esc(name)}</h3><p>${esc(A.cfg.cardIntro || A.cfg.intro || "")}</p>
       <div class="tag-row">${chips.map(c => `<span class="tag">${esc(c)}</span>`).join("")}</div>
-      <span class="link-more">Open the atlas →</span></a>`;
+      <span class="link-more">${esc(cta)} →</span></a>`;
 
   root.innerHTML = `
     <section class="wrap hero">
@@ -51,24 +53,24 @@
         <div class="stat"><b>${esc(fmtDate(S.updated))}</b><span>last updated · researched daily</span></div>
       </div>
     </section>
-    <section class="wrap section">
+    <section class="wrap section section-first">
       <div class="section-head"><h2>Three atlases</h2></div>
       <div class="atlas-cards">
-        ${atlasCard(S, "Stablecoins & payments", S.cfg.layers.map(l => l.short))}
-        ${atlasCard(T, "Tokenized real-world assets", T.cfg.filter.options.map(o => o[1]))}
-        ${atlasCard(AI, "AI in finance, payments & crypto", AI.cfg.layers.map(l => l.short))}
+        ${atlasCard(S, "Stablecoins & payments", S.cfg.layers.map(l => l.short), `${S.cfg.layers.length} layers`, "Open the stablecoin atlas")}
+        ${atlasCard(T, "Tokenized real-world assets", T.cfg.filter.options.map(o => o[1]), `${T.cfg.filter.options.length} asset classes`, "Open the tokenization atlas")}
+        ${atlasCard(AI, "AI in finance, payments & crypto", AI.cfg.layers.map(l => l.short), `${AI.cfg.layers.length} layers`, "Open the AI atlas")}
       </div>
     </section>
-    <section class="wrap section">
+    <section class="wrap section${showInsights ? "" : " section-last"}">
       <div class="section-head"><h2>Corporate Adoption</h2><a class="link-more" href="adoption.html">See all ${totalInits} initiatives →</a></div>
       <p class="section-intro">${esc(h.adoptionIntro || "")}</p>
       <div class="card feed">${latest.map(m => `<a class="feed-row" href="adoption.html?atlas=${m._a.slug}&q=${encodeURIComponent(m.company)}"><time>${esc(fmtDate(m.date))}</time><span><b>${esc(m.company)}</b> · ${esc(m.headline)}</span><span class="status ${esc(m.status)}">${esc(LABEL[m.status] || m.status)}</span></a>`).join("")}</div>
     </section>
-    <section class="wrap section" style="padding-bottom:56px">
+    ${showInsights ? `<section class="wrap section section-last">
       <div class="section-head"><h2>Insights</h2><a class="link-more" href="insights.html">All insights →</a></div>
       <div class="insight-grid">${arts.slice(0, 3).map(a => Insights.card(a)).join("")}</div>
-    </section>
-    ${site.about ? `<section class="wrap section" style="padding-bottom:64px" aria-labelledby="about-h">
+    </section>` : ""}
+    ${site.about ? `<section class="wrap section about-section" aria-labelledby="about-h">
       <div class="card about">
         ${site.authorPhoto ? `<img class="about-photo" src="${esc(site.authorPhoto)}" alt="Portrait of ${esc(site.author || "")}" width="160" height="160">` : ""}
         <div class="about-copy">

@@ -4,6 +4,7 @@
  "navLabel": "Stablecoins",
  "tagline": "Stablecoin & payments ecosystem map",
  "intro": "Who issues stablecoins, which chains they settle on, the APIs that make them usable, and the networks and institutions bringing them to users.",
+ "cardIntro": "Issuers, settlement chains, on/off-ramps and orchestration APIs, card networks, and the banks and apps putting stablecoins in front of users.",
  "initiativesHeading": "How the world’s largest companies are using stablecoins",
  "layers": [
   {

@@ -32,6 +32,7 @@
   --color-accent: #2747D0;
   --color-accent-soft: #E5EBFB;
   --color-on-accent: #FFFFFF;
+  --color-feature-kicker: #9FB0FF; /* kicker on the dark featured-insight card */
 
   /* Status colours used on corporate initiatives */
   --color-live: #1E7A4D;
@@ -83,6 +84,7 @@
     --color-accent: #8EA4FF;
     --color-accent-soft: #1E2A4A;
     --color-on-accent: #0E141B;
+    --color-feature-kicker: #2747D0;
     --color-live: #4FCB8C;
     --color-pilot: #E8B65A;
     --color-announced: #8EA4FF;

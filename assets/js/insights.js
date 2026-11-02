@@ -15,11 +15,12 @@ const Insights = (() => {
     const root = document.getElementById("insights");
     let data; try { data = await Site.json("content/insights/index.json"); } catch (e) { Site.fail(root, e); return; }
     const arts = data.articles || [];
+    if (!arts.some(live)) { location.replace("index.html"); return; } // nothing published yet: page is hidden
     const feat = arts.find(a => a.featured) || null;
     const rest = arts.filter(a => a !== feat);
     const i = site.insights || {};
     root.innerHTML = `
-      <section class="wrap wrap-narrow page-head" style="padding-top:56px">
+      <section class="wrap wrap-narrow page-head insights-head">
         <div class="eyebrow">Insights</div>
         <h1>${esc(i.heading || "Insights")}</h1>
         <p class="lede">${esc(i.intro || "")}</p>

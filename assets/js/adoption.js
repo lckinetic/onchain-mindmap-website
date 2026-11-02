@@ -52,7 +52,7 @@
           <ol class="co-tl">${ms.map(m => `<li><time>${esc(fmtDate(m.date))}</time><div>${esc(m.headline)} <span class="status ${esc(m.status)}">${esc(LABEL[m.status] || m.status)}</span></div></li>`).join("")}</ol></section>`; }).join("")}</div>`;
     }
     root.innerHTML = `
-      <section class="wrap wrap-narrow page-head">
+      <section class="wrap wrap-narrow page-head adoption-head">
         <div class="eyebrow">Corporate Adoption</div>
         <h1>${esc(A.cfg.initiativesHeading)}</h1>
         <p class="lede">What the Fortune Global 500 and the world's largest banks, asset managers and payment firms have launched, piloted or announced since January 2024, and which providers they built on.</p>

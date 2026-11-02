@@ -36,6 +36,15 @@ Claude pulls the live data, regenerates `content/stablecoins/*.json`, `content/t
 
 Write the body with simple formatting: `## Heading`, `**bold**`, `- bullet`, `[link](url)`, `> quote`. The site turns it into a formatted page, so readers never see these symbols. An article shows as "Coming soon" until its `status` is `"published"`.
 
+**Insights is hidden until your first article is published.** While no article has `"status": "published"`, the site hides the Insights nav link and the home-page Insights section, and anyone who opens `insights.html` is sent to the home page. This is handled in `assets/js/common.js`, `assets/js/home.js` and `assets/js/insights.js`.
+
+To bring it back:
+1. Write your article in `content/insights/articles/<slug>.md`.
+2. In `content/insights/index.json`, set that article's `"status"` to `"published"` (and fill in its `date` and `readMinutes`).
+3. Commit and push (see "Publish with GitHub Pages" below).
+
+The nav link, home-page section and Insights page all reappear on their own. Any other articles still marked `"coming-soon"` show there as "Coming soon" cards, so replace or remove the placeholder entries if you don't want them shown.
+
 ## Change the design
 
 - **Quick changes:** edit `assets/css/tokens.css`. Every colour, font, radius and width is a named variable with a comment, covering both light and dark mode.
@@ -52,14 +61,37 @@ python3 -m http.server 8000
 
 Then visit http://localhost:8000.
 
-## Publish on your own domain
+## Publish with GitHub Pages
 
-Any of these works. All are free for a site this size.
+The site is hosted on GitHub Pages from the repository `lckinetic/onchain-mindmap-website`.
+
+**First-time setup**
+
+1. Commit and push your changes to the `main` branch:
+   ```
+   git add -A
+   git commit -m "Describe your change"
+   git push origin main
+   ```
+2. On GitHub, open the repository → **Settings → General** and make it **public**. Pages on a free GitHub account only works with public repositories.
+3. Go to **Settings → Pages**. Under **Source**, choose **Deploy from a branch**, pick `main` and `/ (root)`, and save.
+4. After a minute or two the site is live at `https://lckinetic.github.io/onchain-mindmap-website/`.
+5. Optional custom domain: enter it under **Settings → Pages → Custom domain**, add the DNS records GitHub shows at your domain registrar, then tick **Enforce HTTPS**.
+
+**Updating the site later**
+
+Commit and push to `main` (step 1). GitHub Pages republishes the site automatically within a few minutes.
+
+**What is not published**
+
+`.gitignore` keeps macOS `.DS_Store` files and the `claude design/` mockups folder out of the repository, so they never go live. The empty `.nojekyll` file tells GitHub Pages to publish the files exactly as they are.
+
+## Other hosts
+
+Any of these also works. All are free for a site this size.
 
 - **Netlify:** drag the whole folder onto app.netlify.com/drop. Then go to Domain settings → Add custom domain.
 - **Vercel:** create a new project, import the folder (or a GitHub repo containing it) and choose "Other" as the framework. Add your domain under Settings → Domains.
-- **GitHub Pages:** push the folder to a repository, then go to Settings → Pages and deploy from the main branch. Add your domain under Custom domain.
-
 Each host shows the DNS records to add at your domain registrar. HTTPS is automatic.
 
 ## Notes
